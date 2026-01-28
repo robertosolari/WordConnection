@@ -118,5 +118,125 @@ const GAMES_DB = [
             { options: ["FIORITO", "MINATO"], correct: "MINATO" },
             { options: ["VISIVO", "UDITIVO"], correct: "VISIVO" }
         ]
+    },
+    {
+        id: 11,
+        solution: "VITA",
+        explanation: "Dolce VITA. VITA da cani. Dare la VITA. VITA spericolata. Bella VITA.",
+        pairs: [
+            { options: ["DOLCE", "AMARA"], correct: "DOLCE" },
+            { options: ["CANI", "GATTI"], correct: "CANI" },
+            { options: ["DARE", "PRENDERE"], correct: "DARE" },
+            { options: ["SPERICOLATA", "TRANQUILLA"], correct: "SPERICOLATA" },
+            { options: ["BELLA", "BRUTTA"], correct: "BELLA" }
+        ]
+    },
+    {
+        id: 12,
+        solution: "LUCE",
+        explanation: "LUCE dei miei occhi. LUCE rossa. LUCE verde. Dare alla LUCE. LUCE del sole.",
+        pairs: [
+            { options: ["OCCHI", "ORECCHIE"], correct: "OCCHI" },
+            { options: ["ROSSA", "BLU"], correct: "ROSSA" },
+            { options: ["VERDE", "GIALLA"], correct: "VERDE" },
+            { options: ["PARTORIRE", "DARE"], correct: "DARE" },
+            { options: ["SOLE", "LUNA"], correct: "SOLE" }
+        ]
+    },
+    {
+        id: 13,
+        solution: "CARTA",
+        explanation: "CARTA igienica. CARTA da parati. CARTA straccia. CARTA bianca. CARTA di credito.",
+        pairs: [
+            { options: ["IGIENICA", "PUBLICA"], correct: "IGIENICA" },
+            { options: ["PARATI", "MURI"], correct: "PARATI" },
+            { options: ["STRACCIA", "NUOVA"], correct: "STRACCIA" },
+            { options: ["BIANCA", "NERA"], correct: "BIANCA" },
+            { options: ["CREDITO", "DEBITO"], correct: "CREDITO" }
+        ]
+    },
+    {
+        id: 14,
+        solution: "PIEDE",
+        explanation: "PIEDE di porco. PIEDE libero. A PIEDI. PIEDE d'atleta. Mettere PIEDE.",
+        pairs: [
+            { options: ["PORCO", "MUCCA"], correct: "PORCO" },
+            { options: ["LIBERO", "OCCUPATO"], correct: "LIBERO" },
+            { options: ["A", "IN"], correct: "A" },
+            { options: ["ATLETA", "CALCIATORE"], correct: "ATLETA" },
+            { options: ["METTERE", "TOGLIERE"], correct: "METTERE" }
+        ]
+    },
+    {
+        id: 15,
+        solution: "TESTA",
+        explanation: "Mal di TESTA. TESTA di rapa. TESTA o croce. Perdere la TESTA. Colpo di TESTA.",
+        pairs: [
+            { options: ["MAL", "BENE"], correct: "MAL" },
+            { options: ["RAPA", "CAROTA"], correct: "RAPA" },
+            { options: ["CROCE", "DELIZIA"], correct: "CROCE" },
+            { options: ["PERDERE", "TROVARE"], correct: "PERDERE" },
+            { options: ["COLPO", "BOTTA"], correct: "COLPO" }
+        ]
+    },
+    {
+        id: 16,
+        solution: "BOCCA",
+        explanation: "Acqua in BOCCA. BOCCA di leone. BOCCA dello stomaco. Rifarsi la BOCCA. A BOCCA aperta.",
+        pairs: [
+            { options: ["ACQUA", "VINO"], correct: "ACQUA" },
+            { options: ["TIGRE", "LEONE"], correct: "LEONE" },
+            { options: ["STOMACO", "FEGATO"], correct: "STOMACO" },
+            { options: ["RIFARSI", "LAVARSI"], correct: "RIFARSI" },
+            { options: ["APERTA", "CHIUSA"], correct: "APERTA" }
+        ]
+    },
+    {
+        id: 17,
+        solution: "CUORE",
+        explanation: "Cioè. Batticuore (Battere il CUORE?). CUORE di panna. CUORE matto. Spezzare il CUORE.",
+        pairs: [
+            { options: ["CIOÈ", "INFATTI"], correct: "CIOÈ" },
+            { options: ["BATTICUORE", "INFARTO"], correct: "BATTICUORE" },
+            { options: ["PANNA", "CIOCCOLATO"], correct: "PANNA" },
+            { options: ["MATTO", "SANO"], correct: "MATTO" },
+            { options: ["SPEZZARE", "AGGIUSTARE"], correct: "SPEZZARE" }
+        ]
+    },
+    {
+        id: 18,
+        solution: "PELLE",
+        explanation: "PELLE d'oca. PELLE e ossa. Amici per la PELLE. PELLE di daino. Seconda PELLE.",
+        pairs: [
+            { options: ["OCA", "ANATRA"], correct: "OCA" },
+            { options: ["OSSA", "MUSCOLI"], correct: "OSSA" },
+            { options: ["AMICI", "NEMICI"], correct: "AMICI" },
+            { options: ["DAINO", "CINGHIALE"], correct: "DAINO" },
+            { options: ["SECONDA", "PRIMA"], correct: "SECONDA" }
+        ]
+    },
+    {
+        id: 19,
+        solution: "ARIA",
+        explanation: "ARIA fritta. ARIA di casa. Cambiare ARIA. ARIA condizionata. Mal d'ARIA.",
+        pairs: [
+            { options: ["FRITTA", "BOLLITA"], correct: "FRITTA" },
+            { options: ["CASA", "ALBERGO"], correct: "CASA" },
+            { options: ["CAMBIARE", "MANTENERE"], correct: "CAMBIARE" },
+            { options: ["CONDIZIONATA", "RISCALDATA"], correct: "CONDIZIONATA" },
+            { options: ["MAL", "BENE"], correct: "MAL" }
+        ]
+    },
+    {
+        id: 20,
+        solution: "TERRA",
+        explanation: "TERRA ferma. TERRA di nessuno. TERRA promessa. TERRA terra. Mal di TERRA.",
+        pairs: [
+            { options: ["FERMA", "MOBILE"], correct: "FERMA" },
+            { options: ["NESSUNO", "TUTTI"], correct: "NESSUNO" },
+            { options: ["PROMESSA", "MANTENUTA"], correct: "PROMESSA" },
+            { options: ["CIELO", "TERRA"], correct: "TERRA" },
+            { options: ["MAL", "BENE"], correct: "MAL" }
+        ]
     }
 ];
