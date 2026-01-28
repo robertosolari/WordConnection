@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Connection</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>WORD CONNECTION</h1>
+        <div id="prize-display">PUNTEGGIO: <span id="prize-value">0</span></div>
+    </header>
+
+    <main id="game-container">
+        <!-- Intro Screen -->
+        <section id="intro-screen" class="active">
+            <h2>Benvenuto a Word Connection</h2>
+            <p>Indovina le associazioni, accumula punti e trova la parola segreta!</p>
+            <button id="start-btn" class="primary-btn">GIOCA ORA</button>
+        </section>
+
+        <!-- Pairs Phase -->
+        <section id="pairs-phase" class="hidden">
+            <h3>Scegli la parola giusta</h3>
+            <div class="pairs-container">
+                <button class="word-option" id="option-1">PAROLA 1</button>
+                <button class="word-option" id="option-2">PAROLA 2</button>
+            </div>
+            <div id="clues-container">
+                <!-- Accumulated clues will go here -->
+            </div>
+        </section>
+
+        <!-- Final Phase -->
+        <section id="final-phase" class="hidden">
+            <h3>L'ultima parola</h3>
+            <div id="countdown">60</div>
+            <div id="final-clues">
+                <!-- Final 5 clues display -->
+            </div>
+            <div class="input-area">
+                <input type="text" id="final-input" placeholder="La tua parola..." autocomplete="off">
+                <button id="submit-btn" class="primary-btn">CONFERMA</button>
+            </div>
+        </section>
+
+        <!-- Result Screen -->
+        <section id="result-screen" class="hidden">
+            <h2 id="result-title">VITTORIA!</h2>
+            <p id="result-message">Hai fatto 0 punti</p>
+            <div id="solution-display">
+                <p>La parola era: <strong id="correct-word">SOLUZIONE</strong></p>
+                <p id="explanation-text">Spiegazione dei collegamenti...</p>
+            </div>
+            <button id="restart-btn" class="primary-btn">GIOCA DI NUOVO</button>
+        </section>
+    </main>
+
+    <script src="game_data.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

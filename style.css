@@ -1,0 +1,240 @@
+:root {
+    --bg-color: #1a1a2e;
+    --card-bg: #16213e;
+    --accent-color: #e94560;
+    --text-color: #ffffff;
+    --secondary-text: #a0a0a0;
+    --highlight: #0f3460;
+    --font-main: 'Outfit', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-main);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    padding: 20px;
+    background-color: var(--card-bg);
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+}
+
+header h1 {
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: var(--accent-color);
+}
+
+#prize-display {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+#prize-value {
+    color: #ffd700;
+    /* Gold for points */
+    font-weight: 700;
+}
+
+main {
+    flex: 1;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+section {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background: var(--card-bg);
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    opacity: 0;
+    transform: translateY(20px);
+    display: none;
+    /* Hidden by default via class logic */
+}
+
+/* Helper to show active section */
+section.active {
+    display: flex;
+    opacity: 1;
+    transform: translateY(0);
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* Buttons */
+.primary-btn {
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: transform 0.2s, background-color 0.2s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.primary-btn:hover {
+    background-color: #d63753;
+    transform: scale(1.05);
+}
+
+/* Pairs Phase */
+.pairs-container {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.word-option {
+    flex: 1;
+    padding: 30px 10px;
+    background-color: var(--highlight);
+    border: 2px solid transparent;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    font-weight: 500;
+}
+
+.word-option:hover {
+    border-color: var(--accent-color);
+    background-color: #1a1a2e;
+}
+
+#clues-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+}
+
+.clue-item {
+    font-size: 1rem;
+    color: var(--secondary-text);
+    padding: 5px 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    width: 100%;
+    max-width: 300px;
+}
+
+/* Final Phase */
+#countdown {
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--accent-color);
+    margin: 20px 0;
+}
+
+#final-clues {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.final-clue-card {
+    background-color: var(--highlight);
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.input-area {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#final-input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px solid var(--highlight);
+    background-color: var(--bg-color);
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    outline: none;
+}
+
+#final-input:focus {
+    border-color: var(--accent-color);
+}
+
+/* Animations */
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-5px);
+    }
+
+    50% {
+        transform: translateX(5px);
+    }
+
+    75% {
+        transform: translateX(-5px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.shake {
+    animation: shake 0.4s ease-in-out;
+    color: #ff4b4b !important;
+}
+
+@media (max-width: 480px) {
+    .pairs-container {
+        flex-direction: column;
+    }
+}
