@@ -4,6 +4,8 @@
 
 Questa versione è ottimizzata per essere giocata sia su browser desktop/mobile che come **Telegram Web App**.
 
+**Live demo:** https://wordsconnection.netlify.app/
+
 ## 🎮 Come si gioca
 
 Il gioco si divide in due fasi:
