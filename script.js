@@ -55,6 +55,10 @@ class Game {
         this.collectedClues = [];
         this.updateScoreDisplay();
 
+        // Clear previous game data
+        this.elClues.innerHTML = '';
+        this.elFinalClues.innerHTML = '';
+
         this.switchSection(this.elIntro, this.elPairs);
         this.loadRound();
     }
