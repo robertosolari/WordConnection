@@ -239,4 +239,215 @@ const GAMES_DB = [
             { options: ["MAL", "BENE"], correct: "MAL" }
         ]
     }
+,
+    {
+        "solution": "LUCE",
+        "explanation": "La parola 'luce' è associata all'illuminazione e alla visibilità.",
+        "pairs": [
+                {
+                        "options": [
+                                "BUIO",
+                                "CHIARO"
+                        ],
+                        "correct": "CHIARO"
+                },
+                {
+                        "options": [
+                                "SOLE",
+                                "NEBBIA"
+                        ],
+                        "correct": "SOLE"
+                },
+                {
+                        "options": [
+                                "LAMPADA",
+                                "OMBRA"
+                        ],
+                        "correct": "LAMPADA"
+                },
+                {
+                        "options": [
+                                "FARO",
+                                "VENTO"
+                        ],
+                        "correct": "FARO"
+                },
+                {
+                        "options": [
+                                "ECLISSE",
+                                "LUMINOSO"
+                        ],
+                        "correct": "LUMINOSO"
+                }
+        ],
+        "id": 21
+},
+    {
+        "solution": "PIANO",
+        "explanation": "La parola 'piano' può riferirsi sia a uno strumento musicale che a un progetto.",
+        "pairs": [
+                {
+                        "options": [
+                                "FLAUTO",
+                                "TASTIERA"
+                        ],
+                        "correct": "TASTIERA"
+                },
+                {
+                        "options": [
+                                "PROGETTO",
+                                "SCALA"
+                        ],
+                        "correct": "PROGETTO"
+                },
+                {
+                        "options": [
+                                "FORTE",
+                                "LEGGERO"
+                        ],
+                        "correct": "FORTE"
+                },
+                {
+                        "options": [
+                                "NOTA",
+                                "RIGA"
+                        ],
+                        "correct": "NOTA"
+                },
+                {
+                        "options": [
+                                "MUSICA",
+                                "PESO"
+                        ],
+                        "correct": "MUSICA"
+                }
+        ],
+        "id": 22
+},
+    {
+        "solution": "RETE",
+        "explanation": "La parola 'rete' è collegata alla connessione e al trasporto.",
+        "pairs": [
+                {
+                        "options": [
+                                "INTERNET",
+                                "LAGO"
+                        ],
+                        "correct": "INTERNET"
+                },
+                {
+                        "options": [
+                                "PESCE",
+                                "MONTAGNA"
+                        ],
+                        "correct": "PESCE"
+                },
+                {
+                        "options": [
+                                "CONNESSIONE",
+                                "ISOLAMENTO"
+                        ],
+                        "correct": "CONNESSIONE"
+                },
+                {
+                        "options": [
+                                "TRASPORTO",
+                                "BOTTIGLIA"
+                        ],
+                        "correct": "TRASPORTO"
+                },
+                {
+                        "options": [
+                                "MAGLIA",
+                                "PALLA"
+                        ],
+                        "correct": "MAGLIA"
+                }
+        ],
+        "id": 23
+},
+    {
+        "solution": "CORSA",
+        "explanation": "La parola 'corsa' si riferisce al movimento veloce e alla competizione.",
+        "pairs": [
+                {
+                        "options": [
+                                "LENTO",
+                                "VELOCE"
+                        ],
+                        "correct": "VELOCE"
+                },
+                {
+                        "options": [
+                                "GARA",
+                                "RELAZIONE"
+                        ],
+                        "correct": "GARA"
+                },
+                {
+                        "options": [
+                                "MARATONA",
+                                "PASSEGGIATA"
+                        ],
+                        "correct": "MARATONA"
+                },
+                {
+                        "options": [
+                                "ATLETA",
+                                "CUOCO"
+                        ],
+                        "correct": "ATLETA"
+                },
+                {
+                        "options": [
+                                "FINISH",
+                                "INIZIO"
+                        ],
+                        "correct": "FINISH"
+                }
+        ],
+        "id": 24
+},
+    {
+        "solution": "CHIAVE",
+        "explanation": "La parola 'chiave' è fondamentale per aprire e risolvere problemi.",
+        "pairs": [
+                {
+                        "options": [
+                                "PORTA",
+                                "FINESTRA"
+                        ],
+                        "correct": "PORTA"
+                },
+                {
+                        "options": [
+                                "SOLUZIONE",
+                                "PROBLEMA"
+                        ],
+                        "correct": "SOLUZIONE"
+                },
+                {
+                        "options": [
+                                "SEGRETO",
+                                "EVIDENTE"
+                        ],
+                        "correct": "SEGRETO"
+                },
+                {
+                        "options": [
+                                "MUSICALE",
+                                "PITTORICO"
+                        ],
+                        "correct": "MUSICALE"
+                },
+                {
+                        "options": [
+                                "SERRATURA",
+                                "TAPPETO"
+                        ],
+                        "correct": "SERRATURA"
+                }
+        ],
+        "id": 25
+},
 ];
