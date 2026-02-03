@@ -29,7 +29,7 @@ def generate_new_games(start_id, count=5):
     """Generates new games using OpenAI."""
     
     prompt = f"""
-    Genera {count} nuovi livelli per un gioco di associazioni di parole (stile "L'intesa vincente" o "Reazione a Catena").
+    Genera {count} nuovi livelli per un gioco di associazioni di parole simile al gioco finale del gioco televisivo L'Eredità (stile "La Ghigliottina").
     
     Ogni livello deve avere:
     - Una 'solution': La parola che collega tutti gli indizi.
