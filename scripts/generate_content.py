@@ -48,7 +48,7 @@ def generate_new_games(start_id, count=5):
       }}
     ]
     
-    Usa parole stimolanti anche abbastanza difficili, non fare connessioni semplici o banali.
+    Usa parole stimolanti, fai una progressione di difficoltà, ovvero le prime coppie devono essere abbastanza facili, le ultime molto, molto difficili, non fare connessioni semplici o banali.
     Questo un esempio di solution:
     {{
         "solution": "MANO",
