@@ -450,4 +450,215 @@ const GAMES_DB = [
         ],
         "id": 25
 },
+,
+    {
+        "solution": "CHIAVE",
+        "explanation": "CHIAVE di lettura. Nota CHIAVE. CHIAVE di volta. CHIAVE inglese. CHIAVE segreta.",
+        "pairs": [
+                {
+                        "options": [
+                                "DISEGNO",
+                                "LETTURA"
+                        ],
+                        "correct": "LETTURA"
+                },
+                {
+                        "options": [
+                                "NOTA",
+                                "TONO"
+                        ],
+                        "correct": "NOTA"
+                },
+                {
+                        "options": [
+                                "VOLTA",
+                                "LUCE"
+                        ],
+                        "correct": "VOLTA"
+                },
+                {
+                        "options": [
+                                "FRANCESE",
+                                "INGLESE"
+                        ],
+                        "correct": "INGLESE"
+                },
+                {
+                        "options": [
+                                "SEGRETA",
+                                "APERTO"
+                        ],
+                        "correct": "SEGRETA"
+                }
+        ],
+        "id": 21
+},
+    {
+        "solution": "LUCE",
+        "explanation": "Punto LUCE. Luce di coda. Luce verde. Colpo di LUCE. LUCE dei riflettori.",
+        "pairs": [
+                {
+                        "options": [
+                                "CUORE",
+                                "PUNTO"
+                        ],
+                        "correct": "PUNTO"
+                },
+                {
+                        "options": [
+                                "CODA",
+                                "TESTA"
+                        ],
+                        "correct": "CODA"
+                },
+                {
+                        "options": [
+                                "GIALLA",
+                                "VERDE"
+                        ],
+                        "correct": "VERDE"
+                },
+                {
+                        "options": [
+                                "COLPO",
+                                "SPIRAGLIO"
+                        ],
+                        "correct": "COLPO"
+                },
+                {
+                        "options": [
+                                "OMBRA",
+                                "RIFLETTORI"
+                        ],
+                        "correct": "RIFLETTORI"
+                }
+        ],
+        "id": 22
+},
+    {
+        "solution": "CORDA",
+        "explanation": "Fare una CORDA. CORDA vocale. CORDA tesa. CORDA di sicurezza. Saltare la CORDA.",
+        "pairs": [
+                {
+                        "options": [
+                                "FESTA",
+                                "CORDA"
+                        ],
+                        "correct": "CORDA"
+                },
+                {
+                        "options": [
+                                "VOCALE",
+                                "MUSICALE"
+                        ],
+                        "correct": "VOCALE"
+                },
+                {
+                        "options": [
+                                "TESA",
+                                "LENTA"
+                        ],
+                        "correct": "TESA"
+                },
+                {
+                        "options": [
+                                "PROTEZIONE",
+                                "SICUREZZA"
+                        ],
+                        "correct": "SICUREZZA"
+                },
+                {
+                        "options": [
+                                "SALIRE",
+                                "SALTARE"
+                        ],
+                        "correct": "SALTARE"
+                }
+        ],
+        "id": 23
+},
+    {
+        "solution": "PUNTO",
+        "explanation": "PUNTO di vista. PUNTO croce. Punto e virgola. PUNTO debole. PUNTO fermo.",
+        "pairs": [
+                {
+                        "options": [
+                                "ANGOLO",
+                                "VISTA"
+                        ],
+                        "correct": "VISTA"
+                },
+                {
+                        "options": [
+                                "CROCE",
+                                "CIRCOLO"
+                        ],
+                        "correct": "CROCE"
+                },
+                {
+                        "options": [
+                                "E",
+                                "O"
+                        ],
+                        "correct": "E"
+                },
+                {
+                        "options": [
+                                "FORTE",
+                                "DEBOLE"
+                        ],
+                        "correct": "DEBOLE"
+                },
+                {
+                        "options": [
+                                "FERMO",
+                                "MOVIMENTO"
+                        ],
+                        "correct": "FERMO"
+                }
+        ],
+        "id": 24
+},
+    {
+        "solution": "VOCE",
+        "explanation": "Dare VOCE. VOCE narrante. VOCE alta. VOCE del verbo. VOCE di corridoio.",
+        "pairs": [
+                {
+                        "options": [
+                                "VOCE",
+                                "TERRA"
+                        ],
+                        "correct": "VOCE"
+                },
+                {
+                        "options": [
+                                "NARRANTE",
+                                "SCRITTA"
+                        ],
+                        "correct": "NARRANTE"
+                },
+                {
+                        "options": [
+                                "ALTA",
+                                "BASSA"
+                        ],
+                        "correct": "ALTA"
+                },
+                {
+                        "options": [
+                                "VERBO",
+                                "NOME"
+                        ],
+                        "correct": "VERBO"
+                },
+                {
+                        "options": [
+                                "SOGNO",
+                                "CORRIDOIO"
+                        ],
+                        "correct": "CORRIDOIO"
+                }
+        ],
+        "id": 25
+},
 ];

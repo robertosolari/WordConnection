@@ -48,7 +48,20 @@ def generate_new_games(start_id, count=5):
       }}
     ]
     
-    Usa parole stimolanti ma non impossibili. Lingua: ITALIANO.
+    Usa parole stimolanti anche abbastanza difficili, non fare connessioni semplici o banali.
+    Questo un esempio di solution:
+    {{
+        "solution": "MANO",
+        "explanation": "Darsi una MANO. Di seconda MANO. Gioco di MANO. MANO morta. Fuori MANO.",
+        "pairs": [
+            {{ "options": ["PRENDERSI", "DARSI"], "correct": "DARSI" }},
+            {{ "options": ["PRIMA", "SECONDA"], "correct": "SECONDA" }},
+            {{ "options": ["GIOCO", "SCHERZO"], "correct": "GIOCO" }},
+            {{ "options": ["VIVA", "MORTA"], "correct": "MORTA" }},
+            {{ "options": ["DENTRO", "FUORI"], "correct": "FUORI" }}
+        ]
+    }}
+    Lingua: ITALIANO.
     Assicurati che il JSON sia valido. Non usare blocchi markdown.
     """
 
