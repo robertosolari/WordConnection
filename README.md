@@ -46,8 +46,25 @@ Per trasformare questo gioco in una Mini App di Telegram:
 
 - **HTML5 & CSS3**: Design responsive e animazioni fluide.
 - **JavaScript (Vanilla)**: Logica di gioco leggera e veloce.
+- **Python**: Script per la generazione automatica dei contenuti.
+- **OpenAI API**: Intelligenza artificiale per creare nuovi livelli di gioco.
+- **GitHub Actions**: Pipeline CI/CD per eseguire quotidianamente lo script di generazione contenuti.
 - **Telegram Web App API**: Integrazione nativa per l'espansione a tutto schermo su Telegram.
+
+## ✨ Funzionalità Recenti
+
+- **Generazione Automatica Contenuti**: Un workflow di GitHub Actions esegue ogni giorno uno script Python che utilizza OpenAI per generare 5 nuove coppie di parole e la sfida finale, mantenendo il gioco sempre fresco.
+- **Sistema di Punteggio**: Un sistema di scoring dinamico sostituisce il vecchio meccanismo a premi.
+- **Footer Credits**: Riferimenti e contatti nel footer.
+
+## 🤝 Cloning e Riuso
+
+Sentiti libero di forkare questo repository per creare la tua versione! Ti chiedo solo gentilmente di:
+1.  **Mantenere i riferimenti** all'autore originale (Roberto Solari) nel footer o nei credits.
+2.  **Configurare le tue API Key**:
+    -   Dovrai impostare la tua `OPENAI_API_KEY` nei secrets del repository GitHub per far funzionare la generazione automatica.
+    -   Se desideri il tracciamento, sostituisci l'ID di **Google Analytics** nel file `index.html` con il tuo.
 
 ## 📝 Personalizzazione
 
-I dati del gioco (parole, soluzioni, spiegazioni) sono contenuti nel file `game_data.js`. Puoi aggiungere facilmente nuovi livelli seguendo il formato JSON esistente.
+I dati del gioco (parole, soluzioni, spiegazioni) sono contenuti nel file `game_data.js`. La generazione automatica aggiorna questo file, ma puoi sempre modificarlo manualmente seguendo il formato JSON esistente.
