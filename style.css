@@ -238,3 +238,33 @@ section.active {
         flex-direction: column;
     }
 }
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: var(--card-bg);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--secondary-text);
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: var(--accent-color);
+}
+
+footer i {
+    margin-right: 5px;
+}
