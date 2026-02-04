@@ -45,10 +45,31 @@ class Game {
         }
     }
 
+    getPlayedGames() {
+        const stored = localStorage.getItem('wc_played_games');
+        return stored ? JSON.parse(stored) : [];
+    }
+
+    savePlayedGame(id) {
+        const played = this.getPlayedGames();
+        if (!played.includes(id)) {
+            played.push(id);
+            localStorage.setItem('wc_played_games', JSON.stringify(played));
+        }
+    }
+
     startGame() {
-        // Pick a random game
-        const randomIndex = Math.floor(Math.random() * GAMES_DB.length);
-        this.currentGame = GAMES_DB[randomIndex];
+        const playedGames = this.getPlayedGames();
+        const availableGames = GAMES_DB.filter(g => !playedGames.includes(g.id));
+
+        if (availableGames.length === 0) {
+            alert("Hai completato tutte le partite disponibili per oggi! Torna domani per nuovi livelli.");
+            return;
+        }
+
+        // Pick a random game from available ones
+        const randomIndex = Math.floor(Math.random() * availableGames.length);
+        this.currentGame = availableGames[randomIndex];
 
         this.score = 0;
         this.currentRound = 0;
@@ -193,6 +214,9 @@ class Game {
 
         document.getElementById('correct-word').textContent = this.currentGame.solution;
         document.getElementById('explanation-text').textContent = this.currentGame.explanation;
+
+        // Save as played
+        this.savePlayedGame(this.currentGame.id);
 
         this.switchSection(this.elFinal, this.elResult);
     }
