@@ -450,4 +450,215 @@ const GAMES_DB = [
         ],
         "id": 25
 },
+,
+    {
+        "solution": "LUNA",
+        "explanation": "Tutti gli indizi si riferiscono a diverse connessioni con la Luna.",
+        "pairs": [
+                {
+                        "options": [
+                                "SOLE",
+                                "SATELLITE"
+                        ],
+                        "correct": "SATELLITE"
+                },
+                {
+                        "options": [
+                                "NOTTE",
+                                "GIOCO"
+                        ],
+                        "correct": "NOTTE"
+                },
+                {
+                        "options": [
+                                "APOLLO",
+                                "MARTE"
+                        ],
+                        "correct": "APOLLO"
+                },
+                {
+                        "options": [
+                                "CRATERE",
+                                "VULCANO"
+                        ],
+                        "correct": "CRATERE"
+                },
+                {
+                        "options": [
+                                "ECLISSI",
+                                "ALBA"
+                        ],
+                        "correct": "ECLISSI"
+                }
+        ],
+        "id": 21
+},
+    {
+        "solution": "CUORE",
+        "explanation": "Tutti gli indizi sono collegati al cuore in vari contesti.",
+        "pairs": [
+                {
+                        "options": [
+                                "AMORE",
+                                "MENTE"
+                        ],
+                        "correct": "AMORE"
+                },
+                {
+                        "options": [
+                                "BATTITO",
+                                "ONDA"
+                        ],
+                        "correct": "BATTITO"
+                },
+                {
+                        "options": [
+                                "CARDIOLOGIA",
+                                "NEUROLOGIA"
+                        ],
+                        "correct": "CARDIOLOGIA"
+                },
+                {
+                        "options": [
+                                "ROSSO",
+                                "AZZURRO"
+                        ],
+                        "correct": "ROSSO"
+                },
+                {
+                        "options": [
+                                "POMPA",
+                                "VENTOLA"
+                        ],
+                        "correct": "POMPA"
+                }
+        ],
+        "id": 22
+},
+    {
+        "solution": "TERRA",
+        "explanation": "Tutti gli indizi si riferiscono a diversi aspetti della Terra.",
+        "pairs": [
+                {
+                        "options": [
+                                "SATURNO",
+                                "PIANETA"
+                        ],
+                        "correct": "PIANETA"
+                },
+                {
+                        "options": [
+                                "FANGO",
+                                "ACQUA"
+                        ],
+                        "correct": "FANGO"
+                },
+                {
+                        "options": [
+                                "SUOLO",
+                                "MARE"
+                        ],
+                        "correct": "SUOLO"
+                },
+                {
+                        "options": [
+                                "GEOGRAFIA",
+                                "ASTRONOMIA"
+                        ],
+                        "correct": "GEOGRAFIA"
+                },
+                {
+                        "options": [
+                                "COLTIVARE",
+                                "CACCIARE"
+                        ],
+                        "correct": "COLTIVARE"
+                }
+        ],
+        "id": 23
+},
+    {
+        "solution": "ARCO",
+        "explanation": "Tutti gli indizi si collegano al concetto di arco in vari modi.",
+        "pairs": [
+                {
+                        "options": [
+                                "FRECCIA",
+                                "SCUDO"
+                        ],
+                        "correct": "FRECCIA"
+                },
+                {
+                        "options": [
+                                "BALENO",
+                                "VENTO"
+                        ],
+                        "correct": "BALENO"
+                },
+                {
+                        "options": [
+                                "CIELO",
+                                "TERRA"
+                        ],
+                        "correct": "CIELO"
+                },
+                {
+                        "options": [
+                                "PONTE",
+                                "STRADA"
+                        ],
+                        "correct": "PONTE"
+                },
+                {
+                        "options": [
+                                "VOLTA",
+                                "PIANO"
+                        ],
+                        "correct": "VOLTA"
+                }
+        ],
+        "id": 24
+},
+    {
+        "solution": "LUCE",
+        "explanation": "Tutti gli indizi riguardano aspetti diversi della luce.",
+        "pairs": [
+                {
+                        "options": [
+                                "BUIO",
+                                "ILLUMINAZIONE"
+                        ],
+                        "correct": "ILLUMINAZIONE"
+                },
+                {
+                        "options": [
+                                "SOLE",
+                                "LUNA"
+                        ],
+                        "correct": "SOLE"
+                },
+                {
+                        "options": [
+                                "FOTOGRAFIA",
+                                "PITTURA"
+                        ],
+                        "correct": "FOTOGRAFIA"
+                },
+                {
+                        "options": [
+                                "VELA",
+                                "LAMPADE"
+                        ],
+                        "correct": "LAMPADE"
+                },
+                {
+                        "options": [
+                                "RADIAZIONE",
+                                "GRAVITÀ"
+                        ],
+                        "correct": "RADIAZIONE"
+                }
+        ],
+        "id": 25
+},
 ];
