@@ -497,4 +497,215 @@ const GAMES_DB = [
                 ],
                 "id": 29
         }
+,
+    {
+        "solution": "LUCE",
+        "explanation": "Luce del sole. Luce rossa. Luce notturna. Luce guida. Fare luce.",
+        "pairs": [
+                {
+                        "options": [
+                                "SOLE",
+                                "LUNA"
+                        ],
+                        "correct": "SOLE"
+                },
+                {
+                        "options": [
+                                "ROSSA",
+                                "VERDE"
+                        ],
+                        "correct": "ROSSA"
+                },
+                {
+                        "options": [
+                                "DIURNA",
+                                "NOTTURNA"
+                        ],
+                        "correct": "NOTTURNA"
+                },
+                {
+                        "options": [
+                                "GUIDA",
+                                "VEICOLO"
+                        ],
+                        "correct": "GUIDA"
+                },
+                {
+                        "options": [
+                                "FAR",
+                                "FARE"
+                        ],
+                        "correct": "FARE"
+                }
+        ],
+        "id": 21
+},
+    {
+        "solution": "CUORE",
+        "explanation": "Colpo al cuore. Cuore di panna. Cuore di leone. Cuore tenero. Aprire il cuore.",
+        "pairs": [
+                {
+                        "options": [
+                                "COLPO",
+                                "SPINA"
+                        ],
+                        "correct": "COLPO"
+                },
+                {
+                        "options": [
+                                "PANNA",
+                                "CREMA"
+                        ],
+                        "correct": "PANNA"
+                },
+                {
+                        "options": [
+                                "LEONE",
+                                "TIGRE"
+                        ],
+                        "correct": "LEONE"
+                },
+                {
+                        "options": [
+                                "DURO",
+                                "TENERO"
+                        ],
+                        "correct": "TENERO"
+                },
+                {
+                        "options": [
+                                "APRIRE",
+                                "CHIUDERE"
+                        ],
+                        "correct": "APRIRE"
+                }
+        ],
+        "id": 22
+},
+    {
+        "solution": "TERRA",
+        "explanation": "Terra di mezzo. Terra promessa. Terra bruciata. Terra nuova. Terra madre.",
+        "pairs": [
+                {
+                        "options": [
+                                "DI",
+                                "SU"
+                        ],
+                        "correct": "DI"
+                },
+                {
+                        "options": [
+                                "PROMESSA",
+                                "ILLUSORIA"
+                        ],
+                        "correct": "PROMESSA"
+                },
+                {
+                        "options": [
+                                "BRUCIATA",
+                                "BAGNATA"
+                        ],
+                        "correct": "BRUCIATA"
+                },
+                {
+                        "options": [
+                                "NUOVA",
+                                "VECCHIA"
+                        ],
+                        "correct": "NUOVA"
+                },
+                {
+                        "options": [
+                                "MADRE",
+                                "PADRE"
+                        ],
+                        "correct": "MADRE"
+                }
+        ],
+        "id": 23
+},
+    {
+        "solution": "ACQUA",
+        "explanation": "Acqua alta. Acqua bollente. Acqua in bocca. Acqua passata. Acqua santa.",
+        "pairs": [
+                {
+                        "options": [
+                                "BASSA",
+                                "ALTA"
+                        ],
+                        "correct": "ALTA"
+                },
+                {
+                        "options": [
+                                "BOLLENTE",
+                                "FREDDA"
+                        ],
+                        "correct": "BOLLENTE"
+                },
+                {
+                        "options": [
+                                "IN BOCCA",
+                                "AI PESCI"
+                        ],
+                        "correct": "IN BOCCA"
+                },
+                {
+                        "options": [
+                                "PASSATA",
+                                "FUTURA"
+                        ],
+                        "correct": "PASSATA"
+                },
+                {
+                        "options": [
+                                "SANTA",
+                                "MALIGNA"
+                        ],
+                        "correct": "SANTA"
+                }
+        ],
+        "id": 24
+},
+    {
+        "solution": "STELLA",
+        "explanation": "Stella del mattino. Stella polare. Stella cadente. Stella marina. Stella solitaria.",
+        "pairs": [
+                {
+                        "options": [
+                                "DELLA SERA",
+                                "DEL MATTINO"
+                        ],
+                        "correct": "DEL MATTINO"
+                },
+                {
+                        "options": [
+                                "POLARE",
+                                "EQUATORE"
+                        ],
+                        "correct": "POLARE"
+                },
+                {
+                        "options": [
+                                "CADENTE",
+                                "FISSA"
+                        ],
+                        "correct": "CADENTE"
+                },
+                {
+                        "options": [
+                                "MARINA",
+                                "TERRESTRE"
+                        ],
+                        "correct": "MARINA"
+                },
+                {
+                        "options": [
+                                "SOLITARIA",
+                                "COMPAGNA"
+                        ],
+                        "correct": "SOLITARIA"
+                }
+        ],
+        "id": 25
+},
 ];
