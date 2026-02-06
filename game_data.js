@@ -708,4 +708,215 @@ const GAMES_DB = [
         ],
         "id": 25
 },
+,
+    {
+        "solution": "LUCE",
+        "explanation": "Accendere la LUCE. Luce diurna. Luce abbagliante. Luce verde. Luce notturna.",
+        "pairs": [
+                {
+                        "options": [
+                                "ACCENDERE",
+                                "SPEGNERE"
+                        ],
+                        "correct": "ACCENDERE"
+                },
+                {
+                        "options": [
+                                "DIURNA",
+                                "CREPUSCOLARE"
+                        ],
+                        "correct": "DIURNA"
+                },
+                {
+                        "options": [
+                                "ABBAGLIANTE",
+                                "DEBOLE"
+                        ],
+                        "correct": "ABBAGLIANTE"
+                },
+                {
+                        "options": [
+                                "ROSSA",
+                                "VERDE"
+                        ],
+                        "correct": "VERDE"
+                },
+                {
+                        "options": [
+                                "NOTTURNA",
+                                "DIURNA"
+                        ],
+                        "correct": "NOTTURNA"
+                }
+        ],
+        "id": 21
+},
+    {
+        "solution": "PIEDE",
+        "explanation": "Mettere un PIEDE. Di primo PIEDE. A PIEDE libero. PIEDE quadrato. PIEDE di porco.",
+        "pairs": [
+                {
+                        "options": [
+                                "METTERE",
+                                "LEVARE"
+                        ],
+                        "correct": "METTERE"
+                },
+                {
+                        "options": [
+                                "PRIMO",
+                                "SECONDO"
+                        ],
+                        "correct": "PRIMO"
+                },
+                {
+                        "options": [
+                                "LIBERO",
+                                "LEGATO"
+                        ],
+                        "correct": "LIBERO"
+                },
+                {
+                        "options": [
+                                "QUADRATO",
+                                "TONDO"
+                        ],
+                        "correct": "QUADRATO"
+                },
+                {
+                        "options": [
+                                "DI PORCO",
+                                "DI GATTO"
+                        ],
+                        "correct": "DI PORCO"
+                }
+        ],
+        "id": 22
+},
+    {
+        "solution": "CIELO",
+        "explanation": "CIELO sereno. CIELO stellato. Sotto un CIELO. CIELO aperto. CIELO coperto.",
+        "pairs": [
+                {
+                        "options": [
+                                "SERENO",
+                                "NUVOLOSO"
+                        ],
+                        "correct": "SERENO"
+                },
+                {
+                        "options": [
+                                "STELLATO",
+                                "BUIO"
+                        ],
+                        "correct": "STELLATO"
+                },
+                {
+                        "options": [
+                                "SOTTO",
+                                "SOPRA"
+                        ],
+                        "correct": "SOTTO"
+                },
+                {
+                        "options": [
+                                "APERTO",
+                                "CHIUSO"
+                        ],
+                        "correct": "APERTO"
+                },
+                {
+                        "options": [
+                                "COPERTO",
+                                "SCOPERTO"
+                        ],
+                        "correct": "COPERTO"
+                }
+        ],
+        "id": 23
+},
+    {
+        "solution": "TERRA",
+        "explanation": "Coltivare la TERRA. Di TERRA. TERRA promessa. TERRA vergine. TERRA battuta.",
+        "pairs": [
+                {
+                        "options": [
+                                "COLTIVARE",
+                                "ABBANDONARE"
+                        ],
+                        "correct": "COLTIVARE"
+                },
+                {
+                        "options": [
+                                "DI MARE",
+                                "DI TERRA"
+                        ],
+                        "correct": "DI TERRA"
+                },
+                {
+                        "options": [
+                                "PROMESSA",
+                                "CONQUISTATA"
+                        ],
+                        "correct": "PROMESSA"
+                },
+                {
+                        "options": [
+                                "VERGINE",
+                                "CONSACRATA"
+                        ],
+                        "correct": "VERGINE"
+                },
+                {
+                        "options": [
+                                "BATTUTA",
+                                "LISCIA"
+                        ],
+                        "correct": "BATTUTA"
+                }
+        ],
+        "id": 24
+},
+    {
+        "solution": "PONTE",
+        "explanation": "PONTE sospeso. PONTE levatoio. PONTE invisibile. PONTE di comando. PONTE dei sospiri.",
+        "pairs": [
+                {
+                        "options": [
+                                "SOSPESO",
+                                "INTERROTTO"
+                        ],
+                        "correct": "SOSPESO"
+                },
+                {
+                        "options": [
+                                "LEVATOIO",
+                                "SCORREVOLE"
+                        ],
+                        "correct": "LEVATOIO"
+                },
+                {
+                        "options": [
+                                "INVISIBILE",
+                                "VISIBILE"
+                        ],
+                        "correct": "INVISIBILE"
+                },
+                {
+                        "options": [
+                                "DI COMANDO",
+                                "DI GUARDIA"
+                        ],
+                        "correct": "DI COMANDO"
+                },
+                {
+                        "options": [
+                                "DEI SOSPIRI",
+                                "DELLE LAMENTELE"
+                        ],
+                        "correct": "DEI SOSPIRI"
+                }
+        ],
+        "id": 25
+},
 ];
