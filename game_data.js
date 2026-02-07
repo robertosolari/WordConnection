@@ -919,4 +919,215 @@ const GAMES_DB = [
         ],
         "id": 25
 },
+,
+    {
+        "solution": "CUORE",
+        "explanation": "Questione di CUORE. Battere il CUORE. Colpo al CUORE. Anima e CUORE. CUORE aperto.",
+        "pairs": [
+                {
+                        "options": [
+                                "QUESTIONE",
+                                "PROBLEMA"
+                        ],
+                        "correct": "QUESTIONE"
+                },
+                {
+                        "options": [
+                                "BATTERE",
+                                "SFERZARE"
+                        ],
+                        "correct": "BATTERE"
+                },
+                {
+                        "options": [
+                                "COLPO",
+                                "COLLETTA"
+                        ],
+                        "correct": "COLPO"
+                },
+                {
+                        "options": [
+                                "ANIMA",
+                                "CORPO"
+                        ],
+                        "correct": "ANIMA"
+                },
+                {
+                        "options": [
+                                "APERTO",
+                                "CHIUSO"
+                        ],
+                        "correct": "APERTO"
+                }
+        ],
+        "id": 21
+},
+    {
+        "solution": "LUCE",
+        "explanation": "Accendere la LUCE. Fare LUCE. LUCE naturale. LUCE del sole. LUCE verde.",
+        "pairs": [
+                {
+                        "options": [
+                                "ACCENDERE",
+                                "SPEGNERE"
+                        ],
+                        "correct": "ACCENDERE"
+                },
+                {
+                        "options": [
+                                "FARE",
+                                "CREARE"
+                        ],
+                        "correct": "FARE"
+                },
+                {
+                        "options": [
+                                "NATURALE",
+                                "ARTIFICIALE"
+                        ],
+                        "correct": "NATURALE"
+                },
+                {
+                        "options": [
+                                "SOLE",
+                                "LUNA"
+                        ],
+                        "correct": "SOLE"
+                },
+                {
+                        "options": [
+                                "VERDE",
+                                "ROSSA"
+                        ],
+                        "correct": "VERDE"
+                }
+        ],
+        "id": 22
+},
+    {
+        "solution": "ACQUA",
+        "explanation": "Bicchiere d'ACQUA. ACQUA corrente. ACQUA potabile. ACQUA alta. ACQUA chiara.",
+        "pairs": [
+                {
+                        "options": [
+                                "BICCHIERE",
+                                "TAVOLO"
+                        ],
+                        "correct": "BICCHIERE"
+                },
+                {
+                        "options": [
+                                "CORRENTE",
+                                "STAGNA"
+                        ],
+                        "correct": "CORRENTE"
+                },
+                {
+                        "options": [
+                                "POTABILE",
+                                "SALATA"
+                        ],
+                        "correct": "POTABILE"
+                },
+                {
+                        "options": [
+                                "ALTA",
+                                "BASSA"
+                        ],
+                        "correct": "ALTA"
+                },
+                {
+                        "options": [
+                                "CHIARA",
+                                "SCURA"
+                        ],
+                        "correct": "CHIARA"
+                }
+        ],
+        "id": 23
+},
+    {
+        "solution": "TERRA",
+        "explanation": "Pianeta TERRA. TERRA fertile. Cadere in TERRA. TERRA promessa. TERRA di nessuno.",
+        "pairs": [
+                {
+                        "options": [
+                                "PIANETA",
+                                "SATELLITE"
+                        ],
+                        "correct": "PIANETA"
+                },
+                {
+                        "options": [
+                                "FERTILE",
+                                "ARIDA"
+                        ],
+                        "correct": "FERTILE"
+                },
+                {
+                        "options": [
+                                "CADERE",
+                                "SALIRE"
+                        ],
+                        "correct": "CADERE"
+                },
+                {
+                        "options": [
+                                "PROMESSA",
+                                "NEGATA"
+                        ],
+                        "correct": "PROMESSA"
+                },
+                {
+                        "options": [
+                                "NESSUNO",
+                                "QUALCUNO"
+                        ],
+                        "correct": "NESSUNO"
+                }
+        ],
+        "id": 24
+},
+    {
+        "solution": "VENTO",
+        "explanation": "Soffio di VENTO. VENTO contrario. VENTO favorevole. Al VENTO. VENTO in poppa.",
+        "pairs": [
+                {
+                        "options": [
+                                "SOFFIO",
+                                "RUMORE"
+                        ],
+                        "correct": "SOFFIO"
+                },
+                {
+                        "options": [
+                                "CONTRARIO",
+                                "AMICO"
+                        ],
+                        "correct": "CONTRARIO"
+                },
+                {
+                        "options": [
+                                "FAVOREVOLE",
+                                "OSTILE"
+                        ],
+                        "correct": "FAVOREVOLE"
+                },
+                {
+                        "options": [
+                                "AL",
+                                "NEL"
+                        ],
+                        "correct": "AL"
+                },
+                {
+                        "options": [
+                                "POPPA",
+                                "PRUA"
+                        ],
+                        "correct": "POPPA"
+                }
+        ],
+        "id": 25
+},
 ];
