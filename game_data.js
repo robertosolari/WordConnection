@@ -1130,4 +1130,215 @@ const GAMES_DB = [
         ],
         "id": 25
 },
+,
+    {
+        "solution": "LUCE",
+        "explanation": "Macchina della LUCE. In piena LUCE. Velocità della LUCE. Interruttore della LUCE. LUCE naturale.",
+        "pairs": [
+                {
+                        "options": [
+                                "MACCHINA",
+                                "MOTO"
+                        ],
+                        "correct": "MACCHINA"
+                },
+                {
+                        "options": [
+                                "OMBRA",
+                                "LUCE"
+                        ],
+                        "correct": "LUCE"
+                },
+                {
+                        "options": [
+                                "SUONO",
+                                "LUCE"
+                        ],
+                        "correct": "LUCE"
+                },
+                {
+                        "options": [
+                                "INTERRUTTORE",
+                                "SERRATURA"
+                        ],
+                        "correct": "INTERRUTTORE"
+                },
+                {
+                        "options": [
+                                "ARTIFICIALE",
+                                "NATURALE"
+                        ],
+                        "correct": "NATURALE"
+                }
+        ],
+        "id": 21
+},
+    {
+        "solution": "PUNTO",
+        "explanation": "PUNTO di vista. PUNTO fermo. A PUNTO. PUNTO debole. PUNTO e a capo.",
+        "pairs": [
+                {
+                        "options": [
+                                "VISTA",
+                                "UDITO"
+                        ],
+                        "correct": "VISTA"
+                },
+                {
+                        "options": [
+                                "FERMO",
+                                "MOSSO"
+                        ],
+                        "correct": "FERMO"
+                },
+                {
+                        "options": [
+                                "A",
+                                "IN"
+                        ],
+                        "correct": "A"
+                },
+                {
+                        "options": [
+                                "FORTE",
+                                "DEBOLE"
+                        ],
+                        "correct": "DEBOLE"
+                },
+                {
+                        "options": [
+                                "E",
+                                "O"
+                        ],
+                        "correct": "E"
+                }
+        ],
+        "id": 22
+},
+    {
+        "solution": "TESTA",
+        "explanation": "TESTA alta. TESTA calda. Colpo di TESTA. TESTA di serie. TESTA di ponte.",
+        "pairs": [
+                {
+                        "options": [
+                                "ALTA",
+                                "BASSA"
+                        ],
+                        "correct": "ALTA"
+                },
+                {
+                        "options": [
+                                "FREDDA",
+                                "CALDA"
+                        ],
+                        "correct": "CALDA"
+                },
+                {
+                        "options": [
+                                "COLPO",
+                                "SPINTA"
+                        ],
+                        "correct": "COLPO"
+                },
+                {
+                        "options": [
+                                "SERIE",
+                                "FILM"
+                        ],
+                        "correct": "SERIE"
+                },
+                {
+                        "options": [
+                                "PONTE",
+                                "STRADA"
+                        ],
+                        "correct": "PONTE"
+                }
+        ],
+        "id": 23
+},
+    {
+        "solution": "CIELO",
+        "explanation": "CIELO azzurro. CIELO stellato. Volare in CIELO. Occhi al CIELO. CIELO aperto.",
+        "pairs": [
+                {
+                        "options": [
+                                "AZZURRO",
+                                "VERDE"
+                        ],
+                        "correct": "AZZURRO"
+                },
+                {
+                        "options": [
+                                "LUMINOSO",
+                                "STELLATO"
+                        ],
+                        "correct": "STELLATO"
+                },
+                {
+                        "options": [
+                                "VOLARE",
+                                "CAMMINARE"
+                        ],
+                        "correct": "VOLARE"
+                },
+                {
+                        "options": [
+                                "OCCHI",
+                                "ORECCHIE"
+                        ],
+                        "correct": "OCCHI"
+                },
+                {
+                        "options": [
+                                "CHIUSO",
+                                "APERTO"
+                        ],
+                        "correct": "APERTO"
+                }
+        ],
+        "id": 24
+},
+    {
+        "solution": "FUOCO",
+        "explanation": "Appiccare il FUOCO. Prova del FUOCO. FUOCO e fiamme. Spegnere il FUOCO. FUOCO di paglia.",
+        "pairs": [
+                {
+                        "options": [
+                                "ACCENDERE",
+                                "APPICCARE"
+                        ],
+                        "correct": "APPICCARE"
+                },
+                {
+                        "options": [
+                                "PROVA",
+                                "TEST"
+                        ],
+                        "correct": "PROVA"
+                },
+                {
+                        "options": [
+                                "FUOCO",
+                                "ACQUA"
+                        ],
+                        "correct": "FUOCO"
+                },
+                {
+                        "options": [
+                                "ACCENDERE",
+                                "SPEGNERE"
+                        ],
+                        "correct": "SPEGNERE"
+                },
+                {
+                        "options": [
+                                "FIAMMA",
+                                "PAGLIA"
+                        ],
+                        "correct": "PAGLIA"
+                }
+        ],
+        "id": 25
+},
 ];
