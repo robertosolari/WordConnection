@@ -1341,4 +1341,215 @@ const GAMES_DB = [
         ],
         "id": 25
 },
+,
+    {
+        "solution": "LUCE",
+        "explanation": "Punto LUCE. LUCE solare. LUCE naturale. LUCE di coda. LUCE verde.",
+        "pairs": [
+                {
+                        "options": [
+                                "PUNTO",
+                                "LINEA"
+                        ],
+                        "correct": "PUNTO"
+                },
+                {
+                        "options": [
+                                "LUNARE",
+                                "SOLARE"
+                        ],
+                        "correct": "SOLARE"
+                },
+                {
+                        "options": [
+                                "ARTIFICIALE",
+                                "NATURALE"
+                        ],
+                        "correct": "NATURALE"
+                },
+                {
+                        "options": [
+                                "FRONTALE",
+                                "DI CODA"
+                        ],
+                        "correct": "DI CODA"
+                },
+                {
+                        "options": [
+                                "ROSSA",
+                                "VERDE"
+                        ],
+                        "correct": "VERDE"
+                }
+        ],
+        "id": 21
+},
+    {
+        "solution": "ACQUA",
+        "explanation": "ACQUA alta. Sotto ACQUA. ACQUA minerale. ACQUA passata. ACQUA calda.",
+        "pairs": [
+                {
+                        "options": [
+                                "BASSA",
+                                "ALTA"
+                        ],
+                        "correct": "ALTA"
+                },
+                {
+                        "options": [
+                                "SOPRA",
+                                "SOTTO"
+                        ],
+                        "correct": "SOTTO"
+                },
+                {
+                        "options": [
+                                "MINERALE",
+                                "GASATA"
+                        ],
+                        "correct": "MINERALE"
+                },
+                {
+                        "options": [
+                                "CORRENTE",
+                                "PASSATA"
+                        ],
+                        "correct": "PASSATA"
+                },
+                {
+                        "options": [
+                                "FREDDA",
+                                "CALDA"
+                        ],
+                        "correct": "CALDA"
+                }
+        ],
+        "id": 22
+},
+    {
+        "solution": "CUORE",
+        "explanation": "A CUORE aperto. CUORE di mamma. Con tutto il CUORE. CUORE di pietra. CUORE pulsante.",
+        "pairs": [
+                {
+                        "options": [
+                                "CHIUSO",
+                                "APERTO"
+                        ],
+                        "correct": "APERTO"
+                },
+                {
+                        "options": [
+                                "DI MAMMA",
+                                "DI PAPÀ"
+                        ],
+                        "correct": "DI MAMMA"
+                },
+                {
+                        "options": [
+                                "PARTE",
+                                "TUTTO"
+                        ],
+                        "correct": "TUTTO"
+                },
+                {
+                        "options": [
+                                "DI LEGNO",
+                                "DI PIETRA"
+                        ],
+                        "correct": "DI PIETRA"
+                },
+                {
+                        "options": [
+                                "PIGRO",
+                                "PULSANTE"
+                        ],
+                        "correct": "PULSANTE"
+                }
+        ],
+        "id": 23
+},
+    {
+        "solution": "COPERTA",
+        "explanation": "Sotto COPERTA. COPERTA di Linus. COPERTA di neve. COPERTA di lana. COPERTA di stelle.",
+        "pairs": [
+                {
+                        "options": [
+                                "SOPRA",
+                                "SOTTO"
+                        ],
+                        "correct": "SOTTO"
+                },
+                {
+                        "options": [
+                                "DI LINUS",
+                                "DI SNOOPY"
+                        ],
+                        "correct": "DI LINUS"
+                },
+                {
+                        "options": [
+                                "DI NEVE",
+                                "DI GHIACCIO"
+                        ],
+                        "correct": "DI NEVE"
+                },
+                {
+                        "options": [
+                                "DI SETA",
+                                "DI LANA"
+                        ],
+                        "correct": "DI LANA"
+                },
+                {
+                        "options": [
+                                "DI PIETRE",
+                                "DI STELLE"
+                        ],
+                        "correct": "DI STELLE"
+                }
+        ],
+        "id": 24
+},
+    {
+        "solution": "OSPITE",
+        "explanation": "OSPITE d'onore. OSPITE inatteso. Casa dell'OSPITE. OSPITE fisso. OSPITE gradito.",
+        "pairs": [
+                {
+                        "options": [
+                                "DI CASA",
+                                "D'ONORE"
+                        ],
+                        "correct": "D'ONORE"
+                },
+                {
+                        "options": [
+                                "PREVISTO",
+                                "INATTESO"
+                        ],
+                        "correct": "INATTESO"
+                },
+                {
+                        "options": [
+                                "DELL'OSPITE",
+                                "DEL PADRONE"
+                        ],
+                        "correct": "DELL'OSPITE"
+                },
+                {
+                        "options": [
+                                "OCCASIONALE",
+                                "FISSO"
+                        ],
+                        "correct": "FISSO"
+                },
+                {
+                        "options": [
+                                "INDESIDERATO",
+                                "GRADITO"
+                        ],
+                        "correct": "GRADITO"
+                }
+        ],
+        "id": 25
+},
 ];
