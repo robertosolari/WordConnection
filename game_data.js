@@ -1,1766 +1,434 @@
 const GAMES_DB = [
-        {
-                id: 1,
-                solution: "CASA",
-                explanation: "Dolce CASA. CASA di carta. CASA Bianca. CASA di riposo. Fare gli onori di CASA.",
-                pairs: [
-                        { options: ["DOLCE", "AMARO"], correct: "DOLCE" },
-                        { options: ["FORBICE", "CARTA"], correct: "CARTA" },
-                        { options: ["BIANCA", "ROSSA"], correct: "BIANCA" },
-                        { options: ["RIPOSO", "LAVORO"], correct: "RIPOSO" },
-                        { options: ["ONORI", "GLORIA"], correct: "ONORI" }
-                ]
-        },
-        {
-                id: 2,
-                solution: "GATTO",
-                explanation: "GATTO delle nevi. GATTO nero. C'era una volta un GATTO (canzone). GATTO Silvestro. Quattro salti in padella (Gatto?). No, wait. Quattro Gatti.",
-                pairs: [
-                        { options: ["NEVI", "PIOGGIA"], correct: "NEVI" },
-                        { options: ["NERO", "BIANCO"], correct: "NERO" },
-                        { options: ["VOLTA", "CANTINA"], correct: "VOLTA" },
-                        { options: ["TWEETY", "SILVESTRO"], correct: "SILVESTRO" },
-                        { options: ["TRE", "QUATTRO"], correct: "QUATTRO" }
-                ]
-        },
-        {
-                id: 3,
-                solution: "TEMPO",
-                explanation: "Primo TEMPO. Perdere TEMPO. Che TEMPO fa. TEMPO libero. Il TEMPO delle mele.",
-                pairs: [
-                        { options: ["PRIMO", "ULTIMO"], correct: "PRIMO" },
-                        { options: ["PERDERE", "TROVARE"], correct: "PERDERE" },
-                        { options: ["FA", "DICI"], correct: "FA" },
-                        { options: ["OCCUPATO", "LIBERO"], correct: "LIBERO" },
-                        { options: ["PERE", "MELE"], correct: "MELE" }
-                ]
-        },
-        {
-                id: 4,
-                solution: "MARE",
-                explanation: "Mal di MARE. Frutti di MARE. Lupo di MARE. Porto di MARE. Gente di MARE.",
-                pairs: [
-                        { options: ["BENE", "MAL"], correct: "MAL" },
-                        { options: ["ALBERI", "FRUTTI"], correct: "FRUTTI" },
-                        { options: ["CANE", "LUPO"], correct: "LUPO" },
-                        { options: ["AEROPORTO", "PORTO"], correct: "PORTO" },
-                        { options: ["GENTE", "ANIMALI"], correct: "GENTE" }
-                ]
-        },
-        {
-                id: 5,
-                solution: "OCCHIO",
-                explanation: "OCCHIO per OCCHIO. Colpo d'OCCHIO. A OCCHIO e croce. Chiudere un OCCHIO. OCCHIO di bue.",
-                pairs: [
-                        { options: ["DENTE", "ORECCHIO"], correct: "DENTE" },
-                        { options: ["COLPO", "SPARO"], correct: "COLPO" },
-                        { options: ["CROCE", "TESTA"], correct: "CROCE" },
-                        { options: ["CHIUDERE", "APRIRE"], correct: "CHIUDERE" },
-                        { options: ["BUE", "ASINO"], correct: "BUE" }
-                ]
-        },
-        {
-                id: 6,
-                solution: "PUNTO",
-                explanation: "PUNTO e a capo. PUNTO di vista. PUNTO interrogativo. PUNTO dolente. PUNTO G.",
-                pairs: [
-                        { options: ["CAPO", "CODA"], correct: "CAPO" },
-                        { options: ["UDITO", "VISTA"], correct: "VISTA" },
-                        { options: ["INTERROGATIVO", "ESCLAMATIVO"], correct: "INTERROGATIVO" },
-                        { options: ["DOLENTE", "FELICE"], correct: "DOLENTE" },
-                        { options: ["G", "H"], correct: "G" }
-                ]
-        },
-        {
-                id: 7,
-                solution: "ROSSO",
-                explanation: "Cappuccetto ROSSO. Profondo ROSSO. ROSSO di sera. ROSSO di vergogna. Cartellino ROSSO.",
-                pairs: [
-                        { options: ["CAPPOTTO", "CAPPUCCETTO"], correct: "CAPPUCCETTO" },
-                        { options: ["ALTO", "PROFONDO"], correct: "PROFONDO" },
-                        { options: ["MATTINA", "SERA"], correct: "SERA" },
-                        { options: ["PAURA", "VERGOGNA"], correct: "VERGOGNA" },
-                        { options: ["CARTELLINO", "BIGLIETTO"], correct: "CARTELLINO" }
-                ]
-        },
-        {
-                id: 8,
-                solution: "MANO",
-                explanation: "Darsi una MANO. Di seconda MANO. Gioco di MANO. MANO morta. Fuori MANO.",
-                pairs: [
-                        { options: ["PRENDERSI", "DARSI"], correct: "DARSI" },
-                        { options: ["PRIMA", "SECONDA"], correct: "SECONDA" },
-                        { options: ["GIOCO", "SCHERZO"], correct: "GIOCO" },
-                        { options: ["VIVA", "MORTA"], correct: "MORTA" },
-                        { options: ["DENTRO", "FUORI"], correct: "FUORI" }
-                ]
-        },
-        {
-                id: 9,
-                solution: "FERRO",
-                explanation: "FERRO di cavallo. FERRO da stiro. Ferri da MAGLIA. Battere il FERRO. Toccata di FERRO.",
-                pairs: [
-                        { options: ["CAVALLO", "MULO"], correct: "CAVALLO" },
-                        { options: ["LAVAGGIO", "STIRO"], correct: "STIRO" },
-                        { options: ["UNCINETTO", "MAGLIA"], correct: "MAGLIA" },
-                        { options: ["BATTERE", "LUCIDARE"], correct: "BATTERE" },
-                        { options: ["TOCCATA", "FUGA"], correct: "TOCCATA" }
-                ]
-        },
-        {
-                id: 10,
-                solution: "CAMPO",
-                explanation: "CAMPO da calcio. CAMPO Santo. CAMPO di grano. CAMPO minato. CAMPO visivo.",
-                pairs: [
-                        { options: ["CALCIO", "TENNIS"], correct: "CALCIO" },
-                        { options: ["BEATO", "SANTO"], correct: "SANTO" },
-                        { options: ["GRANO", "RISO"], correct: "GRANO" },
-                        { options: ["FIORITO", "MINATO"], correct: "MINATO" },
-                        { options: ["VISIVO", "UDITIVO"], correct: "VISIVO" }
-                ]
-        },
-        {
-                id: 11,
-                solution: "VITA",
-                explanation: "Dolce VITA. VITA da cani. Dare la VITA. VITA spericolata. Bella VITA.",
-                pairs: [
-                        { options: ["DOLCE", "AMARA"], correct: "DOLCE" },
-                        { options: ["CANI", "GATTI"], correct: "CANI" },
-                        { options: ["DARE", "PRENDERE"], correct: "DARE" },
-                        { options: ["SPERICOLATA", "TRANQUILLA"], correct: "SPERICOLATA" },
-                        { options: ["BELLA", "BRUTTA"], correct: "BELLA" }
-                ]
-        },
-        {
-                id: 12,
-                solution: "LUCE",
-                explanation: "LUCE dei miei occhi. LUCE rossa. LUCE verde. Dare alla LUCE. LUCE del sole.",
-                pairs: [
-                        { options: ["OCCHI", "ORECCHIE"], correct: "OCCHI" },
-                        { options: ["ROSSA", "BLU"], correct: "ROSSA" },
-                        { options: ["VERDE", "GIALLA"], correct: "VERDE" },
-                        { options: ["PARTORIRE", "DARE"], correct: "DARE" },
-                        { options: ["SOLE", "LUNA"], correct: "SOLE" }
-                ]
-        },
-        {
-                id: 13,
-                solution: "CARTA",
-                explanation: "CARTA igienica. CARTA da parati. CARTA straccia. CARTA bianca. CARTA di credito.",
-                pairs: [
-                        { options: ["IGIENICA", "PUBLICA"], correct: "IGIENICA" },
-                        { options: ["PARATI", "MURI"], correct: "PARATI" },
-                        { options: ["STRACCIA", "NUOVA"], correct: "STRACCIA" },
-                        { options: ["BIANCA", "NERA"], correct: "BIANCA" },
-                        { options: ["CREDITO", "DEBITO"], correct: "CREDITO" }
-                ]
-        },
-        {
-                id: 14,
-                solution: "PIEDE",
-                explanation: "PIEDE di porco. PIEDE libero. A PIEDI. PIEDE d'atleta. Mettere PIEDE.",
-                pairs: [
-                        { options: ["PORCO", "MUCCA"], correct: "PORCO" },
-                        { options: ["LIBERO", "OCCUPATO"], correct: "LIBERO" },
-                        { options: ["A", "IN"], correct: "A" },
-                        { options: ["ATLETA", "CALCIATORE"], correct: "ATLETA" },
-                        { options: ["METTERE", "TOGLIERE"], correct: "METTERE" }
-                ]
-        },
-        {
-                id: 15,
-                solution: "TESTA",
-                explanation: "Mal di TESTA. TESTA di rapa. TESTA o croce. Perdere la TESTA. Colpo di TESTA.",
-                pairs: [
-                        { options: ["MAL", "BENE"], correct: "MAL" },
-                        { options: ["RAPA", "CAROTA"], correct: "RAPA" },
-                        { options: ["CROCE", "DELIZIA"], correct: "CROCE" },
-                        { options: ["PERDERE", "TROVARE"], correct: "PERDERE" },
-                        { options: ["COLPO", "BOTTA"], correct: "COLPO" }
-                ]
-        },
-        {
-                id: 16,
-                solution: "BOCCA",
-                explanation: "Acqua in BOCCA. BOCCA di leone. BOCCA dello stomaco. Rifarsi la BOCCA. A BOCCA aperta.",
-                pairs: [
-                        { options: ["ACQUA", "VINO"], correct: "ACQUA" },
-                        { options: ["TIGRE", "LEONE"], correct: "LEONE" },
-                        { options: ["STOMACO", "FEGATO"], correct: "STOMACO" },
-                        { options: ["RIFARSI", "LAVARSI"], correct: "RIFARSI" },
-                        { options: ["APERTA", "CHIUSA"], correct: "APERTA" }
-                ]
-        },
-        {
-                id: 17,
-                solution: "CUORE",
-                explanation: "Cioè. Batticuore (Battere il CUORE?). CUORE di panna. CUORE matto. Spezzare il CUORE.",
-                pairs: [
-                        { options: ["CIOÈ", "INFATTI"], correct: "CIOÈ" },
-                        { options: ["BATTICUORE", "INFARTO"], correct: "BATTICUORE" },
-                        { options: ["PANNA", "CIOCCOLATO"], correct: "PANNA" },
-                        { options: ["MATTO", "SANO"], correct: "MATTO" },
-                        { options: ["SPEZZARE", "AGGIUSTARE"], correct: "SPEZZARE" }
-                ]
-        },
-        {
-                id: 18,
-                solution: "PELLE",
-                explanation: "PELLE d'oca. PELLE e ossa. Amici per la PELLE. PELLE di daino. Seconda PELLE.",
-                pairs: [
-                        { options: ["OCA", "ANATRA"], correct: "OCA" },
-                        { options: ["OSSA", "MUSCOLI"], correct: "OSSA" },
-                        { options: ["AMICI", "NEMICI"], correct: "AMICI" },
-                        { options: ["DAINO", "CINGHIALE"], correct: "DAINO" },
-                        { options: ["SECONDA", "PRIMA"], correct: "SECONDA" }
-                ]
-        },
-        {
-                id: 19,
-                solution: "ARIA",
-                explanation: "ARIA fritta. ARIA di casa. Cambiare ARIA. ARIA condizionata. Mal d'ARIA.",
-                pairs: [
-                        { options: ["FRITTA", "BOLLITA"], correct: "FRITTA" },
-                        { options: ["CASA", "ALBERGO"], correct: "CASA" },
-                        { options: ["CAMBIARE", "MANTENERE"], correct: "CAMBIARE" },
-                        { options: ["CONDIZIONATA", "RISCALDATA"], correct: "CONDIZIONATA" },
-                        { options: ["MAL", "BENE"], correct: "MAL" }
-                ]
-        },
-        {
-                id: 20,
-                solution: "TERRA",
-                explanation: "TERRA ferma. TERRA di nessuno. TERRA promessa. TERRA terra. Mal di TERRA.",
-                pairs: [
-                        { options: ["FERMA", "MOBILE"], correct: "FERMA" },
-                        { options: ["NESSUNO", "TUTTI"], correct: "NESSUNO" },
-                        { options: ["PROMESSA", "MANTENUTA"], correct: "PROMESSA" },
-                        { options: ["CIELO", "TERRA"], correct: "TERRA" },
-                        { options: ["MAL", "BENE"], correct: "MAL" }
-                ]
-        },
-        {
-                "solution": "LUCE",
-                "explanation": "La parola 'luce' è associata all'illuminazione e alla visibilità.",
-                "pairs": [
-                        {
-                                "options": [
-                                        "BUIO",
-                                        "CHIARO"
-                                ],
-                                "correct": "CHIARO"
-                        },
-                        {
-                                "options": [
-                                        "SOLE",
-                                        "NEBBIA"
-                                ],
-                                "correct": "SOLE"
-                        },
-                        {
-                                "options": [
-                                        "LAMPADA",
-                                        "OMBRA"
-                                ],
-                                "correct": "LAMPADA"
-                        },
-                        {
-                                "options": [
-                                        "FARO",
-                                        "VENTO"
-                                ],
-                                "correct": "FARO"
-                        },
-                        {
-                                "options": [
-                                        "ECLISSE",
-                                        "LUMINOSO"
-                                ],
-                                "correct": "LUMINOSO"
-                        }
-                ],
-                "id": 21
-        },
-        {
-                "solution": "PIANO",
-                "explanation": "La parola 'piano' può riferirsi sia a uno strumento musicale che a un progetto.",
-                "pairs": [
-                        {
-                                "options": [
-                                        "FLAUTO",
-                                        "TASTIERA"
-                                ],
-                                "correct": "TASTIERA"
-                        },
-                        {
-                                "options": [
-                                        "PROGETTO",
-                                        "SCALA"
-                                ],
-                                "correct": "PROGETTO"
-                        },
-                        {
-                                "options": [
-                                        "FORTE",
-                                        "LEGGERO"
-                                ],
-                                "correct": "FORTE"
-                        },
-                        {
-                                "options": [
-                                        "NOTA",
-                                        "RIGA"
-                                ],
-                                "correct": "NOTA"
-                        },
-                        {
-                                "options": [
-                                        "MUSICA",
-                                        "PESO"
-                                ],
-                                "correct": "MUSICA"
-                        }
-                ],
-                "id": 22
-        },
-        {
-                "solution": "RETE",
-                "explanation": "La parola 'rete' è collegata alla connessione e al trasporto.",
-                "pairs": [
-                        {
-                                "options": [
-                                        "INTERNET",
-                                        "LAGO"
-                                ],
-                                "correct": "INTERNET"
-                        },
-                        {
-                                "options": [
-                                        "PESCE",
-                                        "MONTAGNA"
-                                ],
-                                "correct": "PESCE"
-                        },
-                        {
-                                "options": [
-                                        "CONNESSIONE",
-                                        "ISOLAMENTO"
-                                ],
-                                "correct": "CONNESSIONE"
-                        },
-                        {
-                                "options": [
-                                        "TRASPORTO",
-                                        "BOTTIGLIA"
-                                ],
-                                "correct": "TRASPORTO"
-                        },
-                        {
-                                "options": [
-                                        "MAGLIA",
-                                        "PALLA"
-                                ],
-                                "correct": "MAGLIA"
-                        }
-                ],
-                "id": 23
-        },
-        {
-                "solution": "CORSA",
-                "explanation": "La parola 'corsa' si riferisce al movimento veloce e alla competizione.",
-                "pairs": [
-                        {
-                                "options": [
-                                        "LENTO",
-                                        "VELOCE"
-                                ],
-                                "correct": "VELOCE"
-                        },
-                        {
-                                "options": [
-                                        "GARA",
-                                        "RELAZIONE"
-                                ],
-                                "correct": "GARA"
-                        },
-                        {
-                                "options": [
-                                        "MARATONA",
-                                        "PASSEGGIATA"
-                                ],
-                                "correct": "MARATONA"
-                        },
-                        {
-                                "options": [
-                                        "ATLETA",
-                                        "CUOCO"
-                                ],
-                                "correct": "ATLETA"
-                        },
-                        {
-                                "options": [
-                                        "FINISH",
-                                        "INIZIO"
-                                ],
-                                "correct": "FINISH"
-                        }
-                ],
-                "id": 24
-        },
-        {
-                "solution": "CHIAVE",
-                "explanation": "La parola 'chiave' è fondamentale per aprire e risolvere problemi.",
-                "pairs": [
-                        {
-                                "options": [
-                                        "PORTA",
-                                        "FINESTRA"
-                                ],
-                                "correct": "PORTA"
-                        },
-                        {
-                                "options": [
-                                        "SOLUZIONE",
-                                        "PROBLEMA"
-                                ],
-                                "correct": "SOLUZIONE"
-                        },
-                        {
-                                "options": [
-                                        "SEGRETO",
-                                        "EVIDENTE"
-                                ],
-                                "correct": "SEGRETO"
-                        },
-                        {
-                                "options": [
-                                        "MUSICALE",
-                                        "PITTORICO"
-                                ],
-                                "correct": "MUSICALE"
-                        },
-                        {
-                                "options": [
-                                        "SERRATURA",
-                                        "TAPPETO"
-                                ],
-                                "correct": "SERRATURA"
-                        }
-                ],
-                "id": 25
-        },
-        {
-                "solution": "LUNA",
-                "explanation": "Tutti gli indizi si riferiscono a diverse connessioni con la Luna.",
-                "pairs": [
-                        { "options": ["SOLE", "SATELLITE"], "correct": "SATELLITE" },
-                        { "options": ["NOTTE", "GIOCO"], "correct": "NOTTE" },
-                        { "options": ["APOLLO", "MARTE"], "correct": "APOLLO" },
-                        { "options": ["CRATERE", "VULCANO"], "correct": "CRATERE" },
-                        { "options": ["ECLISSI", "ALBA"], "correct": "ECLISSI" }
-                ],
-                "id": 26
-        },
-        {
-                "solution": "CORDA",
-                "explanation": "Fare una CORDA. CORDA vocale. CORDA tesa. CORDA di sicurezza. Saltare la CORDA.",
-                "pairs": [
-                        { "options": ["FESTA", "CORDA"], "correct": "CORDA" },
-                        { "options": ["VOCALE", "MUSICALE"], "correct": "VOCALE" },
-                        { "options": ["TESA", "LENTA"], "correct": "TESA" },
-                        { "options": ["PROTEZIONE", "SICUREZZA"], "correct": "SICUREZZA" },
-                        { "options": ["SALIRE", "SALTARE"], "correct": "SALTARE" }
-                ],
-                "id": 27
-        },
-        {
-                "solution": "ARCO",
-                "explanation": "Tutti gli indizi si collegano al concetto di arco in vari modi.",
-                "pairs": [
-                        { "options": ["FRECCIA", "SCUDO"], "correct": "FRECCIA" },
-                        { "options": ["BALENO", "VENTO"], "correct": "BALENO" },
-                        { "options": ["CIELO", "TERRA"], "correct": "CIELO" },
-                        { "options": ["PONTE", "STRADA"], "correct": "PONTE" },
-                        { "options": ["VOLTA", "PIANO"], "correct": "VOLTA" }
-                ],
-                "id": 28
-        },
-        {
-                "solution": "VOCE",
-                "explanation": "Dare VOCE. VOCE narrante. VOCE alta. VOCE del verbo. VOCE di corridoio.",
-                "pairs": [
-                        { "options": ["VOCE", "TERRA"], "correct": "VOCE" },
-                        { "options": ["NARRANTE", "SCRITTA"], "correct": "NARRANTE" },
-                        { "options": ["ALTA", "BASSA"], "correct": "ALTA" },
-                        { "options": ["VERBO", "NOME"], "correct": "VERBO" },
-                        { "options": ["SOGNO", "CORRIDOIO"], "correct": "CORRIDOIO" }
-                ],
-                "id": 29
-        }
-,
     {
-        "solution": "LUCE",
-        "explanation": "Luce del sole. Luce rossa. Luce notturna. Luce guida. Fare luce.",
-        "pairs": [
-                {
-                        "options": [
-                                "SOLE",
-                                "LUNA"
-                        ],
-                        "correct": "SOLE"
-                },
-                {
-                        "options": [
-                                "ROSSA",
-                                "VERDE"
-                        ],
-                        "correct": "ROSSA"
-                },
-                {
-                        "options": [
-                                "DIURNA",
-                                "NOTTURNA"
-                        ],
-                        "correct": "NOTTURNA"
-                },
-                {
-                        "options": [
-                                "GUIDA",
-                                "VEICOLO"
-                        ],
-                        "correct": "GUIDA"
-                },
-                {
-                        "options": [
-                                "FAR",
-                                "FARE"
-                        ],
-                        "correct": "FARE"
-                }
-        ],
-        "id": 21
-},
+        id: 1,
+        solution: "CASA",
+        explanation: "Dolce CASA. CASA di carta. CASA Bianca. CASA di riposo. Fare gli onori di CASA.",
+        pairs: [
+            { options: ["DOLCE", "AMARO"], correct: "DOLCE" },
+            { options: ["FORBICE", "CARTA"], correct: "CARTA" },
+            { options: ["BIANCA", "ROSSA"], correct: "BIANCA" },
+            { options: ["RIPOSO", "LAVORO"], correct: "RIPOSO" },
+            { options: ["ONORI", "GLORIA"], correct: "ONORI" }
+        ]
+    },
     {
-        "solution": "CUORE",
-        "explanation": "Colpo al cuore. Cuore di panna. Cuore di leone. Cuore tenero. Aprire il cuore.",
-        "pairs": [
-                {
-                        "options": [
-                                "COLPO",
-                                "SPINA"
-                        ],
-                        "correct": "COLPO"
-                },
-                {
-                        "options": [
-                                "PANNA",
-                                "CREMA"
-                        ],
-                        "correct": "PANNA"
-                },
-                {
-                        "options": [
-                                "LEONE",
-                                "TIGRE"
-                        ],
-                        "correct": "LEONE"
-                },
-                {
-                        "options": [
-                                "DURO",
-                                "TENERO"
-                        ],
-                        "correct": "TENERO"
-                },
-                {
-                        "options": [
-                                "APRIRE",
-                                "CHIUDERE"
-                        ],
-                        "correct": "APRIRE"
-                }
-        ],
-        "id": 22
-},
+        id: 2,
+        solution: "GATTO",
+        explanation: "GATTO delle nevi. GATTO nero. C'era una volta un GATTO (canzone). GATTO Silvestro. Quattro salti in padella (Gatto?). No, wait. Quattro Gatti.",
+        pairs: [
+            { options: ["NEVI", "PIOGGIA"], correct: "NEVI" },
+            { options: ["NERO", "BIANCO"], correct: "NERO" },
+            { options: ["VOLTA", "CANTINA"], correct: "VOLTA" },
+            { options: ["TWEETY", "SILVESTRO"], correct: "SILVESTRO" },
+            { options: ["TRE", "QUATTRO"], correct: "QUATTRO" }
+        ]
+    },
     {
-        "solution": "TERRA",
-        "explanation": "Terra di mezzo. Terra promessa. Terra bruciata. Terra nuova. Terra madre.",
-        "pairs": [
-                {
-                        "options": [
-                                "DI",
-                                "SU"
-                        ],
-                        "correct": "DI"
-                },
-                {
-                        "options": [
-                                "PROMESSA",
-                                "ILLUSORIA"
-                        ],
-                        "correct": "PROMESSA"
-                },
-                {
-                        "options": [
-                                "BRUCIATA",
-                                "BAGNATA"
-                        ],
-                        "correct": "BRUCIATA"
-                },
-                {
-                        "options": [
-                                "NUOVA",
-                                "VECCHIA"
-                        ],
-                        "correct": "NUOVA"
-                },
-                {
-                        "options": [
-                                "MADRE",
-                                "PADRE"
-                        ],
-                        "correct": "MADRE"
-                }
-        ],
-        "id": 23
-},
+        id: 3,
+        solution: "TEMPO",
+        explanation: "Primo TEMPO. Perdere TEMPO. Che TEMPO fa. TEMPO libero. Il TEMPO delle mele.",
+        pairs: [
+            { options: ["PRIMO", "ULTIMO"], correct: "PRIMO" },
+            { options: ["PERDERE", "TROVARE"], correct: "PERDERE" },
+            { options: ["FA", "DICI"], correct: "FA" },
+            { options: ["OCCUPATO", "LIBERO"], correct: "LIBERO" },
+            { options: ["PERE", "MELE"], correct: "MELE" }
+        ]
+    },
     {
-        "solution": "ACQUA",
-        "explanation": "Acqua alta. Acqua bollente. Acqua in bocca. Acqua passata. Acqua santa.",
-        "pairs": [
-                {
-                        "options": [
-                                "BASSA",
-                                "ALTA"
-                        ],
-                        "correct": "ALTA"
-                },
-                {
-                        "options": [
-                                "BOLLENTE",
-                                "FREDDA"
-                        ],
-                        "correct": "BOLLENTE"
-                },
-                {
-                        "options": [
-                                "IN BOCCA",
-                                "AI PESCI"
-                        ],
-                        "correct": "IN BOCCA"
-                },
-                {
-                        "options": [
-                                "PASSATA",
-                                "FUTURA"
-                        ],
-                        "correct": "PASSATA"
-                },
-                {
-                        "options": [
-                                "SANTA",
-                                "MALIGNA"
-                        ],
-                        "correct": "SANTA"
-                }
-        ],
-        "id": 24
-},
+        id: 4,
+        solution: "MARE",
+        explanation: "Mal di MARE. Frutti di MARE. Lupo di MARE. Porto di MARE. Gente di MARE.",
+        pairs: [
+            { options: ["BENE", "MAL"], correct: "MAL" },
+            { options: ["ALBERI", "FRUTTI"], correct: "FRUTTI" },
+            { options: ["CANE", "LUPO"], correct: "LUPO" },
+            { options: ["AEROPORTO", "PORTO"], correct: "PORTO" },
+            { options: ["GENTE", "ANIMALI"], correct: "GENTE" }
+        ]
+    },
     {
-        "solution": "STELLA",
-        "explanation": "Stella del mattino. Stella polare. Stella cadente. Stella marina. Stella solitaria.",
-        "pairs": [
-                {
-                        "options": [
-                                "DELLA SERA",
-                                "DEL MATTINO"
-                        ],
-                        "correct": "DEL MATTINO"
-                },
-                {
-                        "options": [
-                                "POLARE",
-                                "EQUATORE"
-                        ],
-                        "correct": "POLARE"
-                },
-                {
-                        "options": [
-                                "CADENTE",
-                                "FISSA"
-                        ],
-                        "correct": "CADENTE"
-                },
-                {
-                        "options": [
-                                "MARINA",
-                                "TERRESTRE"
-                        ],
-                        "correct": "MARINA"
-                },
-                {
-                        "options": [
-                                "SOLITARIA",
-                                "COMPAGNA"
-                        ],
-                        "correct": "SOLITARIA"
-                }
-        ],
-        "id": 25
-},
-,
+        id: 5,
+        solution: "OCCHIO",
+        explanation: "OCCHIO per OCCHIO. Colpo d'OCCHIO. A OCCHIO e croce. Chiudere un OCCHIO. OCCHIO di bue.",
+        pairs: [
+            { options: ["DENTE", "ORECCHIO"], correct: "DENTE" },
+            { options: ["COLPO", "SPARO"], correct: "COLPO" },
+            { options: ["CROCE", "TESTA"], correct: "CROCE" },
+            { options: ["CHIUDERE", "APRIRE"], correct: "CHIUDERE" },
+            { options: ["BUE", "ASINO"], correct: "BUE" }
+        ]
+    },
     {
-        "solution": "LUCE",
-        "explanation": "Accendere la LUCE. Luce diurna. Luce abbagliante. Luce verde. Luce notturna.",
-        "pairs": [
-                {
-                        "options": [
-                                "ACCENDERE",
-                                "SPEGNERE"
-                        ],
-                        "correct": "ACCENDERE"
-                },
-                {
-                        "options": [
-                                "DIURNA",
-                                "CREPUSCOLARE"
-                        ],
-                        "correct": "DIURNA"
-                },
-                {
-                        "options": [
-                                "ABBAGLIANTE",
-                                "DEBOLE"
-                        ],
-                        "correct": "ABBAGLIANTE"
-                },
-                {
-                        "options": [
-                                "ROSSA",
-                                "VERDE"
-                        ],
-                        "correct": "VERDE"
-                },
-                {
-                        "options": [
-                                "NOTTURNA",
-                                "DIURNA"
-                        ],
-                        "correct": "NOTTURNA"
-                }
-        ],
-        "id": 21
-},
+        id: 6,
+        solution: "PUNTO",
+        explanation: "PUNTO e a capo. PUNTO di vista. PUNTO interrogativo. PUNTO dolente. PUNTO G.",
+        pairs: [
+            { options: ["CAPO", "CODA"], correct: "CAPO" },
+            { options: ["UDITO", "VISTA"], correct: "VISTA" },
+            { options: ["INTERROGATIVO", "ESCLAMATIVO"], correct: "INTERROGATIVO" },
+            { options: ["DOLENTE", "FELICE"], correct: "DOLENTE" },
+            { options: ["G", "H"], correct: "G" }
+        ]
+    },
     {
-        "solution": "PIEDE",
-        "explanation": "Mettere un PIEDE. Di primo PIEDE. A PIEDE libero. PIEDE quadrato. PIEDE di porco.",
-        "pairs": [
-                {
-                        "options": [
-                                "METTERE",
-                                "LEVARE"
-                        ],
-                        "correct": "METTERE"
-                },
-                {
-                        "options": [
-                                "PRIMO",
-                                "SECONDO"
-                        ],
-                        "correct": "PRIMO"
-                },
-                {
-                        "options": [
-                                "LIBERO",
-                                "LEGATO"
-                        ],
-                        "correct": "LIBERO"
-                },
-                {
-                        "options": [
-                                "QUADRATO",
-                                "TONDO"
-                        ],
-                        "correct": "QUADRATO"
-                },
-                {
-                        "options": [
-                                "DI PORCO",
-                                "DI GATTO"
-                        ],
-                        "correct": "DI PORCO"
-                }
-        ],
-        "id": 22
-},
+        id: 7,
+        solution: "ROSSO",
+        explanation: "Cappuccetto ROSSO. Profondo ROSSO. ROSSO di sera. ROSSO di vergogna. Cartellino ROSSO.",
+        pairs: [
+            { options: ["CAPPOTTO", "CAPPUCCETTO"], correct: "CAPPUCCETTO" },
+            { options: ["ALTO", "PROFONDO"], correct: "PROFONDO" },
+            { options: ["MATTINA", "SERA"], correct: "SERA" },
+            { options: ["PAURA", "VERGOGNA"], correct: "VERGOGNA" },
+            { options: ["CARTELLINO", "BIGLIETTO"], correct: "CARTELLINO" }
+        ]
+    },
     {
-        "solution": "CIELO",
-        "explanation": "CIELO sereno. CIELO stellato. Sotto un CIELO. CIELO aperto. CIELO coperto.",
-        "pairs": [
-                {
-                        "options": [
-                                "SERENO",
-                                "NUVOLOSO"
-                        ],
-                        "correct": "SERENO"
-                },
-                {
-                        "options": [
-                                "STELLATO",
-                                "BUIO"
-                        ],
-                        "correct": "STELLATO"
-                },
-                {
-                        "options": [
-                                "SOTTO",
-                                "SOPRA"
-                        ],
-                        "correct": "SOTTO"
-                },
-                {
-                        "options": [
-                                "APERTO",
-                                "CHIUSO"
-                        ],
-                        "correct": "APERTO"
-                },
-                {
-                        "options": [
-                                "COPERTO",
-                                "SCOPERTO"
-                        ],
-                        "correct": "COPERTO"
-                }
-        ],
-        "id": 23
-},
+        id: 8,
+        solution: "MANO",
+        explanation: "Darsi una MANO. Di seconda MANO. Gioco di MANO. MANO morta. Fuori MANO.",
+        pairs: [
+            { options: ["PRENDERSI", "DARSI"], correct: "DARSI" },
+            { options: ["PRIMA", "SECONDA"], correct: "SECONDA" },
+            { options: ["GIOCO", "SCHERZO"], correct: "GIOCO" },
+            { options: ["VIVA", "MORTA"], correct: "MORTA" },
+            { options: ["DENTRO", "FUORI"], correct: "FUORI" }
+        ]
+    },
     {
-        "solution": "TERRA",
-        "explanation": "Coltivare la TERRA. Di TERRA. TERRA promessa. TERRA vergine. TERRA battuta.",
-        "pairs": [
-                {
-                        "options": [
-                                "COLTIVARE",
-                                "ABBANDONARE"
-                        ],
-                        "correct": "COLTIVARE"
-                },
-                {
-                        "options": [
-                                "DI MARE",
-                                "DI TERRA"
-                        ],
-                        "correct": "DI TERRA"
-                },
-                {
-                        "options": [
-                                "PROMESSA",
-                                "CONQUISTATA"
-                        ],
-                        "correct": "PROMESSA"
-                },
-                {
-                        "options": [
-                                "VERGINE",
-                                "CONSACRATA"
-                        ],
-                        "correct": "VERGINE"
-                },
-                {
-                        "options": [
-                                "BATTUTA",
-                                "LISCIA"
-                        ],
-                        "correct": "BATTUTA"
-                }
-        ],
-        "id": 24
-},
+        id: 9,
+        solution: "FERRO",
+        explanation: "FERRO di cavallo. FERRO da stiro. Ferri da MAGLIA. Battere il FERRO. Toccata di FERRO.",
+        pairs: [
+            { options: ["CAVALLO", "MULO"], correct: "CAVALLO" },
+            { options: ["LAVAGGIO", "STIRO"], correct: "STIRO" },
+            { options: ["UNCINETTO", "MAGLIA"], correct: "MAGLIA" },
+            { options: ["BATTERE", "LUCIDARE"], correct: "BATTERE" },
+            { options: ["TOCCATA", "FUGA"], correct: "TOCCATA" }
+        ]
+    },
     {
-        "solution": "PONTE",
-        "explanation": "PONTE sospeso. PONTE levatoio. PONTE invisibile. PONTE di comando. PONTE dei sospiri.",
-        "pairs": [
-                {
-                        "options": [
-                                "SOSPESO",
-                                "INTERROTTO"
-                        ],
-                        "correct": "SOSPESO"
-                },
-                {
-                        "options": [
-                                "LEVATOIO",
-                                "SCORREVOLE"
-                        ],
-                        "correct": "LEVATOIO"
-                },
-                {
-                        "options": [
-                                "INVISIBILE",
-                                "VISIBILE"
-                        ],
-                        "correct": "INVISIBILE"
-                },
-                {
-                        "options": [
-                                "DI COMANDO",
-                                "DI GUARDIA"
-                        ],
-                        "correct": "DI COMANDO"
-                },
-                {
-                        "options": [
-                                "DEI SOSPIRI",
-                                "DELLE LAMENTELE"
-                        ],
-                        "correct": "DEI SOSPIRI"
-                }
-        ],
-        "id": 25
-},
-,
+        id: 10,
+        solution: "CAMPO",
+        explanation: "CAMPO da calcio. CAMPO Santo. CAMPO di grano. CAMPO minato. CAMPO visivo.",
+        pairs: [
+            { options: ["CALCIO", "TENNIS"], correct: "CALCIO" },
+            { options: ["BEATO", "SANTO"], correct: "SANTO" },
+            { options: ["GRANO", "RISO"], correct: "GRANO" },
+            { options: ["FIORITO", "MINATO"], correct: "MINATO" },
+            { options: ["VISIVO", "UDITIVO"], correct: "VISIVO" }
+        ]
+    },
     {
-        "solution": "CUORE",
-        "explanation": "Questione di CUORE. Battere il CUORE. Colpo al CUORE. Anima e CUORE. CUORE aperto.",
-        "pairs": [
-                {
-                        "options": [
-                                "QUESTIONE",
-                                "PROBLEMA"
-                        ],
-                        "correct": "QUESTIONE"
-                },
-                {
-                        "options": [
-                                "BATTERE",
-                                "SFERZARE"
-                        ],
-                        "correct": "BATTERE"
-                },
-                {
-                        "options": [
-                                "COLPO",
-                                "COLLETTA"
-                        ],
-                        "correct": "COLPO"
-                },
-                {
-                        "options": [
-                                "ANIMA",
-                                "CORPO"
-                        ],
-                        "correct": "ANIMA"
-                },
-                {
-                        "options": [
-                                "APERTO",
-                                "CHIUSO"
-                        ],
-                        "correct": "APERTO"
-                }
-        ],
-        "id": 21
-},
+        id: 11,
+        solution: "VITA",
+        explanation: "Dolce VITA. VITA da cani. Dare la VITA. VITA spericolata. Bella VITA.",
+        pairs: [
+            { options: ["DOLCE", "AMARA"], correct: "DOLCE" },
+            { options: ["CANI", "GATTI"], correct: "CANI" },
+            { options: ["DARE", "PRENDERE"], correct: "DARE" },
+            { options: ["SPERICOLATA", "TRANQUILLA"], correct: "SPERICOLATA" },
+            { options: ["BELLA", "BRUTTA"], correct: "BELLA" }
+        ]
+    },
     {
-        "solution": "LUCE",
-        "explanation": "Accendere la LUCE. Fare LUCE. LUCE naturale. LUCE del sole. LUCE verde.",
-        "pairs": [
-                {
-                        "options": [
-                                "ACCENDERE",
-                                "SPEGNERE"
-                        ],
-                        "correct": "ACCENDERE"
-                },
-                {
-                        "options": [
-                                "FARE",
-                                "CREARE"
-                        ],
-                        "correct": "FARE"
-                },
-                {
-                        "options": [
-                                "NATURALE",
-                                "ARTIFICIALE"
-                        ],
-                        "correct": "NATURALE"
-                },
-                {
-                        "options": [
-                                "SOLE",
-                                "LUNA"
-                        ],
-                        "correct": "SOLE"
-                },
-                {
-                        "options": [
-                                "VERDE",
-                                "ROSSA"
-                        ],
-                        "correct": "VERDE"
-                }
-        ],
-        "id": 22
-},
+        id: 12,
+        solution: "LUCE",
+        explanation: "LUCE dei miei occhi. LUCE rossa. LUCE verde. Dare alla LUCE. LUCE del sole.",
+        pairs: [
+            { options: ["OCCHI", "ORECCHIE"], correct: "OCCHI" },
+            { options: ["ROSSA", "BLU"], correct: "ROSSA" },
+            { options: ["VERDE", "GIALLA"], correct: "VERDE" },
+            { options: ["PARTORIRE", "DARE"], correct: "DARE" },
+            { options: ["SOLE", "LUNA"], correct: "SOLE" }
+        ]
+    },
     {
-        "solution": "ACQUA",
-        "explanation": "Bicchiere d'ACQUA. ACQUA corrente. ACQUA potabile. ACQUA alta. ACQUA chiara.",
-        "pairs": [
-                {
-                        "options": [
-                                "BICCHIERE",
-                                "TAVOLO"
-                        ],
-                        "correct": "BICCHIERE"
-                },
-                {
-                        "options": [
-                                "CORRENTE",
-                                "STAGNA"
-                        ],
-                        "correct": "CORRENTE"
-                },
-                {
-                        "options": [
-                                "POTABILE",
-                                "SALATA"
-                        ],
-                        "correct": "POTABILE"
-                },
-                {
-                        "options": [
-                                "ALTA",
-                                "BASSA"
-                        ],
-                        "correct": "ALTA"
-                },
-                {
-                        "options": [
-                                "CHIARA",
-                                "SCURA"
-                        ],
-                        "correct": "CHIARA"
-                }
-        ],
-        "id": 23
-},
+        id: 13,
+        solution: "CARTA",
+        explanation: "CARTA igienica. CARTA da parati. CARTA straccia. CARTA bianca. CARTA di credito.",
+        pairs: [
+            { options: ["IGIENICA", "PUBLICA"], correct: "IGIENICA" },
+            { options: ["PARATI", "MURI"], correct: "PARATI" },
+            { options: ["STRACCIA", "NUOVA"], correct: "STRACCIA" },
+            { options: ["BIANCA", "NERA"], correct: "BIANCA" },
+            { options: ["CREDITO", "DEBITO"], correct: "CREDITO" }
+        ]
+    },
     {
-        "solution": "TERRA",
-        "explanation": "Pianeta TERRA. TERRA fertile. Cadere in TERRA. TERRA promessa. TERRA di nessuno.",
-        "pairs": [
-                {
-                        "options": [
-                                "PIANETA",
-                                "SATELLITE"
-                        ],
-                        "correct": "PIANETA"
-                },
-                {
-                        "options": [
-                                "FERTILE",
-                                "ARIDA"
-                        ],
-                        "correct": "FERTILE"
-                },
-                {
-                        "options": [
-                                "CADERE",
-                                "SALIRE"
-                        ],
-                        "correct": "CADERE"
-                },
-                {
-                        "options": [
-                                "PROMESSA",
-                                "NEGATA"
-                        ],
-                        "correct": "PROMESSA"
-                },
-                {
-                        "options": [
-                                "NESSUNO",
-                                "QUALCUNO"
-                        ],
-                        "correct": "NESSUNO"
-                }
-        ],
-        "id": 24
-},
+        id: 14,
+        solution: "PIEDE",
+        explanation: "PIEDE di porco. PIEDE libero. A PIEDI. PIEDE d'atleta. Mettere PIEDE.",
+        pairs: [
+            { options: ["PORCO", "MUCCA"], correct: "PORCO" },
+            { options: ["LIBERO", "OCCUPATO"], correct: "LIBERO" },
+            { options: ["A", "IN"], correct: "A" },
+            { options: ["ATLETA", "CALCIATORE"], correct: "ATLETA" },
+            { options: ["METTERE", "TOGLIERE"], correct: "METTERE" }
+        ]
+    },
     {
-        "solution": "VENTO",
-        "explanation": "Soffio di VENTO. VENTO contrario. VENTO favorevole. Al VENTO. VENTO in poppa.",
-        "pairs": [
-                {
-                        "options": [
-                                "SOFFIO",
-                                "RUMORE"
-                        ],
-                        "correct": "SOFFIO"
-                },
-                {
-                        "options": [
-                                "CONTRARIO",
-                                "AMICO"
-                        ],
-                        "correct": "CONTRARIO"
-                },
-                {
-                        "options": [
-                                "FAVOREVOLE",
-                                "OSTILE"
-                        ],
-                        "correct": "FAVOREVOLE"
-                },
-                {
-                        "options": [
-                                "AL",
-                                "NEL"
-                        ],
-                        "correct": "AL"
-                },
-                {
-                        "options": [
-                                "POPPA",
-                                "PRUA"
-                        ],
-                        "correct": "POPPA"
-                }
-        ],
-        "id": 25
-},
-,
+        id: 15,
+        solution: "TESTA",
+        explanation: "Mal di TESTA. TESTA di rapa. TESTA o croce. Perdere la TESTA. Colpo di TESTA.",
+        pairs: [
+            { options: ["MAL", "BENE"], correct: "MAL" },
+            { options: ["RAPA", "CAROTA"], correct: "RAPA" },
+            { options: ["CROCE", "DELIZIA"], correct: "CROCE" },
+            { options: ["PERDERE", "TROVARE"], correct: "PERDERE" },
+            { options: ["COLPO", "BOTTA"], correct: "COLPO" }
+        ]
+    },
     {
-        "solution": "LUCE",
-        "explanation": "Macchina della LUCE. In piena LUCE. Velocità della LUCE. Interruttore della LUCE. LUCE naturale.",
-        "pairs": [
-                {
-                        "options": [
-                                "MACCHINA",
-                                "MOTO"
-                        ],
-                        "correct": "MACCHINA"
-                },
-                {
-                        "options": [
-                                "OMBRA",
-                                "LUCE"
-                        ],
-                        "correct": "LUCE"
-                },
-                {
-                        "options": [
-                                "SUONO",
-                                "LUCE"
-                        ],
-                        "correct": "LUCE"
-                },
-                {
-                        "options": [
-                                "INTERRUTTORE",
-                                "SERRATURA"
-                        ],
-                        "correct": "INTERRUTTORE"
-                },
-                {
-                        "options": [
-                                "ARTIFICIALE",
-                                "NATURALE"
-                        ],
-                        "correct": "NATURALE"
-                }
-        ],
-        "id": 21
-},
+        id: 16,
+        solution: "BOCCA",
+        explanation: "Acqua in BOCCA. BOCCA di leone. BOCCA dello stomaco. Rifarsi la BOCCA. A BOCCA aperta.",
+        pairs: [
+            { options: ["ACQUA", "VINO"], correct: "ACQUA" },
+            { options: ["TIGRE", "LEONE"], correct: "LEONE" },
+            { options: ["STOMACO", "FEGATO"], correct: "STOMACO" },
+            { options: ["RIFARSI", "LAVARSI"], correct: "RIFARSI" },
+            { options: ["APERTA", "CHIUSA"], correct: "APERTA" }
+        ]
+    },
     {
-        "solution": "PUNTO",
-        "explanation": "PUNTO di vista. PUNTO fermo. A PUNTO. PUNTO debole. PUNTO e a capo.",
-        "pairs": [
-                {
-                        "options": [
-                                "VISTA",
-                                "UDITO"
-                        ],
-                        "correct": "VISTA"
-                },
-                {
-                        "options": [
-                                "FERMO",
-                                "MOSSO"
-                        ],
-                        "correct": "FERMO"
-                },
-                {
-                        "options": [
-                                "A",
-                                "IN"
-                        ],
-                        "correct": "A"
-                },
-                {
-                        "options": [
-                                "FORTE",
-                                "DEBOLE"
-                        ],
-                        "correct": "DEBOLE"
-                },
-                {
-                        "options": [
-                                "E",
-                                "O"
-                        ],
-                        "correct": "E"
-                }
-        ],
-        "id": 22
-},
+        id: 17,
+        solution: "CUORE",
+        explanation: "Cioè. Batticuore (Battere il CUORE?). CUORE di panna. CUORE matto. Spezzare il CUORE.",
+        pairs: [
+            { options: ["CIOÈ", "INFATTI"], correct: "CIOÈ" },
+            { options: ["BATTICUORE", "INFARTO"], correct: "BATTICUORE" },
+            { options: ["PANNA", "CIOCCOLATO"], correct: "PANNA" },
+            { options: ["MATTO", "SANO"], correct: "MATTO" },
+            { options: ["SPEZZARE", "AGGIUSTARE"], correct: "SPEZZARE" }
+        ]
+    },
     {
-        "solution": "TESTA",
-        "explanation": "TESTA alta. TESTA calda. Colpo di TESTA. TESTA di serie. TESTA di ponte.",
-        "pairs": [
-                {
-                        "options": [
-                                "ALTA",
-                                "BASSA"
-                        ],
-                        "correct": "ALTA"
-                },
-                {
-                        "options": [
-                                "FREDDA",
-                                "CALDA"
-                        ],
-                        "correct": "CALDA"
-                },
-                {
-                        "options": [
-                                "COLPO",
-                                "SPINTA"
-                        ],
-                        "correct": "COLPO"
-                },
-                {
-                        "options": [
-                                "SERIE",
-                                "FILM"
-                        ],
-                        "correct": "SERIE"
-                },
-                {
-                        "options": [
-                                "PONTE",
-                                "STRADA"
-                        ],
-                        "correct": "PONTE"
-                }
-        ],
-        "id": 23
-},
+        id: 18,
+        solution: "PELLE",
+        explanation: "PELLE d'oca. PELLE e ossa. Amici per la PELLE. PELLE di daino. Seconda PELLE.",
+        pairs: [
+            { options: ["OCA", "ANATRA"], correct: "OCA" },
+            { options: ["OSSA", "MUSCOLI"], correct: "OSSA" },
+            { options: ["AMICI", "NEMICI"], correct: "AMICI" },
+            { options: ["DAINO", "CINGHIALE"], correct: "DAINO" },
+            { options: ["SECONDA", "PRIMA"], correct: "SECONDA" }
+        ]
+    },
     {
-        "solution": "CIELO",
-        "explanation": "CIELO azzurro. CIELO stellato. Volare in CIELO. Occhi al CIELO. CIELO aperto.",
-        "pairs": [
-                {
-                        "options": [
-                                "AZZURRO",
-                                "VERDE"
-                        ],
-                        "correct": "AZZURRO"
-                },
-                {
-                        "options": [
-                                "LUMINOSO",
-                                "STELLATO"
-                        ],
-                        "correct": "STELLATO"
-                },
-                {
-                        "options": [
-                                "VOLARE",
-                                "CAMMINARE"
-                        ],
-                        "correct": "VOLARE"
-                },
-                {
-                        "options": [
-                                "OCCHI",
-                                "ORECCHIE"
-                        ],
-                        "correct": "OCCHI"
-                },
-                {
-                        "options": [
-                                "CHIUSO",
-                                "APERTO"
-                        ],
-                        "correct": "APERTO"
-                }
-        ],
-        "id": 24
-},
+        id: 19,
+        solution: "ARIA",
+        explanation: "ARIA fritta. ARIA di casa. Cambiare ARIA. ARIA condizionata. Mal d'ARIA.",
+        pairs: [
+            { options: ["FRITTA", "BOLLITA"], correct: "FRITTA" },
+            { options: ["CASA", "ALBERGO"], correct: "CASA" },
+            { options: ["CAMBIARE", "MANTENERE"], correct: "CAMBIARE" },
+            { options: ["CONDIZIONATA", "RISCALDATA"], correct: "CONDIZIONATA" },
+            { options: ["MAL", "BENE"], correct: "MAL" }
+        ]
+    },
     {
-        "solution": "FUOCO",
-        "explanation": "Appiccare il FUOCO. Prova del FUOCO. FUOCO e fiamme. Spegnere il FUOCO. FUOCO di paglia.",
-        "pairs": [
-                {
-                        "options": [
-                                "ACCENDERE",
-                                "APPICCARE"
-                        ],
-                        "correct": "APPICCARE"
-                },
-                {
-                        "options": [
-                                "PROVA",
-                                "TEST"
-                        ],
-                        "correct": "PROVA"
-                },
-                {
-                        "options": [
-                                "FUOCO",
-                                "ACQUA"
-                        ],
-                        "correct": "FUOCO"
-                },
-                {
-                        "options": [
-                                "ACCENDERE",
-                                "SPEGNERE"
-                        ],
-                        "correct": "SPEGNERE"
-                },
-                {
-                        "options": [
-                                "FIAMMA",
-                                "PAGLIA"
-                        ],
-                        "correct": "PAGLIA"
-                }
-        ],
-        "id": 25
-},
-,
+        id: 20,
+        solution: "TERRA",
+        explanation: "TERRA ferma. TERRA di nessuno. TERRA promessa. TERRA terra. Mal di TERRA.",
+        pairs: [
+            { options: ["FERMA", "MOBILE"], correct: "FERMA" },
+            { options: ["NESSUNO", "TUTTI"], correct: "NESSUNO" },
+            { options: ["PROMESSA", "MANTENUTA"], correct: "PROMESSA" },
+            { options: ["CIELO", "TERRA"], correct: "TERRA" },
+            { options: ["MAL", "BENE"], correct: "MAL" }
+        ]
+    },
     {
-        "solution": "LUCE",
-        "explanation": "Punto LUCE. LUCE solare. LUCE naturale. LUCE di coda. LUCE verde.",
-        "pairs": [
-                {
-                        "options": [
-                                "PUNTO",
-                                "LINEA"
-                        ],
-                        "correct": "PUNTO"
-                },
-                {
-                        "options": [
-                                "LUNARE",
-                                "SOLARE"
-                        ],
-                        "correct": "SOLARE"
-                },
-                {
-                        "options": [
-                                "ARTIFICIALE",
-                                "NATURALE"
-                        ],
-                        "correct": "NATURALE"
-                },
-                {
-                        "options": [
-                                "FRONTALE",
-                                "DI CODA"
-                        ],
-                        "correct": "DI CODA"
-                },
-                {
-                        "options": [
-                                "ROSSA",
-                                "VERDE"
-                        ],
-                        "correct": "VERDE"
-                }
-        ],
-        "id": 21
-},
+        id: 21,
+        solution: "PIANO",
+        explanation: "La parola 'piano' può riferirsi sia a uno strumento musicale che a un progetto.",
+        pairs: [
+            { options: ["FLAUTO", "TASTIERA"], correct: "TASTIERA" },
+            { options: ["PROGETTO", "SCALA"], correct: "PROGETTO" },
+            { options: ["FORTE", "LEGGERO"], correct: "FORTE" },
+            { options: ["NOTA", "RIGA"], correct: "NOTA" },
+            { options: ["MUSICA", "PESO"], correct: "MUSICA" }
+        ]
+    },
     {
-        "solution": "ACQUA",
-        "explanation": "ACQUA alta. Sotto ACQUA. ACQUA minerale. ACQUA passata. ACQUA calda.",
-        "pairs": [
-                {
-                        "options": [
-                                "BASSA",
-                                "ALTA"
-                        ],
-                        "correct": "ALTA"
-                },
-                {
-                        "options": [
-                                "SOPRA",
-                                "SOTTO"
-                        ],
-                        "correct": "SOTTO"
-                },
-                {
-                        "options": [
-                                "MINERALE",
-                                "GASATA"
-                        ],
-                        "correct": "MINERALE"
-                },
-                {
-                        "options": [
-                                "CORRENTE",
-                                "PASSATA"
-                        ],
-                        "correct": "PASSATA"
-                },
-                {
-                        "options": [
-                                "FREDDA",
-                                "CALDA"
-                        ],
-                        "correct": "CALDA"
-                }
-        ],
-        "id": 22
-},
+        id: 22,
+        solution: "RETE",
+        explanation: "La parola 'rete' è collegata alla connessione e al trasporto.",
+        pairs: [
+            { options: ["INTERNET", "LAGO"], correct: "INTERNET" },
+            { options: ["PESCE", "MONTAGNA"], correct: "PESCE" },
+            { options: ["CONNESSIONE", "ISOLAMENTO"], correct: "CONNESSIONE" },
+            { options: ["TRASPORTO", "BOTTIGLIA"], correct: "TRASPORTO" },
+            { options: ["MAGLIA", "PALLA"], correct: "MAGLIA" }
+        ]
+    },
     {
-        "solution": "CUORE",
-        "explanation": "A CUORE aperto. CUORE di mamma. Con tutto il CUORE. CUORE di pietra. CUORE pulsante.",
-        "pairs": [
-                {
-                        "options": [
-                                "CHIUSO",
-                                "APERTO"
-                        ],
-                        "correct": "APERTO"
-                },
-                {
-                        "options": [
-                                "DI MAMMA",
-                                "DI PAPÀ"
-                        ],
-                        "correct": "DI MAMMA"
-                },
-                {
-                        "options": [
-                                "PARTE",
-                                "TUTTO"
-                        ],
-                        "correct": "TUTTO"
-                },
-                {
-                        "options": [
-                                "DI LEGNO",
-                                "DI PIETRA"
-                        ],
-                        "correct": "DI PIETRA"
-                },
-                {
-                        "options": [
-                                "PIGRO",
-                                "PULSANTE"
-                        ],
-                        "correct": "PULSANTE"
-                }
-        ],
-        "id": 23
-},
+        id: 23,
+        solution: "CORSA",
+        explanation: "La parola 'corsa' si riferisce al movimento veloce e alla competizione.",
+        pairs: [
+            { options: ["LENTO", "VELOCE"], correct: "VELOCE" },
+            { options: ["GARA", "RELAZIONE"], correct: "GARA" },
+            { options: ["MARATONA", "PASSEGGIATA"], correct: "MARATONA" },
+            { options: ["ATLETA", "CUOCO"], correct: "ATLETA" },
+            { options: ["FINISH", "INIZIO"], correct: "FINISH" }
+        ]
+    },
     {
-        "solution": "COPERTA",
-        "explanation": "Sotto COPERTA. COPERTA di Linus. COPERTA di neve. COPERTA di lana. COPERTA di stelle.",
-        "pairs": [
-                {
-                        "options": [
-                                "SOPRA",
-                                "SOTTO"
-                        ],
-                        "correct": "SOTTO"
-                },
-                {
-                        "options": [
-                                "DI LINUS",
-                                "DI SNOOPY"
-                        ],
-                        "correct": "DI LINUS"
-                },
-                {
-                        "options": [
-                                "DI NEVE",
-                                "DI GHIACCIO"
-                        ],
-                        "correct": "DI NEVE"
-                },
-                {
-                        "options": [
-                                "DI SETA",
-                                "DI LANA"
-                        ],
-                        "correct": "DI LANA"
-                },
-                {
-                        "options": [
-                                "DI PIETRE",
-                                "DI STELLE"
-                        ],
-                        "correct": "DI STELLE"
-                }
-        ],
-        "id": 24
-},
+        id: 24,
+        solution: "CHIAVE",
+        explanation: "La parola 'chiave' è fondamentale per aprire e risolvere problemi.",
+        pairs: [
+            { options: ["PORTA", "FINESTRA"], correct: "PORTA" },
+            { options: ["SOLUZIONE", "PROBLEMA"], correct: "SOLUZIONE" },
+            { options: ["SEGRETO", "EVIDENTE"], correct: "SEGRETO" },
+            { options: ["MUSICALE", "PITTORICO"], correct: "MUSICALE" },
+            { options: ["SERRATURA", "TAPPETO"], correct: "SERRATURA" }
+        ]
+    },
     {
-        "solution": "OSPITE",
-        "explanation": "OSPITE d'onore. OSPITE inatteso. Casa dell'OSPITE. OSPITE fisso. OSPITE gradito.",
-        "pairs": [
-                {
-                        "options": [
-                                "DI CASA",
-                                "D'ONORE"
-                        ],
-                        "correct": "D'ONORE"
-                },
-                {
-                        "options": [
-                                "PREVISTO",
-                                "INATTESO"
-                        ],
-                        "correct": "INATTESO"
-                },
-                {
-                        "options": [
-                                "DELL'OSPITE",
-                                "DEL PADRONE"
-                        ],
-                        "correct": "DELL'OSPITE"
-                },
-                {
-                        "options": [
-                                "OCCASIONALE",
-                                "FISSO"
-                        ],
-                        "correct": "FISSO"
-                },
-                {
-                        "options": [
-                                "INDESIDERATO",
-                                "GRADITO"
-                        ],
-                        "correct": "GRADITO"
-                }
-        ],
-        "id": 25
-},
-,
+        id: 25,
+        solution: "LUNA",
+        explanation: "Tutti gli indizi si riferiscono a diverse connessioni con la Luna.",
+        pairs: [
+            { options: ["SOLE", "SATELLITE"], correct: "SATELLITE" },
+            { options: ["NOTTE", "GIOCO"], correct: "NOTTE" },
+            { options: ["APOLLO", "MARTE"], correct: "APOLLO" },
+            { options: ["CRATERE", "VULCANO"], correct: "CRATERE" },
+            { options: ["ECLISSI", "ALBA"], correct: "ECLISSI" }
+        ]
+    },
     {
-        "solution": "LUCE",
-        "explanation": "Faro di LUCE. LUCE verde. LUCE di candela. Bagno di LUCE. LUCE dell'alba.",
-        "pairs": [
-                {
-                        "options": [
-                                "FARO",
-                                "PORTO"
-                        ],
-                        "correct": "FARO"
-                },
-                {
-                        "options": [
-                                "ROSSA",
-                                "VERDE"
-                        ],
-                        "correct": "VERDE"
-                },
-                {
-                        "options": [
-                                "LUCE",
-                                "OMBRA"
-                        ],
-                        "correct": "LUCE"
-                },
-                {
-                        "options": [
-                                "BAGNO",
-                                "DOCCIA"
-                        ],
-                        "correct": "BAGNO"
-                },
-                {
-                        "options": [
-                                "TRAMONTO",
-                                "ALBA"
-                        ],
-                        "correct": "ALBA"
-                }
-        ],
-        "id": 21
-},
+        id: 26,
+        solution: "CORDA",
+        explanation: "Fare una CORDA. CORDA vocale. CORDA tesa. CORDA di sicurezza. Saltare la CORDA.",
+        pairs: [
+            { options: ["FESTA", "CORDA"], correct: "CORDA" },
+            { options: ["VOCALE", "MUSICALE"], correct: "VOCALE" },
+            { options: ["TESA", "LENTA"], correct: "TESA" },
+            { options: ["PROTEZIONE", "SICUREZZA"], correct: "SICUREZZA" },
+            { options: ["SALIRE", "SALTARE"], correct: "SALTARE" }
+        ]
+    },
     {
-        "solution": "CUORE",
-        "explanation": "Mancanza di CUORE. Battito di CUORE. CUORE d'oro. A CUORE aperto. CUORE pulsante.",
-        "pairs": [
-                {
-                        "options": [
-                                "MANCANZA",
-                                "PRESENZA"
-                        ],
-                        "correct": "MANCANZA"
-                },
-                {
-                        "options": [
-                                "BATTITO",
-                                "SCATTO"
-                        ],
-                        "correct": "BATTITO"
-                },
-                {
-                        "options": [
-                                "DURO",
-                                "D'ORO"
-                        ],
-                        "correct": "D'ORO"
-                },
-                {
-                        "options": [
-                                "CHIUSO",
-                                "APERTO"
-                        ],
-                        "correct": "APERTO"
-                },
-                {
-                        "options": [
-                                "PULSANTE",
-                                "FERMO"
-                        ],
-                        "correct": "PULSANTE"
-                }
-        ],
-        "id": 22
-},
+        id: 27,
+        solution: "ARCO",
+        explanation: "Tutti gli indizi si collegano al concetto di arco in vari modi.",
+        pairs: [
+            { options: ["FRECCIA", "SCUDO"], correct: "FRECCIA" },
+            { options: ["BALENO", "VENTO"], correct: "BALENO" },
+            { options: ["CIELO", "TERRA"], correct: "CIELO" },
+            { options: ["PONTE", "STRADA"], correct: "PONTE" },
+            { options: ["VOLTA", "PIANO"], correct: "VOLTA" }
+        ]
+    },
     {
-        "solution": "VENTO",
-        "explanation": "Giro di VENTO. VENTO in poppa. VENTO di cambiamento. VENTO di mare. Soffio di VENTO.",
-        "pairs": [
-                {
-                        "options": [
-                                "GIRO",
-                                "CORSA"
-                        ],
-                        "correct": "GIRO"
-                },
-                {
-                        "options": [
-                                "IN POPPA",
-                                "CONTRO"
-                        ],
-                        "correct": "IN POPPA"
-                },
-                {
-                        "options": [
-                                "STAGNAZIONE",
-                                "CAMBIAMENTO"
-                        ],
-                        "correct": "CAMBIAMENTO"
-                },
-                {
-                        "options": [
-                                "TERRA",
-                                "MARE"
-                        ],
-                        "correct": "MARE"
-                },
-                {
-                        "options": [
-                                "URLO",
-                                "SOFFIO"
-                        ],
-                        "correct": "SOFFIO"
-                }
-        ],
-        "id": 23
-},
+        id: 28,
+        solution: "VOCE",
+        explanation: "Dare VOCE. VOCE narrante. VOCE alta. VOCE del verbo. VOCE di corridoio.",
+        pairs: [
+            { options: ["VOCE", "TERRA"], correct: "VOCE" },
+            { options: ["NARRANTE", "SCRITTA"], correct: "NARRANTE" },
+            { options: ["ALTA", "BASSA"], correct: "ALTA" },
+            { options: ["VERBO", "NOME"], correct: "VERBO" },
+            { options: ["SOGNO", "CORRIDOIO"], correct: "CORRIDOIO" }
+        ]
+    },
     {
-        "solution": "TEMPO",
-        "explanation": "Macchina del TEMPO. TEMPO libero. È questione di TEMPO. TEMPO di cottura. Fuori TEMPO.",
-        "pairs": [
-                {
-                        "options": [
-                                "MACCHINA",
-                                "OROLOGIO"
-                        ],
-                        "correct": "MACCHINA"
-                },
-                {
-                        "options": [
-                                "LIBERO",
-                                "OCCUPATO"
-                        ],
-                        "correct": "LIBERO"
-                },
-                {
-                        "options": [
-                                "QUESTIONE",
-                                "CASO"
-                        ],
-                        "correct": "QUESTIONE"
-                },
-                {
-                        "options": [
-                                "COTTURA",
-                                "FESTA"
-                        ],
-                        "correct": "COTTURA"
-                },
-                {
-                        "options": [
-                                "FUORI",
-                                "DENTRO"
-                        ],
-                        "correct": "FUORI"
-                }
-        ],
-        "id": 24
-},
+        id: 29,
+        solution: "ACQUA",
+        explanation: "Acqua alta. Acqua bollente. Acqua in bocca. Acqua passata. Acqua santa.",
+        pairs: [
+            { options: ["BASSA", "ALTA"], correct: "ALTA" },
+            { options: ["BOLLENTE", "FREDDA"], correct: "BOLLENTE" },
+            { options: ["IN BOCCA", "AI PESCI"], correct: "IN BOCCA" },
+            { options: ["PASSATA", "FUTURA"], correct: "PASSATA" },
+            { options: ["SANTA", "MALIGNA"], correct: "SANTA" }
+        ]
+    },
     {
-        "solution": "CIELO",
-        "explanation": "Frecce nel CIELO. CIELO stellato. Azzurro come il CIELO. Sotto il CIELO. CIELO di piombo.",
-        "pairs": [
-                {
-                        "options": [
-                                "FRECCE",
-                                "SASSI"
-                        ],
-                        "correct": "FRECCE"
-                },
-                {
-                        "options": [
-                                "STELLATO",
-                                "NUVOSO"
-                        ],
-                        "correct": "STELLATO"
-                },
-                {
-                        "options": [
-                                "AZZURRO",
-                                "VERDE"
-                        ],
-                        "correct": "AZZURRO"
-                },
-                {
-                        "options": [
-                                "SOTTO",
-                                "SOPRA"
-                        ],
-                        "correct": "SOTTO"
-                },
-                {
-                        "options": [
-                                "FERRO",
-                                "PIOMBO"
-                        ],
-                        "correct": "PIOMBO"
-                }
-        ],
-        "id": 25
-},
+        id: 30,
+        solution: "STELLA",
+        explanation: "Stella del mattino. Stella polare. Stella cadente. Stella marina. Stella solitaria.",
+        pairs: [
+            { options: ["DELLA SERA", "DEL MATTINO"], correct: "DEL MATTINO" },
+            { options: ["POLARE", "EQUATORE"], correct: "POLARE" },
+            { options: ["CADENTE", "FISSA"], correct: "CADENTE" },
+            { options: ["MARINA", "TERRESTRE"], correct: "MARINA" },
+            { options: ["SOLITARIA", "COMPAGNA"], correct: "SOLITARIA" }
+        ]
+    },
+    {
+        id: 31,
+        solution: "CIELO",
+        explanation: "CIELO sereno. CIELO stellato. Sotto un CIELO. CIELO aperto. CIELO coperto.",
+        pairs: [
+            { options: ["SERENO", "NUVOLOSO"], correct: "SERENO" },
+            { options: ["STELLATO", "BUIO"], correct: "STELLATO" },
+            { options: ["SOTTO", "SOPRA"], correct: "SOTTO" },
+            { options: ["APERTO", "CHIUSO"], correct: "APERTO" },
+            { options: ["COPERTO", "SCOPERTO"], correct: "COPERTO" }
+        ]
+    },
+    {
+        id: 32,
+        solution: "PONTE",
+        explanation: "PONTE sospeso. PONTE levatoio. PONTE invisibile. PONTE di comando. PONTE dei sospiri.",
+        pairs: [
+            { options: ["SOSPESO", "INTERROTTO"], correct: "SOSPESO" },
+            { options: ["LEVATOIO", "SCORREVOLE"], correct: "LEVATOIO" },
+            { options: ["INVISIBILE", "VISIBILE"], correct: "INVISIBILE" },
+            { options: ["DI COMANDO", "DI GUARDIA"], correct: "DI COMANDO" },
+            { options: ["DEI SOSPIRI", "DELLE LAMENTELE"], correct: "DEI SOSPIRI" }
+        ]
+    },
+    {
+        id: 33,
+        solution: "VENTO",
+        explanation: "Soffio di VENTO. VENTO contrario. VENTO favorevole. Al VENTO. VENTO in poppa.",
+        pairs: [
+            { options: ["SOFFIO", "RUMORE"], correct: "SOFFIO" },
+            { options: ["CONTRARIO", "AMICO"], correct: "CONTRARIO" },
+            { options: ["FAVOREVOLE", "OSTILE"], correct: "FAVOREVOLE" },
+            { options: ["AL", "NEL"], correct: "AL" },
+            { options: ["POPPA", "PRUA"], correct: "POPPA" }
+        ]
+    },
+    {
+        id: 34,
+        solution: "FUOCO",
+        explanation: "Appiccare il FUOCO. Prova del FUOCO. FUOCO e fiamme. Spegnere il FUOCO. FUOCO di paglia.",
+        pairs: [
+            { options: ["ACCENDERE", "APPICCARE"], correct: "APPICCARE" },
+            { options: ["PROVA", "TEST"], correct: "PROVA" },
+            { options: ["FUOCO", "ACQUA"], correct: "FUOCO" },
+            { options: ["ACCENDERE", "SPEGNERE"], correct: "SPEGNERE" },
+            { options: ["FIAMMA", "PAGLIA"], correct: "PAGLIA" }
+        ]
+    },
+    {
+        id: 35,
+        solution: "COPERTA",
+        explanation: "Sotto COPERTA. COPERTA di Linus. COPERTA di neve. COPERTA di lana. COPERTA di stelle.",
+        pairs: [
+            { options: ["SOPRA", "SOTTO"], correct: "SOTTO" },
+            { options: ["DI LINUS", "DI SNOOPY"], correct: "DI LINUS" },
+            { options: ["DI NEVE", "DI GHIACCIO"], correct: "DI NEVE" },
+            { options: ["DI SETA", "DI LANA"], correct: "DI LANA" },
+            { options: ["DI PIETRE", "DI STELLE"], correct: "DI STELLE" }
+        ]
+    },
+    {
+        id: 36,
+        solution: "OSPITE",
+        explanation: "OSPITE d'onore. OSPITE inatteso. Casa dell'OSPITE. OSPITE fisso. OSPITE gradito.",
+        pairs: [
+            { options: ["DI CASA", "D'ONORE"], correct: "D'ONORE" },
+            { options: ["PREVISTO", "INATTESO"], correct: "INATTESO" },
+            { options: ["DELL'OSPITE", "DEL PADRONE"], correct: "DELL'OSPITE" },
+            { options: ["OCCASIONALE", "FISSO"], correct: "FISSO" },
+            { options: ["INDESIDERATO", "GRADITO"], correct: "GRADITO" }
+        ]
+    }
 ];
