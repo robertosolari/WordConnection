@@ -1552,4 +1552,215 @@ const GAMES_DB = [
         ],
         "id": 25
 },
+,
+    {
+        "solution": "LUCE",
+        "explanation": "Faro di LUCE. LUCE verde. LUCE di candela. Bagno di LUCE. LUCE dell'alba.",
+        "pairs": [
+                {
+                        "options": [
+                                "FARO",
+                                "PORTO"
+                        ],
+                        "correct": "FARO"
+                },
+                {
+                        "options": [
+                                "ROSSA",
+                                "VERDE"
+                        ],
+                        "correct": "VERDE"
+                },
+                {
+                        "options": [
+                                "LUCE",
+                                "OMBRA"
+                        ],
+                        "correct": "LUCE"
+                },
+                {
+                        "options": [
+                                "BAGNO",
+                                "DOCCIA"
+                        ],
+                        "correct": "BAGNO"
+                },
+                {
+                        "options": [
+                                "TRAMONTO",
+                                "ALBA"
+                        ],
+                        "correct": "ALBA"
+                }
+        ],
+        "id": 21
+},
+    {
+        "solution": "CUORE",
+        "explanation": "Mancanza di CUORE. Battito di CUORE. CUORE d'oro. A CUORE aperto. CUORE pulsante.",
+        "pairs": [
+                {
+                        "options": [
+                                "MANCANZA",
+                                "PRESENZA"
+                        ],
+                        "correct": "MANCANZA"
+                },
+                {
+                        "options": [
+                                "BATTITO",
+                                "SCATTO"
+                        ],
+                        "correct": "BATTITO"
+                },
+                {
+                        "options": [
+                                "DURO",
+                                "D'ORO"
+                        ],
+                        "correct": "D'ORO"
+                },
+                {
+                        "options": [
+                                "CHIUSO",
+                                "APERTO"
+                        ],
+                        "correct": "APERTO"
+                },
+                {
+                        "options": [
+                                "PULSANTE",
+                                "FERMO"
+                        ],
+                        "correct": "PULSANTE"
+                }
+        ],
+        "id": 22
+},
+    {
+        "solution": "VENTO",
+        "explanation": "Giro di VENTO. VENTO in poppa. VENTO di cambiamento. VENTO di mare. Soffio di VENTO.",
+        "pairs": [
+                {
+                        "options": [
+                                "GIRO",
+                                "CORSA"
+                        ],
+                        "correct": "GIRO"
+                },
+                {
+                        "options": [
+                                "IN POPPA",
+                                "CONTRO"
+                        ],
+                        "correct": "IN POPPA"
+                },
+                {
+                        "options": [
+                                "STAGNAZIONE",
+                                "CAMBIAMENTO"
+                        ],
+                        "correct": "CAMBIAMENTO"
+                },
+                {
+                        "options": [
+                                "TERRA",
+                                "MARE"
+                        ],
+                        "correct": "MARE"
+                },
+                {
+                        "options": [
+                                "URLO",
+                                "SOFFIO"
+                        ],
+                        "correct": "SOFFIO"
+                }
+        ],
+        "id": 23
+},
+    {
+        "solution": "TEMPO",
+        "explanation": "Macchina del TEMPO. TEMPO libero. È questione di TEMPO. TEMPO di cottura. Fuori TEMPO.",
+        "pairs": [
+                {
+                        "options": [
+                                "MACCHINA",
+                                "OROLOGIO"
+                        ],
+                        "correct": "MACCHINA"
+                },
+                {
+                        "options": [
+                                "LIBERO",
+                                "OCCUPATO"
+                        ],
+                        "correct": "LIBERO"
+                },
+                {
+                        "options": [
+                                "QUESTIONE",
+                                "CASO"
+                        ],
+                        "correct": "QUESTIONE"
+                },
+                {
+                        "options": [
+                                "COTTURA",
+                                "FESTA"
+                        ],
+                        "correct": "COTTURA"
+                },
+                {
+                        "options": [
+                                "FUORI",
+                                "DENTRO"
+                        ],
+                        "correct": "FUORI"
+                }
+        ],
+        "id": 24
+},
+    {
+        "solution": "CIELO",
+        "explanation": "Frecce nel CIELO. CIELO stellato. Azzurro come il CIELO. Sotto il CIELO. CIELO di piombo.",
+        "pairs": [
+                {
+                        "options": [
+                                "FRECCE",
+                                "SASSI"
+                        ],
+                        "correct": "FRECCE"
+                },
+                {
+                        "options": [
+                                "STELLATO",
+                                "NUVOSO"
+                        ],
+                        "correct": "STELLATO"
+                },
+                {
+                        "options": [
+                                "AZZURRO",
+                                "VERDE"
+                        ],
+                        "correct": "AZZURRO"
+                },
+                {
+                        "options": [
+                                "SOTTO",
+                                "SOPRA"
+                        ],
+                        "correct": "SOTTO"
+                },
+                {
+                        "options": [
+                                "FERRO",
+                                "PIOMBO"
+                        ],
+                        "correct": "PIOMBO"
+                }
+        ],
+        "id": 25
+},
 ];
