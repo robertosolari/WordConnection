@@ -34,6 +34,7 @@ def generate_new_games(start_id, count=5):
     Ogni livello deve avere:
     - Una 'solution': La parola che collega tutti gli indizi.
     - Una 'explanation': Una breve frase che spiega i collegamenti.
+    - La parola che collega tutti gli indizi non può essere essa stessa presente in nessuna delle coppie di opzioni.
     - 5 'pairs': Ogni coppia ha 2 opzioni e 1 risposta corretta che si lega alla soluzione.
     
     FORMATO OUTPUT JSON STRETTO:
@@ -48,7 +49,7 @@ def generate_new_games(start_id, count=5):
       }}
     ]
     
-    Usa parole stimolanti, fai una progressione di difficoltà, ovvero le prime coppie devono essere abbastanza facili, le ultime molto, molto difficili, non fare connessioni semplici o banali.
+    Usa parole stimolanti, fai una progressione di difficoltà molto, molto difficili, non fare connessioni semplici o banali.
     Questo un esempio di solution:
     {{
         "solution": "MANO",
