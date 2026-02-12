@@ -431,4 +431,215 @@ const GAMES_DB = [
             { options: ["INDESIDERATO", "GRADITO"], correct: "GRADITO" }
         ]
     }
+,
+    {
+        "solution": "CHIAVE",
+        "explanation": "Nota CHIAVE. CHIAVE inglese. CHIAVE di volta. Parola CHIAVE. CHIAVE di sicurezza.",
+        "pairs": [
+                {
+                        "options": [
+                                "TONO",
+                                "NOTA"
+                        ],
+                        "correct": "NOTA"
+                },
+                {
+                        "options": [
+                                "INGLESE",
+                                "FRANCESE"
+                        ],
+                        "correct": "INGLESE"
+                },
+                {
+                        "options": [
+                                "COLONNA",
+                                "VOLTA"
+                        ],
+                        "correct": "VOLTA"
+                },
+                {
+                        "options": [
+                                "SEGRETA",
+                                "PAROLA"
+                        ],
+                        "correct": "PAROLA"
+                },
+                {
+                        "options": [
+                                "SICUREZZA",
+                                "APERTURA"
+                        ],
+                        "correct": "SICUREZZA"
+                }
+        ],
+        "id": 37
+},
+    {
+        "solution": "CORONA",
+        "explanation": "CORONA di fiori. CORONA virale. CORONA dentale. CORONA solare. CORONA d'alloro.",
+        "pairs": [
+                {
+                        "options": [
+                                "FESTA",
+                                "FIORI"
+                        ],
+                        "correct": "FIORI"
+                },
+                {
+                        "options": [
+                                "VIRALE",
+                                "BACTERIALE"
+                        ],
+                        "correct": "VIRALE"
+                },
+                {
+                        "options": [
+                                "CAVITÀ",
+                                "DENTALE"
+                        ],
+                        "correct": "DENTALE"
+                },
+                {
+                        "options": [
+                                "LUNARE",
+                                "SOLARE"
+                        ],
+                        "correct": "SOLARE"
+                },
+                {
+                        "options": [
+                                "ALLORO",
+                                "ORO"
+                        ],
+                        "correct": "ALLORO"
+                }
+        ],
+        "id": 38
+},
+    {
+        "solution": "CUORE",
+        "explanation": "Mal di CUORE. Cuore di pietra. Cuore d'oro. CUORE pulsante. In CUORE.",
+        "pairs": [
+                {
+                        "options": [
+                                "MALE",
+                                "MAL"
+                        ],
+                        "correct": "MAL"
+                },
+                {
+                        "options": [
+                                "FERRO",
+                                "PIETRA"
+                        ],
+                        "correct": "PIETRA"
+                },
+                {
+                        "options": [
+                                "ORO",
+                                "ARGENTO"
+                        ],
+                        "correct": "ORO"
+                },
+                {
+                        "options": [
+                                "PULSANTE",
+                                "BATTERE"
+                        ],
+                        "correct": "PULSANTE"
+                },
+                {
+                        "options": [
+                                "TESTA",
+                                "CUORE"
+                        ],
+                        "correct": "CUORE"
+                }
+        ],
+        "id": 39
+},
+    {
+        "solution": "LUCE",
+        "explanation": "LUCE del sole. LUCE verde. LUCE rossa. LUCE di candele. LUCE guida.",
+        "pairs": [
+                {
+                        "options": [
+                                "SOLE",
+                                "NEVE"
+                        ],
+                        "correct": "SOLE"
+                },
+                {
+                        "options": [
+                                "VERDE",
+                                "GIALLA"
+                        ],
+                        "correct": "VERDE"
+                },
+                {
+                        "options": [
+                                "ROSSA",
+                                "NERA"
+                        ],
+                        "correct": "ROSSA"
+                },
+                {
+                        "options": [
+                                "LAMPADA",
+                                "CANDELE"
+                        ],
+                        "correct": "CANDELE"
+                },
+                {
+                        "options": [
+                                "GUIDA",
+                                "SENTIERO"
+                        ],
+                        "correct": "GUIDA"
+                }
+        ],
+        "id": 40
+},
+    {
+        "solution": "PUNTO",
+        "explanation": "PUNTO di vista. PUNTO e virgola. PUNTO debole. PUNTO di incontro. PUNTO fermo.",
+        "pairs": [
+                {
+                        "options": [
+                                "VISTA",
+                                "SENTIRE"
+                        ],
+                        "correct": "VISTA"
+                },
+                {
+                        "options": [
+                                "VIRGOLA",
+                                "PUNTO"
+                        ],
+                        "correct": "VIRGOLA"
+                },
+                {
+                        "options": [
+                                "FORTE",
+                                "DEBOLE"
+                        ],
+                        "correct": "DEBOLE"
+                },
+                {
+                        "options": [
+                                "PARTENZA",
+                                "INCONTRO"
+                        ],
+                        "correct": "INCONTRO"
+                },
+                {
+                        "options": [
+                                "FERMO",
+                                "MOBILE"
+                        ],
+                        "correct": "FERMO"
+                }
+        ],
+        "id": 41
+},
 ];
