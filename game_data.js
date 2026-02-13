@@ -642,4 +642,215 @@ const GAMES_DB = [
         ],
         "id": 41
 },
+,
+    {
+        "solution": "LUCE",
+        "explanation": "Far LUCE su qualcosa. LUCE del sole. Interruttore della LUCE. LUCE verde. LUCE della ribalta.",
+        "pairs": [
+                {
+                        "options": [
+                                "SCURO",
+                                "SOLE"
+                        ],
+                        "correct": "SOLE"
+                },
+                {
+                        "options": [
+                                "ACCENDERE",
+                                "SPEGNERE"
+                        ],
+                        "correct": "ACCENDERE"
+                },
+                {
+                        "options": [
+                                "ROSSA",
+                                "VERDE"
+                        ],
+                        "correct": "VERDE"
+                },
+                {
+                        "options": [
+                                "OMBRA",
+                                "RIBALTA"
+                        ],
+                        "correct": "RIBALTA"
+                },
+                {
+                        "options": [
+                                "FAR",
+                                "COPRIRE"
+                        ],
+                        "correct": "FAR"
+                }
+        ],
+        "id": 37
+},
+    {
+        "solution": "CIELO",
+        "explanation": "Sotto il CIELO. CIELO stellato. CIELO grigio. CIELO di piombo. CIELO aperto.",
+        "pairs": [
+                {
+                        "options": [
+                                "TERRA",
+                                "ACQUA"
+                        ],
+                        "correct": "TERRA"
+                },
+                {
+                        "options": [
+                                "BRILLANTE",
+                                "STELLATO"
+                        ],
+                        "correct": "STELLATO"
+                },
+                {
+                        "options": [
+                                "GRIGIO",
+                                "BUIO"
+                        ],
+                        "correct": "GRIGIO"
+                },
+                {
+                        "options": [
+                                "LEGGERO",
+                                "DI PIOMBO"
+                        ],
+                        "correct": "DI PIOMBO"
+                },
+                {
+                        "options": [
+                                "CHIUSO",
+                                "APERTO"
+                        ],
+                        "correct": "APERTO"
+                }
+        ],
+        "id": 38
+},
+    {
+        "solution": "TEMPO",
+        "explanation": "TEMPO libero. TEMPO meteorologico. TEMPO di cottura. TEMPO di reazione. TEMPO scaduto.",
+        "pairs": [
+                {
+                        "options": [
+                                "LIBERO",
+                                "CHIUSO"
+                        ],
+                        "correct": "LIBERO"
+                },
+                {
+                        "options": [
+                                "CLIMA",
+                                "METEOROLOGICO"
+                        ],
+                        "correct": "METEOROLOGICO"
+                },
+                {
+                        "options": [
+                                "RIPOSO",
+                                "COTTURA"
+                        ],
+                        "correct": "COTTURA"
+                },
+                {
+                        "options": [
+                                "RITARDO",
+                                "REAZIONE"
+                        ],
+                        "correct": "REAZIONE"
+                },
+                {
+                        "options": [
+                                "SCADUTO",
+                                "INFINITO"
+                        ],
+                        "correct": "SCADUTO"
+                }
+        ],
+        "id": 39
+},
+    {
+        "solution": "FIORE",
+        "explanation": "FIORE all’occhiello. FIORE di loto. FIORE di campo. FIORE appassito. FIORE di giovinezza.",
+        "pairs": [
+                {
+                        "options": [
+                                "OCCHIELLO",
+                                "BRACCIO"
+                        ],
+                        "correct": "OCCHIELLO"
+                },
+                {
+                        "options": [
+                                "ROSA",
+                                "LOTO"
+                        ],
+                        "correct": "LOTO"
+                },
+                {
+                        "options": [
+                                "MARE",
+                                "CAMPO"
+                        ],
+                        "correct": "CAMPO"
+                },
+                {
+                        "options": [
+                                "FRESCO",
+                                "APPASSITO"
+                        ],
+                        "correct": "APPASSITO"
+                },
+                {
+                        "options": [
+                                "VECCHIAIA",
+                                "GIOVINEZZA"
+                        ],
+                        "correct": "GIOVINEZZA"
+                }
+        ],
+        "id": 40
+},
+    {
+        "solution": "PIETRA",
+        "explanation": "PIETRA miliare. PIETRA preziosa. Lanciare una PIETRA. PIETRA angolare. PIETRA filosofale.",
+        "pairs": [
+                {
+                        "options": [
+                                "MILIARDA",
+                                "MILIARE"
+                        ],
+                        "correct": "MILIARE"
+                },
+                {
+                        "options": [
+                                "ORO",
+                                "PREZIOSA"
+                        ],
+                        "correct": "PREZIOSA"
+                },
+                {
+                        "options": [
+                                "LANCIARLA",
+                                "COPRIRLA"
+                        ],
+                        "correct": "LANCIARLA"
+                },
+                {
+                        "options": [
+                                "ANGOLO",
+                                "ANGOLORETTO"
+                        ],
+                        "correct": "ANGOLO"
+                },
+                {
+                        "options": [
+                                "FILOSOFALE",
+                                "MAGICA"
+                        ],
+                        "correct": "FILOSOFALE"
+                }
+        ],
+        "id": 41
+},
 ];
