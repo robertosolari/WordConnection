@@ -853,4 +853,215 @@ const GAMES_DB = [
         ],
         "id": 41
 },
+,
+    {
+        "solution": "CORDA",
+        "explanation": "Saltare alla CORDA. Nodo della CORDA. CORDA vocale. CORDA elastica. Tensione della CORDA.",
+        "pairs": [
+                {
+                        "options": [
+                                "SALTARE",
+                                "CORRERE"
+                        ],
+                        "correct": "SALTARE"
+                },
+                {
+                        "options": [
+                                "NODO",
+                                "ANELLO"
+                        ],
+                        "correct": "NODO"
+                },
+                {
+                        "options": [
+                                "VOCALE",
+                                "ARMONICA"
+                        ],
+                        "correct": "VOCALE"
+                },
+                {
+                        "options": [
+                                "RIGIDA",
+                                "ELASTICA"
+                        ],
+                        "correct": "ELASTICA"
+                },
+                {
+                        "options": [
+                                "PRESSIONE",
+                                "TENSIONE"
+                        ],
+                        "correct": "TENSIONE"
+                }
+        ],
+        "id": 37
+},
+    {
+        "solution": "LUCE",
+        "explanation": "Punto LUCE. Velocità della LUCE. Fare LUCE. LUCE naturale. LUCE verde.",
+        "pairs": [
+                {
+                        "options": [
+                                "PUNTO",
+                                "LINEA"
+                        ],
+                        "correct": "PUNTO"
+                },
+                {
+                        "options": [
+                                "SUONO",
+                                "LUCE"
+                        ],
+                        "correct": "LUCE"
+                },
+                {
+                        "options": [
+                                "LUCE",
+                                "OMBRA"
+                        ],
+                        "correct": "LUCE"
+                },
+                {
+                        "options": [
+                                "NATURALE",
+                                "ARTIFICIALE"
+                        ],
+                        "correct": "NATURALE"
+                },
+                {
+                        "options": [
+                                "ROSSO",
+                                "VERDE"
+                        ],
+                        "correct": "VERDE"
+                }
+        ],
+        "id": 38
+},
+    {
+        "solution": "PIANO",
+        "explanation": "PIANO regolatore. A PIANO. PIANO inclinato. Fare PIANO. PIANO di fuga.",
+        "pairs": [
+                {
+                        "options": [
+                                "REGOLATORE",
+                                "DISORDINATO"
+                        ],
+                        "correct": "REGOLATORE"
+                },
+                {
+                        "options": [
+                                "A",
+                                "PER"
+                        ],
+                        "correct": "A"
+                },
+                {
+                        "options": [
+                                "INCLINATO",
+                                "ORIZZONTALE"
+                        ],
+                        "correct": "INCLINATO"
+                },
+                {
+                        "options": [
+                                "FORTE",
+                                "PIANO"
+                        ],
+                        "correct": "PIANO"
+                },
+                {
+                        "options": [
+                                "FUGA",
+                                "ATTACCO"
+                        ],
+                        "correct": "FUGA"
+                }
+        ],
+        "id": 39
+},
+    {
+        "solution": "RETE",
+        "explanation": "Maglia di una RETE. RETE stradale. In RETE. RETE da pesca. RETE sociale.",
+        "pairs": [
+                {
+                        "options": [
+                                "MAGLIA",
+                                "FIUME"
+                        ],
+                        "correct": "MAGLIA"
+                },
+                {
+                        "options": [
+                                "FERROVIARIA",
+                                "STRADALE"
+                        ],
+                        "correct": "STRADALE"
+                },
+                {
+                        "options": [
+                                "IN",
+                                "SU"
+                        ],
+                        "correct": "IN"
+                },
+                {
+                        "options": [
+                                "DA PESCA",
+                                "DA CACCIA"
+                        ],
+                        "correct": "DA PESCA"
+                },
+                {
+                        "options": [
+                                "SOCIALE",
+                                "INDIVIDUALE"
+                        ],
+                        "correct": "SOCIALE"
+                }
+        ],
+        "id": 40
+},
+    {
+        "solution": "FOGLIA",
+        "explanation": "FOGLIA di fico. FOGLIA d'oro. FOGLIA di alloro. FOGLIA di tè. FOGLIA morta.",
+        "pairs": [
+                {
+                        "options": [
+                                "FICO",
+                                "MELA"
+                        ],
+                        "correct": "FICO"
+                },
+                {
+                        "options": [
+                                "ARGENTO",
+                                "ORO"
+                        ],
+                        "correct": "ORO"
+                },
+                {
+                        "options": [
+                                "ALLORO",
+                                "ROSMARINO"
+                        ],
+                        "correct": "ALLORO"
+                },
+                {
+                        "options": [
+                                "TÈ",
+                                "CAFFÈ"
+                        ],
+                        "correct": "TÈ"
+                },
+                {
+                        "options": [
+                                "VIVA",
+                                "MORTA"
+                        ],
+                        "correct": "MORTA"
+                }
+        ],
+        "id": 41
+},
 ];
