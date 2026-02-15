@@ -1064,4 +1064,215 @@ const GAMES_DB = [
         ],
         "id": 41
 },
+,
+    {
+        "solution": "FILO",
+        "explanation": "Filo conduttore. Seguire il filo. Filo del discorso. Sul filo del rasoio. Filo di lana.",
+        "pairs": [
+                {
+                        "options": [
+                                "CONDUTTORE",
+                                "SPERSONA"
+                        ],
+                        "correct": "CONDUTTORE"
+                },
+                {
+                        "options": [
+                                "SEGUIRE",
+                                "DIMENTICARE"
+                        ],
+                        "correct": "SEGUIRE"
+                },
+                {
+                        "options": [
+                                "TEMPO",
+                                "DISCORSO"
+                        ],
+                        "correct": "DISCORSO"
+                },
+                {
+                        "options": [
+                                "RASOIO",
+                                "SILENZIO"
+                        ],
+                        "correct": "RASOIO"
+                },
+                {
+                        "options": [
+                                "LANA",
+                                "COTONE"
+                        ],
+                        "correct": "LANA"
+                }
+        ],
+        "id": 37
+},
+    {
+        "solution": "TERRA",
+        "explanation": "Terra di nessuno. Terra promessa. Cadere a terra. Terra battuta. Terra di mezzo.",
+        "pairs": [
+                {
+                        "options": [
+                                "PROMESSA",
+                                "RIVENDICATA"
+                        ],
+                        "correct": "PROMESSA"
+                },
+                {
+                        "options": [
+                                "CADERE",
+                                "VOLARE"
+                        ],
+                        "correct": "CADERE"
+                },
+                {
+                        "options": [
+                                "BATTUTA",
+                                "MORBIDA"
+                        ],
+                        "correct": "BATTUTA"
+                },
+                {
+                        "options": [
+                                "NESSUNO",
+                                "QUALCUNO"
+                        ],
+                        "correct": "NESSUNO"
+                },
+                {
+                        "options": [
+                                "MEZZO",
+                                "FINALE"
+                        ],
+                        "correct": "MEZZO"
+                }
+        ],
+        "id": 38
+},
+    {
+        "solution": "LUCE",
+        "explanation": "Alla luce del sole. Luce dei riflettori. Vedere la luce. Luce in fondo al tunnel. Luce di cortesia.",
+        "pairs": [
+                {
+                        "options": [
+                                "SOLE",
+                                "OMBRA"
+                        ],
+                        "correct": "SOLE"
+                },
+                {
+                        "options": [
+                                "RIFLETTORI",
+                                "SPALLE"
+                        ],
+                        "correct": "RIFLETTORI"
+                },
+                {
+                        "options": [
+                                "NASCONDERE",
+                                "VEDERE"
+                        ],
+                        "correct": "VEDERE"
+                },
+                {
+                        "options": [
+                                "INIZIO",
+                                "FONDO"
+                        ],
+                        "correct": "FONDO"
+                },
+                {
+                        "options": [
+                                "CORTESIA",
+                                "INDIFFERENZA"
+                        ],
+                        "correct": "CORTESIA"
+                }
+        ],
+        "id": 39
+},
+    {
+        "solution": "CHIAVE",
+        "explanation": "Chiave di lettura. Chiave di volta. Chiave inglese. Chiave USB. Chiave per il successo.",
+        "pairs": [
+                {
+                        "options": [
+                                "VOLTA",
+                                "GIRO"
+                        ],
+                        "correct": "VOLTA"
+                },
+                {
+                        "options": [
+                                "INGLESE",
+                                "FRANCESE"
+                        ],
+                        "correct": "INGLESE"
+                },
+                {
+                        "options": [
+                                "LETTURA",
+                                "SCRITTURA"
+                        ],
+                        "correct": "LETTURA"
+                },
+                {
+                        "options": [
+                                "USB",
+                                "CD"
+                        ],
+                        "correct": "USB"
+                },
+                {
+                        "options": [
+                                "INSUCCESSO",
+                                "SUCCESSO"
+                        ],
+                        "correct": "SUCCESSO"
+                }
+        ],
+        "id": 40
+},
+    {
+        "solution": "CORSA",
+        "explanation": "Corsa contro il tempo. Fare una corsa. Corsa all'oro. Corsa ai ripari. Corsa ciclistica.",
+        "pairs": [
+                {
+                        "options": [
+                                "TEMPO",
+                                "SPAZIO"
+                        ],
+                        "correct": "TEMPO"
+                },
+                {
+                        "options": [
+                                "FARE",
+                                "EVITARE"
+                        ],
+                        "correct": "FARE"
+                },
+                {
+                        "options": [
+                                "ORO",
+                                "ARGENTO"
+                        ],
+                        "correct": "ORO"
+                },
+                {
+                        "options": [
+                                "RIPARI",
+                                "ATTACCHI"
+                        ],
+                        "correct": "RIPARI"
+                },
+                {
+                        "options": [
+                                "CICLISTICA",
+                                "NAUTICA"
+                        ],
+                        "correct": "CICLISTICA"
+                }
+        ],
+        "id": 41
+},
 ];
