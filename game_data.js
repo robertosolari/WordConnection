@@ -1275,4 +1275,215 @@ const GAMES_DB = [
         ],
         "id": 41
 },
+,
+    {
+        "solution": "CORSA",
+        "explanation": "CORSA contro il tempo. CORSA all'oro. CORSA podistica. CORSA in auto. CORSA alle armi.",
+        "pairs": [
+                {
+                        "options": [
+                                "TEMPO",
+                                "DENARO"
+                        ],
+                        "correct": "TEMPO"
+                },
+                {
+                        "options": [
+                                "ARGENTO",
+                                "ORO"
+                        ],
+                        "correct": "ORO"
+                },
+                {
+                        "options": [
+                                "NUOTO",
+                                "PODISMO"
+                        ],
+                        "correct": "PODISMO"
+                },
+                {
+                        "options": [
+                                "AUTO",
+                                "TRENO"
+                        ],
+                        "correct": "AUTO"
+                },
+                {
+                        "options": [
+                                "PACE",
+                                "ARMI"
+                        ],
+                        "correct": "ARMI"
+                }
+        ],
+        "id": 37
+},
+    {
+        "solution": "TASTO",
+        "explanation": "TASTO dolente. TASTO Ctrl. TASTO del pianoforte. TASTO da premere. TASTO funzione.",
+        "pairs": [
+                {
+                        "options": [
+                                "DOLENTE",
+                                "FELICE"
+                        ],
+                        "correct": "DOLENTE"
+                },
+                {
+                        "options": [
+                                "ALT",
+                                "CTRL"
+                        ],
+                        "correct": "CTRL"
+                },
+                {
+                        "options": [
+                                "CHITARRA",
+                                "PIANOFORTE"
+                        ],
+                        "correct": "PIANOFORTE"
+                },
+                {
+                        "options": [
+                                "SOLLEVARE",
+                                "PREMERE"
+                        ],
+                        "correct": "PREMERE"
+                },
+                {
+                        "options": [
+                                "NUMERO",
+                                "FUNZIONE"
+                        ],
+                        "correct": "FUNZIONE"
+                }
+        ],
+        "id": 38
+},
+    {
+        "solution": "LUCE",
+        "explanation": "Luce del sole. Verde luce. Spegnere la luce. Vedere la luce. Luce interiore.",
+        "pairs": [
+                {
+                        "options": [
+                                "SOLE",
+                                "LUNA"
+                        ],
+                        "correct": "SOLE"
+                },
+                {
+                        "options": [
+                                "VERDE",
+                                "ROSSA"
+                        ],
+                        "correct": "VERDE"
+                },
+                {
+                        "options": [
+                                "ACCENDERE",
+                                "SPEGNERE"
+                        ],
+                        "correct": "SPEGNERE"
+                },
+                {
+                        "options": [
+                                "CIECO",
+                                "VEDERE"
+                        ],
+                        "correct": "VEDERE"
+                },
+                {
+                        "options": [
+                                "ESTERIORE",
+                                "INTERIORE"
+                        ],
+                        "correct": "INTERIORE"
+                }
+        ],
+        "id": 39
+},
+    {
+        "solution": "NODO",
+        "explanation": "Nodo al pettine. Nodo scorsoio. Nodo gordiano. Nodo di rete. Nodo alla gola.",
+        "pairs": [
+                {
+                        "options": [
+                                "PETTINE",
+                                "SPAZZOLA"
+                        ],
+                        "correct": "PETTINE"
+                },
+                {
+                        "options": [
+                                "SCORSOIO",
+                                "RIGIDO"
+                        ],
+                        "correct": "SCORSOIO"
+                },
+                {
+                        "options": [
+                                "GORDIANO",
+                                "UMILE"
+                        ],
+                        "correct": "GORDIANO"
+                },
+                {
+                        "options": [
+                                "FILO",
+                                "RETE"
+                        ],
+                        "correct": "RETE"
+                },
+                {
+                        "options": [
+                                "ALLA",
+                                "SOTTO"
+                        ],
+                        "correct": "ALLA"
+                }
+        ],
+        "id": 40
+},
+    {
+        "solution": "PIANO",
+        "explanation": "Piano inclinato. Al piano. Piano di lavoro. Piano regolatore. Suonare il piano.",
+        "pairs": [
+                {
+                        "options": [
+                                "INCLINATO",
+                                "RETTILINEO"
+                        ],
+                        "correct": "INCLINATO"
+                },
+                {
+                        "options": [
+                                "SOTTO",
+                                "AL"
+                        ],
+                        "correct": "AL"
+                },
+                {
+                        "options": [
+                                "DIVERTIMENTO",
+                                "LAVORO"
+                        ],
+                        "correct": "LAVORO"
+                },
+                {
+                        "options": [
+                                "REGOLATORE",
+                                "CAOTICO"
+                        ],
+                        "correct": "REGOLATORE"
+                },
+                {
+                        "options": [
+                                "CANTARE",
+                                "SUONARE"
+                        ],
+                        "correct": "SUONARE"
+                }
+        ],
+        "id": 41
+},
 ];
