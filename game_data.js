@@ -1486,4 +1486,215 @@ const GAMES_DB = [
         ],
         "id": 41
 },
+,
+    {
+        "solution": "LUCE",
+        "explanation": "Colpo di LUCE. Anno LUCE. LUCE pulsata. LUCE guida. Spiraglio di LUCE.",
+        "pairs": [
+                {
+                        "options": [
+                                "COLPO",
+                                "TAGLIO"
+                        ],
+                        "correct": "COLPO"
+                },
+                {
+                        "options": [
+                                "ANNO",
+                                "GIORNO"
+                        ],
+                        "correct": "ANNO"
+                },
+                {
+                        "options": [
+                                "PULSATA",
+                                "CONTINUA"
+                        ],
+                        "correct": "PULSATA"
+                },
+                {
+                        "options": [
+                                "GUIDA",
+                                "SCORTA"
+                        ],
+                        "correct": "GUIDA"
+                },
+                {
+                        "options": [
+                                "SPIRAGLIO",
+                                "VENTAGLIO"
+                        ],
+                        "correct": "SPIRAGLIO"
+                }
+        ],
+        "id": 37
+},
+    {
+        "solution": "VIA",
+        "explanation": "VIA crucis. VIA lattea. VIA d'uscita. VIA libera. Andare per la propria VIA.",
+        "pairs": [
+                {
+                        "options": [
+                                "CRUCIS",
+                                "CROCIFISSO"
+                        ],
+                        "correct": "CRUCIS"
+                },
+                {
+                        "options": [
+                                "LATTEA",
+                                "STELLARE"
+                        ],
+                        "correct": "LATTEA"
+                },
+                {
+                        "options": [
+                                "D'USCITA",
+                                "DI FUGA"
+                        ],
+                        "correct": "D'USCITA"
+                },
+                {
+                        "options": [
+                                "LIBERA",
+                                "CHIUSA"
+                        ],
+                        "correct": "LIBERA"
+                },
+                {
+                        "options": [
+                                "STRADA",
+                                "PROPRIA"
+                        ],
+                        "correct": "PROPRIA"
+                }
+        ],
+        "id": 38
+},
+    {
+        "solution": "CUORE",
+        "explanation": "Colpo al CUORE. CUORE pulsante. Di CUORE. A CUORE aperto. CUORE infranto.",
+        "pairs": [
+                {
+                        "options": [
+                                "COLPO AL",
+                                "TAGLIO AL"
+                        ],
+                        "correct": "COLPO AL"
+                },
+                {
+                        "options": [
+                                "PULSANTE",
+                                "STAZIONARIO"
+                        ],
+                        "correct": "PULSANTE"
+                },
+                {
+                        "options": [
+                                "DI CUORE",
+                                "DI PANCIA"
+                        ],
+                        "correct": "DI CUORE"
+                },
+                {
+                        "options": [
+                                "A CUORE APERTO",
+                                "A FACCIA SCOPERTA"
+                        ],
+                        "correct": "A CUORE APERTO"
+                },
+                {
+                        "options": [
+                                "INFRANTO",
+                                "RICOSTRUITO"
+                        ],
+                        "correct": "INFRANTO"
+                }
+        ],
+        "id": 39
+},
+    {
+        "solution": "TERRA",
+        "explanation": "TERRA promessa. TERRA bruciata. TERRA di nessuno. Fiore di TERRA. Cadere a TERRA.",
+        "pairs": [
+                {
+                        "options": [
+                                "PROMESSA",
+                                "MANTENUTA"
+                        ],
+                        "correct": "PROMESSA"
+                },
+                {
+                        "options": [
+                                "BRUCIATA",
+                                "INNAFFIATA"
+                        ],
+                        "correct": "BRUCIATA"
+                },
+                {
+                        "options": [
+                                "DI NESSUNO",
+                                "DI TUTTI"
+                        ],
+                        "correct": "DI NESSUNO"
+                },
+                {
+                        "options": [
+                                "FIORE DI TERRA",
+                                "FIORE DI CAMPO"
+                        ],
+                        "correct": "FIORE DI TERRA"
+                },
+                {
+                        "options": [
+                                "CADERE A TERRA",
+                                "VOLARE IN ALTO"
+                        ],
+                        "correct": "CADERE A TERRA"
+                }
+        ],
+        "id": 40
+},
+    {
+        "solution": "CIELO",
+        "explanation": "A CIELO aperto. Stare con il CIELO. CIELO grigio. Sogni di CIELO. Volare in CIELO.",
+        "pairs": [
+                {
+                        "options": [
+                                "APERTO",
+                                "CHIUSO"
+                        ],
+                        "correct": "APERTO"
+                },
+                {
+                        "options": [
+                                "CON",
+                                "SENZA"
+                        ],
+                        "correct": "CON"
+                },
+                {
+                        "options": [
+                                "GRIGIO",
+                                "AZZURRO"
+                        ],
+                        "correct": "GRIGIO"
+                },
+                {
+                        "options": [
+                                "DI CIELO",
+                                "DI SPERANZA"
+                        ],
+                        "correct": "DI CIELO"
+                },
+                {
+                        "options": [
+                                "VOLARE IN CIELO",
+                                "CAMMINARE A TERRA"
+                        ],
+                        "correct": "VOLARE IN CIELO"
+                }
+        ],
+        "id": 41
+},
 ];
