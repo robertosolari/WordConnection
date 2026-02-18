@@ -1697,4 +1697,215 @@ const GAMES_DB = [
         ],
         "id": 41
 },
+,
+    {
+        "solution": "CHIAVE",
+        "explanation": "Nota CHIAVE. CHIAVE inglese. Chiave di volta. CHIAVE USB. CHIAVE di lettura.",
+        "pairs": [
+                {
+                        "options": [
+                                "NOTA",
+                                "MELODIA"
+                        ],
+                        "correct": "NOTA"
+                },
+                {
+                        "options": [
+                                "FRANCESE",
+                                "INGLESE"
+                        ],
+                        "correct": "INGLESE"
+                },
+                {
+                        "options": [
+                                "VOLTA",
+                                "GIRO"
+                        ],
+                        "correct": "VOLTA"
+                },
+                {
+                        "options": [
+                                "PENDRIVE",
+                                "USB"
+                        ],
+                        "correct": "USB"
+                },
+                {
+                        "options": [
+                                "CHIAMATA",
+                                "LETTURA"
+                        ],
+                        "correct": "LETTURA"
+                }
+        ],
+        "id": 37
+},
+    {
+        "solution": "LUCE",
+        "explanation": "Punto LUCE. Colpo di LUCE. Verde LUCE. LUCE di coda. In LUCE.",
+        "pairs": [
+                {
+                        "options": [
+                                "PUNTO",
+                                "LINEA"
+                        ],
+                        "correct": "PUNTO"
+                },
+                {
+                        "options": [
+                                "COLPO",
+                                "GIOCO"
+                        ],
+                        "correct": "COLPO"
+                },
+                {
+                        "options": [
+                                "ROSSO",
+                                "VERDE"
+                        ],
+                        "correct": "VERDE"
+                },
+                {
+                        "options": [
+                                "CIELO",
+                                "CODA"
+                        ],
+                        "correct": "CODA"
+                },
+                {
+                        "options": [
+                                "OMBRA",
+                                "LUCE"
+                        ],
+                        "correct": "LUCE"
+                }
+        ],
+        "id": 38
+},
+    {
+        "solution": "TESTA",
+        "explanation": "A TESTA in giù. TESTA di serie. TESTA calda. Di TESTA. TESTA di ponte.",
+        "pairs": [
+                {
+                        "options": [
+                                "PIEDI",
+                                "TESTA"
+                        ],
+                        "correct": "TESTA"
+                },
+                {
+                        "options": [
+                                "SERIE",
+                                "FILM"
+                        ],
+                        "correct": "SERIE"
+                },
+                {
+                        "options": [
+                                "CALDA",
+                                "FREDDA"
+                        ],
+                        "correct": "CALDA"
+                },
+                {
+                        "options": [
+                                "CUORE",
+                                "TESTA"
+                        ],
+                        "correct": "TESTA"
+                },
+                {
+                        "options": [
+                                "PONTE",
+                                "FARO"
+                        ],
+                        "correct": "PONTE"
+                }
+        ],
+        "id": 39
+},
+    {
+        "solution": "ONDA",
+        "explanation": "Onda lunga. Onda radio. Onda sonora. Onda anomala. Onda d'urto.",
+        "pairs": [
+                {
+                        "options": [
+                                "LUNGA",
+                                "BREVE"
+                        ],
+                        "correct": "LUNGA"
+                },
+                {
+                        "options": [
+                                "RAI",
+                                "RADIO"
+                        ],
+                        "correct": "RADIO"
+                },
+                {
+                        "options": [
+                                "SONORA",
+                                "VISIVA"
+                        ],
+                        "correct": "SONORA"
+                },
+                {
+                        "options": [
+                                "NORMALE",
+                                "ANOMALA"
+                        ],
+                        "correct": "ANOMALA"
+                },
+                {
+                        "options": [
+                                "URTO",
+                                "PRESSIONE"
+                        ],
+                        "correct": "URTO"
+                }
+        ],
+        "id": 40
+},
+    {
+        "solution": "FONDO",
+        "explanation": "A FONDO perduto. FONDO cassa. FONDO schiena. FONDO scala. FONDO tinta.",
+        "pairs": [
+                {
+                        "options": [
+                                "PERDUTO",
+                                "TROVATO"
+                        ],
+                        "correct": "PERDUTO"
+                },
+                {
+                        "options": [
+                                "CASSA",
+                                "SCAFFALE"
+                        ],
+                        "correct": "CASSA"
+                },
+                {
+                        "options": [
+                                "SCHIENA",
+                                "GAMBA"
+                        ],
+                        "correct": "SCHIENA"
+                },
+                {
+                        "options": [
+                                "ALTO",
+                                "SCALA"
+                        ],
+                        "correct": "SCALA"
+                },
+                {
+                        "options": [
+                                "TINTA",
+                                "TONO"
+                        ],
+                        "correct": "TINTA"
+                }
+        ],
+        "id": 41
+},
 ];
