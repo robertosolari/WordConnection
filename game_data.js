@@ -1908,4 +1908,215 @@ const GAMES_DB = [
         ],
         "id": 41
 },
+,
+    {
+        "solution": "CUORE",
+        "explanation": "Cuore d'oro. Parola di cuore. A cuore aperto. Colpo al cuore. Cuore di pietra.",
+        "pairs": [
+                {
+                        "options": [
+                                "CUORE",
+                                "ANIMA"
+                        ],
+                        "correct": "CUORE"
+                },
+                {
+                        "options": [
+                                "PAROLA",
+                                "FATTO"
+                        ],
+                        "correct": "PAROLA"
+                },
+                {
+                        "options": [
+                                "CHIUSO",
+                                "APERTO"
+                        ],
+                        "correct": "APERTO"
+                },
+                {
+                        "options": [
+                                "COLPO",
+                                "PUGNO"
+                        ],
+                        "correct": "COLPO"
+                },
+                {
+                        "options": [
+                                "FERRO",
+                                "PIETRA"
+                        ],
+                        "correct": "PIETRA"
+                }
+        ],
+        "id": 37
+},
+    {
+        "solution": "LUCE",
+        "explanation": "Luce del sole. In piena luce. Luce notturna. Luce di speranza. Luce verde.",
+        "pairs": [
+                {
+                        "options": [
+                                "SOLE",
+                                "LUNA"
+                        ],
+                        "correct": "SOLE"
+                },
+                {
+                        "options": [
+                                "PIENA",
+                                "VUOTA"
+                        ],
+                        "correct": "PIENA"
+                },
+                {
+                        "options": [
+                                "DIURNA",
+                                "NOTTURNA"
+                        ],
+                        "correct": "NOTTURNA"
+                },
+                {
+                        "options": [
+                                "DISPERAZIONE",
+                                "SPERANZA"
+                        ],
+                        "correct": "SPERANZA"
+                },
+                {
+                        "options": [
+                                "ROSSA",
+                                "VERDE"
+                        ],
+                        "correct": "VERDE"
+                }
+        ],
+        "id": 38
+},
+    {
+        "solution": "FOGLIO",
+        "explanation": "Foglio di carta. Foglio excel. Foglio bianco. Foglio di via. Foglio illustrativo.",
+        "pairs": [
+                {
+                        "options": [
+                                "CARTA",
+                                "PLASTICA"
+                        ],
+                        "correct": "CARTA"
+                },
+                {
+                        "options": [
+                                "PDF",
+                                "EXCEL"
+                        ],
+                        "correct": "EXCEL"
+                },
+                {
+                        "options": [
+                                "NERO",
+                                "BIANCO"
+                        ],
+                        "correct": "BIANCO"
+                },
+                {
+                        "options": [
+                                "ENTRATA",
+                                "VIA"
+                        ],
+                        "correct": "VIA"
+                },
+                {
+                        "options": [
+                                "MANUALE",
+                                "ILLUSTRATIVO"
+                        ],
+                        "correct": "ILLUSTRATIVO"
+                }
+        ],
+        "id": 39
+},
+    {
+        "solution": "VENTO",
+        "explanation": "Vento di burrasca. Parole al vento. Vento contrario. Vento del nord. Vento di cambiamento.",
+        "pairs": [
+                {
+                        "options": [
+                                "CALMA",
+                                "BURRASCA"
+                        ],
+                        "correct": "BURRASCA"
+                },
+                {
+                        "options": [
+                                "FATTI",
+                                "PAROLE"
+                        ],
+                        "correct": "PAROLE"
+                },
+                {
+                        "options": [
+                                "FAVOREVOLE",
+                                "CONTRARIO"
+                        ],
+                        "correct": "CONTRARIO"
+                },
+                {
+                        "options": [
+                                "SUD",
+                                "NORD"
+                        ],
+                        "correct": "NORD"
+                },
+                {
+                        "options": [
+                                "STAGNAZIONE",
+                                "CAMBIAMENTO"
+                        ],
+                        "correct": "CAMBIAMENTO"
+                }
+        ],
+        "id": 40
+},
+    {
+        "solution": "STELLA",
+        "explanation": "Stella polare. Stella del cinema. Stella cadente. Stella marina. Stella di Natale.",
+        "pairs": [
+                {
+                        "options": [
+                                "POLARE",
+                                "EQUATORIALE"
+                        ],
+                        "correct": "POLARE"
+                },
+                {
+                        "options": [
+                                "TEATRO",
+                                "CINEMA"
+                        ],
+                        "correct": "CINEMA"
+                },
+                {
+                        "options": [
+                                "ASCENDENTE",
+                                "CADENTE"
+                        ],
+                        "correct": "CADENTE"
+                },
+                {
+                        "options": [
+                                "MARINA",
+                                "MONTANA"
+                        ],
+                        "correct": "MARINA"
+                },
+                {
+                        "options": [
+                                "PASQUA",
+                                "NATALE"
+                        ],
+                        "correct": "NATALE"
+                }
+        ],
+        "id": 41
+},
 ];
