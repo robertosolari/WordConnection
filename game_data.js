@@ -2119,4 +2119,215 @@ const GAMES_DB = [
         ],
         "id": 41
 },
+,
+    {
+        "solution": "LUCE",
+        "explanation": "Colpo di LUCE. Alla LUCE. LUCE verde. LUCE del sole. LUCE in fondo.",
+        "pairs": [
+                {
+                        "options": [
+                                "COLPO",
+                                "SPAZZO"
+                        ],
+                        "correct": "COLPO"
+                },
+                {
+                        "options": [
+                                "BUCO",
+                                "FONDO"
+                        ],
+                        "correct": "FONDO"
+                },
+                {
+                        "options": [
+                                "VERDE",
+                                "ROSSA"
+                        ],
+                        "correct": "VERDE"
+                },
+                {
+                        "options": [
+                                "SOLE",
+                                "LUNA"
+                        ],
+                        "correct": "SOLE"
+                },
+                {
+                        "options": [
+                                "OMBRA",
+                                "LUCE"
+                        ],
+                        "correct": "LUCE"
+                }
+        ],
+        "id": 37
+},
+    {
+        "solution": "VENTO",
+        "explanation": "Soffio di VENTO. VENTO del nord. VENTO in poppa. Al VENTO. VENTO contrario.",
+        "pairs": [
+                {
+                        "options": [
+                                "SOFFIO",
+                                "RESPIRO"
+                        ],
+                        "correct": "SOFFIO"
+                },
+                {
+                        "options": [
+                                "SUD",
+                                "NORD"
+                        ],
+                        "correct": "NORD"
+                },
+                {
+                        "options": [
+                                "POPPA",
+                                "PRUA"
+                        ],
+                        "correct": "POPPA"
+                },
+                {
+                        "options": [
+                                "ARIA",
+                                "VENTO"
+                        ],
+                        "correct": "VENTO"
+                },
+                {
+                        "options": [
+                                "FAVOREVOLE",
+                                "CONTRARIO"
+                        ],
+                        "correct": "CONTRARIO"
+                }
+        ],
+        "id": 38
+},
+    {
+        "solution": "CORDA",
+        "explanation": "Salto della CORDA. CORDA vocale. Tiro alla CORDA. CORDA del bucato. CORDA di violino.",
+        "pairs": [
+                {
+                        "options": [
+                                "SALTO",
+                                "CORSA"
+                        ],
+                        "correct": "SALTO"
+                },
+                {
+                        "options": [
+                                "CORDA",
+                                "FIATO"
+                        ],
+                        "correct": "CORDA"
+                },
+                {
+                        "options": [
+                                "TRAZIONE",
+                                "TIRO"
+                        ],
+                        "correct": "TIRO"
+                },
+                {
+                        "options": [
+                                "FILATO",
+                                "BUCATO"
+                        ],
+                        "correct": "BUCATO"
+                },
+                {
+                        "options": [
+                                "VIOLINO",
+                                "PIANOFORTE"
+                        ],
+                        "correct": "VIOLINO"
+                }
+        ],
+        "id": 39
+},
+    {
+        "solution": "PONTE",
+        "explanation": "Festa del PONTE. PONTE levatoio. PONTE sospeso. PONTE sul fiume. PONTE dentale.",
+        "pairs": [
+                {
+                        "options": [
+                                "FESTA",
+                                "VACANZA"
+                        ],
+                        "correct": "FESTA"
+                },
+                {
+                        "options": [
+                                "LEVATOIO",
+                                "SCIVOLANTE"
+                        ],
+                        "correct": "LEVATOIO"
+                },
+                {
+                        "options": [
+                                "SOSPESO",
+                                "FISSO"
+                        ],
+                        "correct": "SOSPESO"
+                },
+                {
+                        "options": [
+                                "RIVA",
+                                "FIUME"
+                        ],
+                        "correct": "FIUME"
+                },
+                {
+                        "options": [
+                                "DENTALE",
+                                "OSSEO"
+                        ],
+                        "correct": "DENTALE"
+                }
+        ],
+        "id": 40
+},
+    {
+        "solution": "CHIAVE",
+        "explanation": "Parola CHIAVE. CHIAVE di volta. CHIAVE inglese. Nota CHIAVE. CHIAVE USB.",
+        "pairs": [
+                {
+                        "options": [
+                                "PAROLA",
+                                "FRASE"
+                        ],
+                        "correct": "PAROLA"
+                },
+                {
+                        "options": [
+                                "VOLTA",
+                                "CHIUSA"
+                        ],
+                        "correct": "VOLTA"
+                },
+                {
+                        "options": [
+                                "SCREWDRIVER",
+                                "INGLESE"
+                        ],
+                        "correct": "INGLESE"
+                },
+                {
+                        "options": [
+                                "NOTA",
+                                "MELODIA"
+                        ],
+                        "correct": "NOTA"
+                },
+                {
+                        "options": [
+                                "PENDRIVE",
+                                "USB"
+                        ],
+                        "correct": "USB"
+                }
+        ],
+        "id": 41
+},
 ];
