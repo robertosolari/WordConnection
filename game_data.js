@@ -2330,4 +2330,215 @@ const GAMES_DB = [
         ],
         "id": 41
 },
+,
+    {
+        "solution": "LUCE",
+        "explanation": "Luce diurna. Luce verde. Luce di posizione. In luce. Luce notturna.",
+        "pairs": [
+                {
+                        "options": [
+                                "DIURNA",
+                                "NOTTURNA"
+                        ],
+                        "correct": "DIURNA"
+                },
+                {
+                        "options": [
+                                "ROSSA",
+                                "VERDE"
+                        ],
+                        "correct": "VERDE"
+                },
+                {
+                        "options": [
+                                "PRINCIPALE",
+                                "DI POSIZIONE"
+                        ],
+                        "correct": "DI POSIZIONE"
+                },
+                {
+                        "options": [
+                                "IN",
+                                "FUORI"
+                        ],
+                        "correct": "IN"
+                },
+                {
+                        "options": [
+                                "NOTTURNA",
+                                "DIURNA"
+                        ],
+                        "correct": "NOTTURNA"
+                }
+        ],
+        "id": 37
+},
+    {
+        "solution": "CORDA",
+        "explanation": "Corda del violino. Corda vocale. Corda di sicurezza. Saltare con la corda. Nodo alla corda.",
+        "pairs": [
+                {
+                        "options": [
+                                "VIOLINO",
+                                "PIANO"
+                        ],
+                        "correct": "VIOLINO"
+                },
+                {
+                        "options": [
+                                "VOCALE",
+                                "VERBALE"
+                        ],
+                        "correct": "VOCALE"
+                },
+                {
+                        "options": [
+                                "DI SICUREZZA",
+                                "DI VETRO"
+                        ],
+                        "correct": "DI SICUREZZA"
+                },
+                {
+                        "options": [
+                                "SALTARE",
+                                "CORRERE"
+                        ],
+                        "correct": "SALTARE"
+                },
+                {
+                        "options": [
+                                "NODO",
+                                "FILO"
+                        ],
+                        "correct": "NODO"
+                }
+        ],
+        "id": 38
+},
+    {
+        "solution": "TERRA",
+        "explanation": "Terra di Siena. Terra madre. Terra ferma. Terra promessa. Terra battuta.",
+        "pairs": [
+                {
+                        "options": [
+                                "DI SIENA",
+                                "ROSSA"
+                        ],
+                        "correct": "DI SIENA"
+                },
+                {
+                        "options": [
+                                "MADRE",
+                                "PADRE"
+                        ],
+                        "correct": "MADRE"
+                },
+                {
+                        "options": [
+                                "FERMA",
+                                "MOBILE"
+                        ],
+                        "correct": "FERMA"
+                },
+                {
+                        "options": [
+                                "PROMESSA",
+                                "MANTENUTA"
+                        ],
+                        "correct": "PROMESSA"
+                },
+                {
+                        "options": [
+                                "BATTUTA",
+                                "PERCOSSA"
+                        ],
+                        "correct": "BATTUTA"
+                }
+        ],
+        "id": 39
+},
+    {
+        "solution": "PUNTO",
+        "explanation": "Punto e virgola. Punto debole. Punto di sutura. A un punto. Punto fermo.",
+        "pairs": [
+                {
+                        "options": [
+                                "E",
+                                "O"
+                        ],
+                        "correct": "E"
+                },
+                {
+                        "options": [
+                                "DEBOLE",
+                                "FORTE"
+                        ],
+                        "correct": "DEBOLE"
+                },
+                {
+                        "options": [
+                                "DI SUTURA",
+                                "DI SVOLTA"
+                        ],
+                        "correct": "DI SUTURA"
+                },
+                {
+                        "options": [
+                                "A UN",
+                                "IN UN"
+                        ],
+                        "correct": "A UN"
+                },
+                {
+                        "options": [
+                                "FERMO",
+                                "MOVIMENTO"
+                        ],
+                        "correct": "FERMO"
+                }
+        ],
+        "id": 40
+},
+    {
+        "solution": "CAMPO",
+        "explanation": "Campo di battaglia. Campo magnetico. Campo da gioco. Campo visivo. Campo di concentramento.",
+        "pairs": [
+                {
+                        "options": [
+                                "DI BATTAGLIA",
+                                "DI NASCITA"
+                        ],
+                        "correct": "DI BATTAGLIA"
+                },
+                {
+                        "options": [
+                                "MAGNETICO",
+                                "ELETTRICO"
+                        ],
+                        "correct": "MAGNETICO"
+                },
+                {
+                        "options": [
+                                "DA GIOCO",
+                                "DA LAVORO"
+                        ],
+                        "correct": "DA GIOCO"
+                },
+                {
+                        "options": [
+                                "VISIVO",
+                                "AUDITIVO"
+                        ],
+                        "correct": "VISIVO"
+                },
+                {
+                        "options": [
+                                "DI CONCENTRAMENTO",
+                                "DI DISTRIBUZIONE"
+                        ],
+                        "correct": "DI CONCENTRAMENTO"
+                }
+        ],
+        "id": 41
+},
 ];
