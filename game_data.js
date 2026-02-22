@@ -2541,4 +2541,215 @@ const GAMES_DB = [
         ],
         "id": 41
 },
+,
+    {
+        "solution": "LUCE",
+        "explanation": "Colpo di LUCE. LUCE del sole. LUCE viva. LUCE intermittente. LUCE guida.",
+        "pairs": [
+                {
+                        "options": [
+                                "COLPO",
+                                "COLPA"
+                        ],
+                        "correct": "COLPO"
+                },
+                {
+                        "options": [
+                                "LUNA",
+                                "SOLE"
+                        ],
+                        "correct": "SOLE"
+                },
+                {
+                        "options": [
+                                "VIVA",
+                                "MORTA"
+                        ],
+                        "correct": "VIVA"
+                },
+                {
+                        "options": [
+                                "INTERMITTENTE",
+                                "CONTINUA"
+                        ],
+                        "correct": "INTERMITTENTE"
+                },
+                {
+                        "options": [
+                                "CONSIGLIO",
+                                "GUIDA"
+                        ],
+                        "correct": "GUIDA"
+                }
+        ],
+        "id": 37
+},
+    {
+        "solution": "PIANO",
+        "explanation": "PIANO inclinato. PIANO di lavoro. Suonare il PIANO. PIANO d'azione. Parlare a PIANO.",
+        "pairs": [
+                {
+                        "options": [
+                                "INCLINATO",
+                                "PIATTO"
+                        ],
+                        "correct": "INCLINATO"
+                },
+                {
+                        "options": [
+                                "LAVORO",
+                                "GIOCO"
+                        ],
+                        "correct": "LAVORO"
+                },
+                {
+                        "options": [
+                                "SUONARE",
+                                "CANTARE"
+                        ],
+                        "correct": "SUONARE"
+                },
+                {
+                        "options": [
+                                "AZIONE",
+                                "REAZIONE"
+                        ],
+                        "correct": "AZIONE"
+                },
+                {
+                        "options": [
+                                "ALTO",
+                                "PIANO"
+                        ],
+                        "correct": "PIANO"
+                }
+        ],
+        "id": 38
+},
+    {
+        "solution": "CORTE",
+        "explanation": "CORTE dei miracoli. CORTE d'appello. CORTE marziale. CORTE suprema. CORTE d'onore.",
+        "pairs": [
+                {
+                        "options": [
+                                "MIRACOLI",
+                                "MAGIA"
+                        ],
+                        "correct": "MIRACOLI"
+                },
+                {
+                        "options": [
+                                "APPELLO",
+                                "PROTESTA"
+                        ],
+                        "correct": "APPELLO"
+                },
+                {
+                        "options": [
+                                "MARZIALE",
+                                "MILITARE"
+                        ],
+                        "correct": "MARZIALE"
+                },
+                {
+                        "options": [
+                                "SUPREMA",
+                                "UNIVERSALE"
+                        ],
+                        "correct": "SUPREMA"
+                },
+                {
+                        "options": [
+                                "ONORE",
+                                "DOVERE"
+                        ],
+                        "correct": "ONORE"
+                }
+        ],
+        "id": 39
+},
+    {
+        "solution": "CIELO",
+        "explanation": "CIELO aperto. CIELO stellato. CIELO limpido. CIELO sereno. CIELO terzo.",
+        "pairs": [
+                {
+                        "options": [
+                                "APERTO",
+                                "CHIUSO"
+                        ],
+                        "correct": "APERTO"
+                },
+                {
+                        "options": [
+                                "STELLATO",
+                                "NUVOLATO"
+                        ],
+                        "correct": "STELLATO"
+                },
+                {
+                        "options": [
+                                "LIMPIDO",
+                                "OSCURA"
+                        ],
+                        "correct": "LIMPIDO"
+                },
+                {
+                        "options": [
+                                "SERENO",
+                                "TURBOLENTO"
+                        ],
+                        "correct": "SERENO"
+                },
+                {
+                        "options": [
+                                "TERZO",
+                                "QUARTO"
+                        ],
+                        "correct": "TERZO"
+                }
+        ],
+        "id": 40
+},
+    {
+        "solution": "VENTO",
+        "explanation": "Colpo di VENTO. VENTO di burrasca. VENTO di cambiamento. Essere al VENTO. VENTO contrario.",
+        "pairs": [
+                {
+                        "options": [
+                                "COLPO",
+                                "SCOSSA"
+                        ],
+                        "correct": "COLPO"
+                },
+                {
+                        "options": [
+                                "BURRASCA",
+                                "CALMA"
+                        ],
+                        "correct": "BURRASCA"
+                },
+                {
+                        "options": [
+                                "CAMBIAMENTO",
+                                "STAGNAZIONE"
+                        ],
+                        "correct": "CAMBIAMENTO"
+                },
+                {
+                        "options": [
+                                "AL",
+                                "IN"
+                        ],
+                        "correct": "AL"
+                },
+                {
+                        "options": [
+                                "CONTRARIO",
+                                "FAVOREVOLE"
+                        ],
+                        "correct": "CONTRARIO"
+                }
+        ],
+        "id": 41
+},
 ];
