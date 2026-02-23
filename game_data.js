@@ -2752,4 +2752,215 @@ const GAMES_DB = [
         ],
         "id": 41
 },
+,
+    {
+        "solution": "LUCE",
+        "explanation": "Luce dei riflettori. Luce del sole. Interruttore della luce. Faro di luce. Luce verde.",
+        "pairs": [
+                {
+                        "options": [
+                                "SUONO",
+                                "RIFLETTORI"
+                        ],
+                        "correct": "RIFLETTORI"
+                },
+                {
+                        "options": [
+                                "LUNA",
+                                "SOLE"
+                        ],
+                        "correct": "SOLE"
+                },
+                {
+                        "options": [
+                                "INTERRUTTORE",
+                                "MANOVELLA"
+                        ],
+                        "correct": "INTERRUTTORE"
+                },
+                {
+                        "options": [
+                                "FARO",
+                                "CAMPANA"
+                        ],
+                        "correct": "FARO"
+                },
+                {
+                        "options": [
+                                "ROSSA",
+                                "VERDE"
+                        ],
+                        "correct": "VERDE"
+                }
+        ],
+        "id": 37
+},
+    {
+        "solution": "RETE",
+        "explanation": "Rete da pesca. Rete televisiva. Rete di sicurezza. Rete di internet. Rete di distribuzione.",
+        "pairs": [
+                {
+                        "options": [
+                                "PESCA",
+                                "CACCIA"
+                        ],
+                        "correct": "PESCA"
+                },
+                {
+                        "options": [
+                                "RADIO",
+                                "TELEVISIVA"
+                        ],
+                        "correct": "TELEVISIVA"
+                },
+                {
+                        "options": [
+                                "PROTEZIONE",
+                                "SICUREZZA"
+                        ],
+                        "correct": "SICUREZZA"
+                },
+                {
+                        "options": [
+                                "CARTA",
+                                "INTERNET"
+                        ],
+                        "correct": "INTERNET"
+                },
+                {
+                        "options": [
+                                "FORNITURA",
+                                "DISTRIBUZIONE"
+                        ],
+                        "correct": "DISTRIBUZIONE"
+                }
+        ],
+        "id": 38
+},
+    {
+        "solution": "PIUMA",
+        "explanation": "Leggero come una piuma. Piuma di struzzo. Piuma d'oca. Piuma per scrivere. Piuma d'angelo.",
+        "pairs": [
+                {
+                        "options": [
+                                "PESANTE",
+                                "LEGGERO"
+                        ],
+                        "correct": "LEGGERO"
+                },
+                {
+                        "options": [
+                                "TACCHINO",
+                                "STRUZZO"
+                        ],
+                        "correct": "STRUZZO"
+                },
+                {
+                        "options": [
+                                "GALLINA",
+                                "OCA"
+                        ],
+                        "correct": "OCA"
+                },
+                {
+                        "options": [
+                                "SCRIVERE",
+                                "DISEGNARE"
+                        ],
+                        "correct": "SCRIVERE"
+                },
+                {
+                        "options": [
+                                "DEMONIO",
+                                "ANGELO"
+                        ],
+                        "correct": "ANGELO"
+                }
+        ],
+        "id": 39
+},
+    {
+        "solution": "OROLOGIO",
+        "explanation": "Lancette dell'orologio. Quadrante dell'orologio. Cinturino dell'orologio. Orologio a pendolo. Orologio da polso.",
+        "pairs": [
+                {
+                        "options": [
+                                "LANCETTE",
+                                "SPADE"
+                        ],
+                        "correct": "LANCETTE"
+                },
+                {
+                        "options": [
+                                "QUADRANTE",
+                                "SCHERMO"
+                        ],
+                        "correct": "QUADRANTE"
+                },
+                {
+                        "options": [
+                                "CINTURINO",
+                                "COLLANA"
+                        ],
+                        "correct": "CINTURINO"
+                },
+                {
+                        "options": [
+                                "PENDOLO",
+                                "BILANCIA"
+                        ],
+                        "correct": "PENDOLO"
+                },
+                {
+                        "options": [
+                                "COLLO",
+                                "POLSO"
+                        ],
+                        "correct": "POLSO"
+                }
+        ],
+        "id": 40
+},
+    {
+        "solution": "CIELO",
+        "explanation": "Cielo sereno. Cielo stellato. Cielo azzurro. Cielo notturno. Cielo sopra di me.",
+        "pairs": [
+                {
+                        "options": [
+                                "NUVOLOSO",
+                                "SERENO"
+                        ],
+                        "correct": "SERENO"
+                },
+                {
+                        "options": [
+                                "LUMINOSO",
+                                "STELLATO"
+                        ],
+                        "correct": "STELLATO"
+                },
+                {
+                        "options": [
+                                "ROSSO",
+                                "AZZURRO"
+                        ],
+                        "correct": "AZZURRO"
+                },
+                {
+                        "options": [
+                                "DIURNO",
+                                "NOTTURNO"
+                        ],
+                        "correct": "NOTTURNO"
+                },
+                {
+                        "options": [
+                                "SOTTO",
+                                "SOPRA"
+                        ],
+                        "correct": "SOPRA"
+                }
+        ],
+        "id": 41
+},
 ];
