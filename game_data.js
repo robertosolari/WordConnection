@@ -2963,4 +2963,215 @@ const GAMES_DB = [
         ],
         "id": 41
 },
+,
+    {
+        "solution": "CORDA",
+        "explanation": "Salto con la CORDA. CORDA vocale. Tiro alla CORDA. CORDA tesa. Nodo alla CORDA.",
+        "pairs": [
+                {
+                        "options": [
+                                "SALTO",
+                                "SALIRE"
+                        ],
+                        "correct": "SALTO"
+                },
+                {
+                        "options": [
+                                "VOCALE",
+                                "ORALE"
+                        ],
+                        "correct": "VOCALE"
+                },
+                {
+                        "options": [
+                                "TIRO",
+                                "TRAZIONE"
+                        ],
+                        "correct": "TIRO"
+                },
+                {
+                        "options": [
+                                "TESA",
+                                "TIRATA"
+                        ],
+                        "correct": "TESA"
+                },
+                {
+                        "options": [
+                                "NODO",
+                                "LEGAME"
+                        ],
+                        "correct": "NODO"
+                }
+        ],
+        "id": 37
+},
+    {
+        "solution": "LUCE",
+        "explanation": "LUCE riflessa. LUCE verde. LUCE naturale. LUCE di emergenza. LUCE al neon.",
+        "pairs": [
+                {
+                        "options": [
+                                "RIFLESSA",
+                                "RIFRATTA"
+                        ],
+                        "correct": "RIFLESSA"
+                },
+                {
+                        "options": [
+                                "VERDE",
+                                "ROSSA"
+                        ],
+                        "correct": "VERDE"
+                },
+                {
+                        "options": [
+                                "NATURALE",
+                                "ARTIFICIALE"
+                        ],
+                        "correct": "NATURALE"
+                },
+                {
+                        "options": [
+                                "EMERGENZA",
+                                "URGENZA"
+                        ],
+                        "correct": "EMERGENZA"
+                },
+                {
+                        "options": [
+                                "NEON",
+                                "LED"
+                        ],
+                        "correct": "NEON"
+                }
+        ],
+        "id": 38
+},
+    {
+        "solution": "TEMPO",
+        "explanation": "Fuori TEMPO. TEMPO libero. TEMPO atmosferico. TEMPO perso. TEMPO di attesa.",
+        "pairs": [
+                {
+                        "options": [
+                                "DENTRO",
+                                "FUORI"
+                        ],
+                        "correct": "FUORI"
+                },
+                {
+                        "options": [
+                                "LIBERO",
+                                "OCCUPATO"
+                        ],
+                        "correct": "LIBERO"
+                },
+                {
+                        "options": [
+                                "ATMOSFERICO",
+                                "CLIMATICO"
+                        ],
+                        "correct": "ATMOSFERICO"
+                },
+                {
+                        "options": [
+                                "PERSO",
+                                "GUADAGNATO"
+                        ],
+                        "correct": "PERSO"
+                },
+                {
+                        "options": [
+                                "ATTESE",
+                                "ATTESA"
+                        ],
+                        "correct": "ATTESA"
+                }
+        ],
+        "id": 39
+},
+    {
+        "solution": "CIELO",
+        "explanation": "CIELO stellato. Nel CIELO. CIELO azzurro. CIELO limpido. CIELO aperto.",
+        "pairs": [
+                {
+                        "options": [
+                                "STELLATO",
+                                "LUMINOSO"
+                        ],
+                        "correct": "STELLATO"
+                },
+                {
+                        "options": [
+                                "NEL",
+                                "SOTTO"
+                        ],
+                        "correct": "NEL"
+                },
+                {
+                        "options": [
+                                "AZZURRO",
+                                "BLU"
+                        ],
+                        "correct": "AZZURRO"
+                },
+                {
+                        "options": [
+                                "LIMPIDO",
+                                "NITIDO"
+                        ],
+                        "correct": "LIMPIDO"
+                },
+                {
+                        "options": [
+                                "APERTO",
+                                "CHIUSO"
+                        ],
+                        "correct": "APERTO"
+                }
+        ],
+        "id": 40
+},
+    {
+        "solution": "SOGNO",
+        "explanation": "Un brutto SOGNO. SOGNO nel cassetto. SOGNO infranto. SOGNO di una notte. SOGNO lucido.",
+        "pairs": [
+                {
+                        "options": [
+                                "BRUTTO",
+                                "BELLO"
+                        ],
+                        "correct": "BRUTTO"
+                },
+                {
+                        "options": [
+                                "CASSETTO",
+                                "ARMADIO"
+                        ],
+                        "correct": "CASSETTO"
+                },
+                {
+                        "options": [
+                                "INFRANTO",
+                                "REALIZZATO"
+                        ],
+                        "correct": "INFRANTO"
+                },
+                {
+                        "options": [
+                                "NOTTE",
+                                "GIORNO"
+                        ],
+                        "correct": "NOTTE"
+                },
+                {
+                        "options": [
+                                "LUCIDO",
+                                "CHIARO"
+                        ],
+                        "correct": "LUCIDO"
+                }
+        ],
+        "id": 41
+},
 ];
