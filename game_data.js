@@ -4241,4 +4241,215 @@ const GAMES_DB = [
             }
         ]
     }
+,
+    {
+        "solution": "LUCE",
+        "explanation": "Colpo di LUCE. Tavolo da LUCE. LUCE di cortesia. LUCE della ribalta. Fuori LUCE.",
+        "pairs": [
+                {
+                        "options": [
+                                "COLPO",
+                                "TAPPO"
+                        ],
+                        "correct": "COLPO"
+                },
+                {
+                        "options": [
+                                "LAVORO",
+                                "TAVOLO"
+                        ],
+                        "correct": "TAVOLO"
+                },
+                {
+                        "options": [
+                                "CORTILE",
+                                "CORTESIA"
+                        ],
+                        "correct": "CORTESIA"
+                },
+                {
+                        "options": [
+                                "SCENA",
+                                "RIBALTA"
+                        ],
+                        "correct": "RIBALTA"
+                },
+                {
+                        "options": [
+                                "FUORI",
+                                "DENTRO"
+                        ],
+                        "correct": "FUORI"
+                }
+        ],
+        "id": 102
+},
+    {
+        "solution": "NOTA",
+        "explanation": "NOTA bene. NOTA musicale. NOTA di credito. NOTA spese. NOTA dolente.",
+        "pairs": [
+                {
+                        "options": [
+                                "BENE",
+                                "MALE"
+                        ],
+                        "correct": "BENE"
+                },
+                {
+                        "options": [
+                                "MUSICALE",
+                                "VISIVA"
+                        ],
+                        "correct": "MUSICALE"
+                },
+                {
+                        "options": [
+                                "CREDITO",
+                                "DEBITO"
+                        ],
+                        "correct": "CREDITO"
+                },
+                {
+                        "options": [
+                                "ENTRATA",
+                                "SPESE"
+                        ],
+                        "correct": "SPESE"
+                },
+                {
+                        "options": [
+                                "GIOIOSA",
+                                "DOLENTE"
+                        ],
+                        "correct": "DOLENTE"
+                }
+        ],
+        "id": 103
+},
+    {
+        "solution": "RETTA",
+        "explanation": "Via RETTA. RETTA scolastica. RETTA finale. RETTA decisione. RETTA proporzione.",
+        "pairs": [
+                {
+                        "options": [
+                                "VIA",
+                                "STRADA"
+                        ],
+                        "correct": "VIA"
+                },
+                {
+                        "options": [
+                                "SCOLASTICA",
+                                "MILITARE"
+                        ],
+                        "correct": "SCOLASTICA"
+                },
+                {
+                        "options": [
+                                "FINALE",
+                                "INIZIALE"
+                        ],
+                        "correct": "FINALE"
+                },
+                {
+                        "options": [
+                                "DECISIONE",
+                                "PROPOSTA"
+                        ],
+                        "correct": "DECISIONE"
+                },
+                {
+                        "options": [
+                                "PROPORZIONE",
+                                "EQUAZIONE"
+                        ],
+                        "correct": "PROPORZIONE"
+                }
+        ],
+        "id": 104
+},
+    {
+        "solution": "PIANO",
+        "explanation": "PIANO di lavoro. PIANO inclinato. PIANO forte. PIANO terra. PIANO regolatore.",
+        "pairs": [
+                {
+                        "options": [
+                                "PIANO",
+                                "RAPIDO"
+                        ],
+                        "correct": "PIANO"
+                },
+                {
+                        "options": [
+                                "INCLINATO",
+                                "PIATTO"
+                        ],
+                        "correct": "INCLINATO"
+                },
+                {
+                        "options": [
+                                "FORTE",
+                                "DEBOLE"
+                        ],
+                        "correct": "FORTE"
+                },
+                {
+                        "options": [
+                                "TERRA",
+                                "CIELO"
+                        ],
+                        "correct": "TERRA"
+                },
+                {
+                        "options": [
+                                "REGOLATORE",
+                                "LIBERATORE"
+                        ],
+                        "correct": "REGOLATORE"
+                }
+        ],
+        "id": 105
+},
+    {
+        "solution": "CORSA",
+        "explanation": "CORSA contro il tempo. CORSA ciclistica. CORSA di cavalli. CORSA campestre. CORSA all'oro.",
+        "pairs": [
+                {
+                        "options": [
+                                "TEMPO",
+                                "SPAZIO"
+                        ],
+                        "correct": "TEMPO"
+                },
+                {
+                        "options": [
+                                "CICLISTICA",
+                                "PODISTICA"
+                        ],
+                        "correct": "CICLISTICA"
+                },
+                {
+                        "options": [
+                                "CAVALLI",
+                                "AUTOMOBILI"
+                        ],
+                        "correct": "CAVALLI"
+                },
+                {
+                        "options": [
+                                "CAMPESTRE",
+                                "URBANA"
+                        ],
+                        "correct": "CAMPESTRE"
+                },
+                {
+                        "options": [
+                                "ORO",
+                                "ARGENTO"
+                        ],
+                        "correct": "ORO"
+                }
+        ],
+        "id": 106
+},
 ];
