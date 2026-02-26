@@ -4452,4 +4452,215 @@ const GAMES_DB = [
         ],
         "id": 106
 },
+,
+    {
+        "solution": "CIELO",
+        "explanation": "CIELO stellato. Sotto un CIELO terso. Sogni di CIELO. CIELO plumbeo. Pieno CIELO.",
+        "pairs": [
+                {
+                        "options": [
+                                "STELLATO",
+                                "LUMINOSO"
+                        ],
+                        "correct": "STELLATO"
+                },
+                {
+                        "options": [
+                                "SOTTO",
+                                "SOPRA"
+                        ],
+                        "correct": "SOTTO"
+                },
+                {
+                        "options": [
+                                "SOGNI",
+                                "INCUBI"
+                        ],
+                        "correct": "SOGNI"
+                },
+                {
+                        "options": [
+                                "PLUMBEO",
+                                "SERENO"
+                        ],
+                        "correct": "PLUMBEO"
+                },
+                {
+                        "options": [
+                                "VUOTO",
+                                "PIENO"
+                        ],
+                        "correct": "PIENO"
+                }
+        ],
+        "id": 102
+},
+    {
+        "solution": "NOTA",
+        "explanation": "Fare una NOTA. NOTA musicale. Nota di credito. NOTA dolente. NOTA bene.",
+        "pairs": [
+                {
+                        "options": [
+                                "FARE",
+                                "PRENDERE"
+                        ],
+                        "correct": "FARE"
+                },
+                {
+                        "options": [
+                                "MUSICALE",
+                                "VISIVA"
+                        ],
+                        "correct": "MUSICALE"
+                },
+                {
+                        "options": [
+                                "DEBITO",
+                                "CREDITO"
+                        ],
+                        "correct": "CREDITO"
+                },
+                {
+                        "options": [
+                                "GAIA",
+                                "DOLENTE"
+                        ],
+                        "correct": "DOLENTE"
+                },
+                {
+                        "options": [
+                                "MALE",
+                                "BENE"
+                        ],
+                        "correct": "BENE"
+                }
+        ],
+        "id": 103
+},
+    {
+        "solution": "LUCE",
+        "explanation": "LUCE soffusa. Dalla LUCE. LUCE diurna. In piena LUCE. LUCE di coda.",
+        "pairs": [
+                {
+                        "options": [
+                                "SOFFUSA",
+                                "ABBAIANTE"
+                        ],
+                        "correct": "SOFFUSA"
+                },
+                {
+                        "options": [
+                                "DALLA",
+                                "ALLA"
+                        ],
+                        "correct": "DALLA"
+                },
+                {
+                        "options": [
+                                "DIURNA",
+                                "NOTTURNA"
+                        ],
+                        "correct": "DIURNA"
+                },
+                {
+                        "options": [
+                                "PIENA",
+                                "MEZZA"
+                        ],
+                        "correct": "PIENA"
+                },
+                {
+                        "options": [
+                                "FRONTALE",
+                                "DI CODA"
+                        ],
+                        "correct": "DI CODA"
+                }
+        ],
+        "id": 104
+},
+    {
+        "solution": "PIANO",
+        "explanation": "PIANO di lavoro. A PIANO. PIANO inclinato. PIANO terra. PIANO d'azione.",
+        "pairs": [
+                {
+                        "options": [
+                                "LAVORO",
+                                "SVAGO"
+                        ],
+                        "correct": "LAVORO"
+                },
+                {
+                        "options": [
+                                "A",
+                                "IN"
+                        ],
+                        "correct": "A"
+                },
+                {
+                        "options": [
+                                "INCLINATO",
+                                "PIATTO"
+                        ],
+                        "correct": "INCLINATO"
+                },
+                {
+                        "options": [
+                                "TERRA",
+                                "CIELO"
+                        ],
+                        "correct": "TERRA"
+                },
+                {
+                        "options": [
+                                "D'AZIONE",
+                                "DI PACE"
+                        ],
+                        "correct": "D'AZIONE"
+                }
+        ],
+        "id": 105
+},
+    {
+        "solution": "FERRO",
+        "explanation": "FERRO da stiro. Battuto FERRO. FERRO battuto. Uomo di FERRO. FERRO vecchio.",
+        "pairs": [
+                {
+                        "options": [
+                                "DA STIRO",
+                                "DA CUCINA"
+                        ],
+                        "correct": "DA STIRO"
+                },
+                {
+                        "options": [
+                                "BATTUTO",
+                                "LUCIDO"
+                        ],
+                        "correct": "BATTUTO"
+                },
+                {
+                        "options": [
+                                "UOMO",
+                                "DONNA"
+                        ],
+                        "correct": "UOMO"
+                },
+                {
+                        "options": [
+                                "NUOVO",
+                                "VECCHIO"
+                        ],
+                        "correct": "VECCHIO"
+                },
+                {
+                        "options": [
+                                "BATTUTO",
+                                "FUSO"
+                        ],
+                        "correct": "BATTUTO"
+                }
+        ],
+        "id": 106
+},
 ];
