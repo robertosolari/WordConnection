@@ -4663,4 +4663,215 @@ const GAMES_DB = [
         ],
         "id": 106
 },
+,
+    {
+        "solution": "CORDA",
+        "explanation": "Tirare la CORDA. CORDA vocale. CORDA di violino. CORDA da arrampicata. Saltare la CORDA.",
+        "pairs": [
+                {
+                        "options": [
+                                "SPINGERE",
+                                "TIRARE"
+                        ],
+                        "correct": "TIRARE"
+                },
+                {
+                        "options": [
+                                "SILENZIO",
+                                "VOCALE"
+                        ],
+                        "correct": "VOCALE"
+                },
+                {
+                        "options": [
+                                "VIOLINO",
+                                "PIANOFORTE"
+                        ],
+                        "correct": "VIOLINO"
+                },
+                {
+                        "options": [
+                                "SCALA",
+                                "ARRAMPICATA"
+                        ],
+                        "correct": "ARRAMPICATA"
+                },
+                {
+                        "options": [
+                                "CORRERE",
+                                "SALTARE"
+                        ],
+                        "correct": "SALTARE"
+                }
+        ],
+        "id": 102
+},
+    {
+        "solution": "LUCE",
+        "explanation": "Accendere la LUCE. LUCE diurna. LUCE verde. LUCE al neon. LUCE riflessa.",
+        "pairs": [
+                {
+                        "options": [
+                                "SPEGNERE",
+                                "ACCENDERE"
+                        ],
+                        "correct": "ACCENDERE"
+                },
+                {
+                        "options": [
+                                "NOTTURNA",
+                                "DIURNA"
+                        ],
+                        "correct": "DIURNA"
+                },
+                {
+                        "options": [
+                                "ROSSA",
+                                "VERDE"
+                        ],
+                        "correct": "VERDE"
+                },
+                {
+                        "options": [
+                                "NEBBIA",
+                                "NEON"
+                        ],
+                        "correct": "NEON"
+                },
+                {
+                        "options": [
+                                "OSCURA",
+                                "RIFLESSA"
+                        ],
+                        "correct": "RIFLESSA"
+                }
+        ],
+        "id": 103
+},
+    {
+        "solution": "PIEDE",
+        "explanation": "Passo di PIEDE. A PIEDE libero. PIEDE di guerra. PIEDE quadrato. PIEDE d'opera.",
+        "pairs": [
+                {
+                        "options": [
+                                "MANO",
+                                "PIEDE"
+                        ],
+                        "correct": "PIEDE"
+                },
+                {
+                        "options": [
+                                "LIBERO",
+                                "CHIUSO"
+                        ],
+                        "correct": "LIBERO"
+                },
+                {
+                        "options": [
+                                "PACE",
+                                "GUERRA"
+                        ],
+                        "correct": "GUERRA"
+                },
+                {
+                        "options": [
+                                "TONDO",
+                                "QUADRATO"
+                        ],
+                        "correct": "QUADRATO"
+                },
+                {
+                        "options": [
+                                "INIZIO",
+                                "OPERA"
+                        ],
+                        "correct": "OPERA"
+                }
+        ],
+        "id": 104
+},
+    {
+        "solution": "CIELO",
+        "explanation": "Senza nuvole nel CIELO. Azzurro CIELO. CIELO stellato. CIELO coperto. CIELO di piombo.",
+        "pairs": [
+                {
+                        "options": [
+                                "CON",
+                                "SENZA"
+                        ],
+                        "correct": "SENZA"
+                },
+                {
+                        "options": [
+                                "AZZURRO",
+                                "VERDE"
+                        ],
+                        "correct": "AZZURRO"
+                },
+                {
+                        "options": [
+                                "STELLATO",
+                                "NUVOLATO"
+                        ],
+                        "correct": "STELLATO"
+                },
+                {
+                        "options": [
+                                "LIMPIDO",
+                                "COPERTO"
+                        ],
+                        "correct": "COPERTO"
+                },
+                {
+                        "options": [
+                                "DIAMANTE",
+                                "PIOMBO"
+                        ],
+                        "correct": "PIOMBO"
+                }
+        ],
+        "id": 105
+},
+    {
+        "solution": "FUOCO",
+        "explanation": "Camino acceso a FUOCO. FUOCO d'artificio. FUOCO amico. FUOCO incrociato. FUOCO sacro.",
+        "pairs": [
+                {
+                        "options": [
+                                "SPENTO",
+                                "ACCESO"
+                        ],
+                        "correct": "ACCESO"
+                },
+                {
+                        "options": [
+                                "D'ARTIFICIO",
+                                "D'ACQUA"
+                        ],
+                        "correct": "D'ARTIFICIO"
+                },
+                {
+                        "options": [
+                                "NEMICO",
+                                "AMICO"
+                        ],
+                        "correct": "AMICO"
+                },
+                {
+                        "options": [
+                                "ISOLATO",
+                                "INCROCIATO"
+                        ],
+                        "correct": "INCROCIATO"
+                },
+                {
+                        "options": [
+                                "SACRO",
+                                "PROFANO"
+                        ],
+                        "correct": "SACRO"
+                }
+        ],
+        "id": 106
+},
 ];
