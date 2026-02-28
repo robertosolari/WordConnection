@@ -4874,4 +4874,215 @@ const GAMES_DB = [
         ],
         "id": 106
 },
+,
+    {
+        "solution": "LUCE",
+        "explanation": "Luce del sole, luce in fondo al tunnel, bagliore di luce, lampo di luce, corrente di luce.",
+        "pairs": [
+                {
+                        "options": [
+                                "SOLE",
+                                "NEVE"
+                        ],
+                        "correct": "SOLE"
+                },
+                {
+                        "options": [
+                                "FONDO",
+                                "SOMMITÀ"
+                        ],
+                        "correct": "FONDO"
+                },
+                {
+                        "options": [
+                                "BUIO",
+                                "BAGLIORE"
+                        ],
+                        "correct": "BAGLIORE"
+                },
+                {
+                        "options": [
+                                "LENTO",
+                                "LAMPO"
+                        ],
+                        "correct": "LAMPO"
+                },
+                {
+                        "options": [
+                                "CORRENTE",
+                                "STAGNANTE"
+                        ],
+                        "correct": "CORRENTE"
+                }
+        ],
+        "id": 102
+},
+    {
+        "solution": "ONDA",
+        "explanation": "Onda sonora, onda di mare, onda di calore, onda lunga, onda radio.",
+        "pairs": [
+                {
+                        "options": [
+                                "SONORO",
+                                "VISIVO"
+                        ],
+                        "correct": "SONORO"
+                },
+                {
+                        "options": [
+                                "MARE",
+                                "FIUME"
+                        ],
+                        "correct": "MARE"
+                },
+                {
+                        "options": [
+                                "FREDDO",
+                                "CALORE"
+                        ],
+                        "correct": "CALORE"
+                },
+                {
+                        "options": [
+                                "CORTA",
+                                "LUNGA"
+                        ],
+                        "correct": "LUNGA"
+                },
+                {
+                        "options": [
+                                "TELEFONO",
+                                "RADIO"
+                        ],
+                        "correct": "RADIO"
+                }
+        ],
+        "id": 103
+},
+    {
+        "solution": "PUNTO",
+        "explanation": "Punto di vista, punto fermo, punto di incontro, punto di svolta, punto cardinale.",
+        "pairs": [
+                {
+                        "options": [
+                                "VISTA",
+                                "ODORE"
+                        ],
+                        "correct": "VISTA"
+                },
+                {
+                        "options": [
+                                "LIBERO",
+                                "FERMO"
+                        ],
+                        "correct": "FERMO"
+                },
+                {
+                        "options": [
+                                "PARTENZA",
+                                "INCONTRO"
+                        ],
+                        "correct": "INCONTRO"
+                },
+                {
+                        "options": [
+                                "SVOLTA",
+                                "CRISI"
+                        ],
+                        "correct": "SVOLTA"
+                },
+                {
+                        "options": [
+                                "CARDINALE",
+                                "ORDINARIO"
+                        ],
+                        "correct": "CARDINALE"
+                }
+        ],
+        "id": 104
+},
+    {
+        "solution": "CHIAVE",
+        "explanation": "Chiave di volta, chiave di violino, chiave segreta, chiave di lettura, chiave inglese.",
+        "pairs": [
+                {
+                        "options": [
+                                "VOLTA",
+                                "FINESTRA"
+                        ],
+                        "correct": "VOLTA"
+                },
+                {
+                        "options": [
+                                "PIANOFORTE",
+                                "VIOLINO"
+                        ],
+                        "correct": "VIOLINO"
+                },
+                {
+                        "options": [
+                                "OVVIA",
+                                "SEGRETA"
+                        ],
+                        "correct": "SEGRETA"
+                },
+                {
+                        "options": [
+                                "INTERPRETAZIONE",
+                                "COSTRUZIONE"
+                        ],
+                        "correct": "INTERPRETAZIONE"
+                },
+                {
+                        "options": [
+                                "INGLESE",
+                                "FRANCESE"
+                        ],
+                        "correct": "INGLESE"
+                }
+        ],
+        "id": 105
+},
+    {
+        "solution": "CORSA",
+        "explanation": "Corsa contro il tempo, corsa dei cavalli, corsa podistica, corsa all'oro, corsa automobilistica.",
+        "pairs": [
+                {
+                        "options": [
+                                "TEMPO",
+                                "SPAZIO"
+                        ],
+                        "correct": "TEMPO"
+                },
+                {
+                        "options": [
+                                "CAVALLI",
+                                "CANARINI"
+                        ],
+                        "correct": "CAVALLI"
+                },
+                {
+                        "options": [
+                                "PODISTICA",
+                                "CICLISTICA"
+                        ],
+                        "correct": "PODISTICA"
+                },
+                {
+                        "options": [
+                                "ARGENTO",
+                                "ORO"
+                        ],
+                        "correct": "ORO"
+                },
+                {
+                        "options": [
+                                "AEREA",
+                                "AUTOMOBILISTICA"
+                        ],
+                        "correct": "AUTOMOBILISTICA"
+                }
+        ],
+        "id": 106
+},
 ];
