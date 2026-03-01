@@ -5085,4 +5085,215 @@ const GAMES_DB = [
         ],
         "id": 106
 },
+,
+    {
+        "solution": "LUCE",
+        "explanation": "Colpo di LUCE. LUCE verde. LUCE rossa. In un'altra LUCE. LUCE della ragione.",
+        "pairs": [
+                {
+                        "options": [
+                                "COLPO",
+                                "SOLCO"
+                        ],
+                        "correct": "COLPO"
+                },
+                {
+                        "options": [
+                                "ROSSA",
+                                "VERDE"
+                        ],
+                        "correct": "VERDE"
+                },
+                {
+                        "options": [
+                                "ROSSA",
+                                "GIALLA"
+                        ],
+                        "correct": "ROSSA"
+                },
+                {
+                        "options": [
+                                "STESSA",
+                                "ALTRA"
+                        ],
+                        "correct": "ALTRA"
+                },
+                {
+                        "options": [
+                                "RAGIONE",
+                                "CUORE"
+                        ],
+                        "correct": "RAGIONE"
+                }
+        ],
+        "id": 102
+},
+    {
+        "solution": "PIANO",
+        "explanation": "PIANO inclinato. A PIANO. PIANO di studi. Suonare il PIANO. PIANO regolatore.",
+        "pairs": [
+                {
+                        "options": [
+                                "INCLINATO",
+                                "VERTICALE"
+                        ],
+                        "correct": "INCLINATO"
+                },
+                {
+                        "options": [
+                                "FORTE",
+                                "PIANO"
+                        ],
+                        "correct": "PIANO"
+                },
+                {
+                        "options": [
+                                "LAVORO",
+                                "STUDI"
+                        ],
+                        "correct": "STUDI"
+                },
+                {
+                        "options": [
+                                "SUONARE",
+                                "CANTARE"
+                        ],
+                        "correct": "SUONARE"
+                },
+                {
+                        "options": [
+                                "REGOLATORE",
+                                "CONSIGLIERE"
+                        ],
+                        "correct": "REGOLATORE"
+                }
+        ],
+        "id": 103
+},
+    {
+        "solution": "CUORE",
+        "explanation": "CUORE di pietra. Mal di CUORE. CUORE infranto. CUORE pulsante. Avere CUORE.",
+        "pairs": [
+                {
+                        "options": [
+                                "PIETRA",
+                                "LEGNO"
+                        ],
+                        "correct": "PIETRA"
+                },
+                {
+                        "options": [
+                                "TESTA",
+                                "CUORE"
+                        ],
+                        "correct": "CUORE"
+                },
+                {
+                        "options": [
+                                "INTERO",
+                                "INFRANTO"
+                        ],
+                        "correct": "INFRANTO"
+                },
+                {
+                        "options": [
+                                "PULSANTE",
+                                "SPENTO"
+                        ],
+                        "correct": "PULSANTE"
+                },
+                {
+                        "options": [
+                                "AVERE",
+                                "DARE"
+                        ],
+                        "correct": "AVERE"
+                }
+        ],
+        "id": 104
+},
+    {
+        "solution": "TERRA",
+        "explanation": "TERRA di nessuno. TERRA promessa. Mettere radici in TERRA. TERRA dei fuochi. TERRA battuta.",
+        "pairs": [
+                {
+                        "options": [
+                                "NOSTRA",
+                                "NESSUNO"
+                        ],
+                        "correct": "NESSUNO"
+                },
+                {
+                        "options": [
+                                "PROMESSA",
+                                "MANTENUTA"
+                        ],
+                        "correct": "PROMESSA"
+                },
+                {
+                        "options": [
+                                "FOGLIE",
+                                "RADICI"
+                        ],
+                        "correct": "RADICI"
+                },
+                {
+                        "options": [
+                                "FIORI",
+                                "FUOCHI"
+                        ],
+                        "correct": "FUOCHI"
+                },
+                {
+                        "options": [
+                                "LISCIATA",
+                                "BATTUTA"
+                        ],
+                        "correct": "BATTUTA"
+                }
+        ],
+        "id": 105
+},
+    {
+        "solution": "SOGNO",
+        "explanation": "SOGNO nel cassetto. SOGNO infranto. SOGNO americano. SOGNO a occhi aperti. SOGNO ricorrente.",
+        "pairs": [
+                {
+                        "options": [
+                                "CASSETTO",
+                                "ARMADIO"
+                        ],
+                        "correct": "CASSETTO"
+                },
+                {
+                        "options": [
+                                "INFRANTO",
+                                "REALIZZATO"
+                        ],
+                        "correct": "INFRANTO"
+                },
+                {
+                        "options": [
+                                "AMERICANO",
+                                "FRANCESE"
+                        ],
+                        "correct": "AMERICANO"
+                },
+                {
+                        "options": [
+                                "CHIUSI",
+                                "APERTI"
+                        ],
+                        "correct": "APERTI"
+                },
+                {
+                        "options": [
+                                "SALTUARE",
+                                "RICORRENTE"
+                        ],
+                        "correct": "RICORRENTE"
+                }
+        ],
+        "id": 106
+},
 ];
