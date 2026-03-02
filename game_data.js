@@ -5296,4 +5296,215 @@ const GAMES_DB = [
         ],
         "id": 106
 },
+,
+    {
+        "solution": "SENSO",
+        "explanation": "Senso unico. Senza senso. Senso di colpa. Senso civico. Farsi un senso.",
+        "pairs": [
+                {
+                        "options": [
+                                "UNICO",
+                                "DOPPIO"
+                        ],
+                        "correct": "UNICO"
+                },
+                {
+                        "options": [
+                                "CON",
+                                "SENZA"
+                        ],
+                        "correct": "SENZA"
+                },
+                {
+                        "options": [
+                                "DI",
+                                "CON"
+                        ],
+                        "correct": "DI"
+                },
+                {
+                        "options": [
+                                "CIVICO",
+                                "SPORCO"
+                        ],
+                        "correct": "CIVICO"
+                },
+                {
+                        "options": [
+                                "FARSI",
+                                "PERDERSI"
+                        ],
+                        "correct": "FARSI"
+                }
+        ],
+        "id": 102
+},
+    {
+        "solution": "LUCE",
+        "explanation": "Vedere la luce. Luce diurna. Fuori dalla luce. Dare luce. Luce verde.",
+        "pairs": [
+                {
+                        "options": [
+                                "TOCCARE",
+                                "VEDERE"
+                        ],
+                        "correct": "VEDERE"
+                },
+                {
+                        "options": [
+                                "NOTTURNA",
+                                "DIURNA"
+                        ],
+                        "correct": "DIURNA"
+                },
+                {
+                        "options": [
+                                "DENTRO",
+                                "FUORI"
+                        ],
+                        "correct": "FUORI"
+                },
+                {
+                        "options": [
+                                "DIRE",
+                                "DARE"
+                        ],
+                        "correct": "DARE"
+                },
+                {
+                        "options": [
+                                "ROSSA",
+                                "VERDE"
+                        ],
+                        "correct": "VERDE"
+                }
+        ],
+        "id": 103
+},
+    {
+        "solution": "PUNTO",
+        "explanation": "Punto a capo. Punto debole. Punto di vista. Punto fermo. Fare un punto.",
+        "pairs": [
+                {
+                        "options": [
+                                "LINEA",
+                                "CAPO"
+                        ],
+                        "correct": "CAPO"
+                },
+                {
+                        "options": [
+                                "FORTE",
+                                "DEBOLE"
+                        ],
+                        "correct": "DEBOLE"
+                },
+                {
+                        "options": [
+                                "DI",
+                                "CON"
+                        ],
+                        "correct": "DI"
+                },
+                {
+                        "options": [
+                                "MOVIBILE",
+                                "FERMO"
+                        ],
+                        "correct": "FERMO"
+                },
+                {
+                        "options": [
+                                "PERDERE",
+                                "FARE"
+                        ],
+                        "correct": "FARE"
+                }
+        ],
+        "id": 104
+},
+    {
+        "solution": "FUOCO",
+        "explanation": "Fuoco amico. Fuoco fatuo. Fare fuoco. Fuoco di fila. Fuoco sacro.",
+        "pairs": [
+                {
+                        "options": [
+                                "NEMICO",
+                                "AMICO"
+                        ],
+                        "correct": "AMICO"
+                },
+                {
+                        "options": [
+                                "FATUO",
+                                "VERO"
+                        ],
+                        "correct": "FATUO"
+                },
+                {
+                        "options": [
+                                "ACCENDERE",
+                                "FARE"
+                        ],
+                        "correct": "FARE"
+                },
+                {
+                        "options": [
+                                "A SINGHIOZZO",
+                                "DI FILA"
+                        ],
+                        "correct": "DI FILA"
+                },
+                {
+                        "options": [
+                                "SACRO",
+                                "PROFANO"
+                        ],
+                        "correct": "SACRO"
+                }
+        ],
+        "id": 105
+},
+    {
+        "solution": "CORSA",
+        "explanation": "Corsa contro il tempo. Corsa podistica. Fare una corsa. Corsa al rialzo. Corsa continua.",
+        "pairs": [
+                {
+                        "options": [
+                                "A FAVORE",
+                                "CONTRO"
+                        ],
+                        "correct": "CONTRO"
+                },
+                {
+                        "options": [
+                                "PODISTICA",
+                                "CICLISTICA"
+                        ],
+                        "correct": "PODISTICA"
+                },
+                {
+                        "options": [
+                                "PERDERE",
+                                "FARE"
+                        ],
+                        "correct": "FARE"
+                },
+                {
+                        "options": [
+                                "AL RIBASSO",
+                                "AL RIALZO"
+                        ],
+                        "correct": "AL RIALZO"
+                },
+                {
+                        "options": [
+                                "DISCONTINUA",
+                                "CONTINUA"
+                        ],
+                        "correct": "CONTINUA"
+                }
+        ],
+        "id": 106
+},
 ];
