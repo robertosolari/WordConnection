@@ -5507,4 +5507,215 @@ const GAMES_DB = [
         ],
         "id": 106
 },
+,
+    {
+        "solution": "PUNTO",
+        "explanation": "Punto di vista. Punto fermo. Punto e a capo. Punto cardinale. Punto cieco.",
+        "pairs": [
+                {
+                        "options": [
+                                "VISTA",
+                                "UDITO"
+                        ],
+                        "correct": "VISTA"
+                },
+                {
+                        "options": [
+                                "FERMO",
+                                "MOBILE"
+                        ],
+                        "correct": "FERMO"
+                },
+                {
+                        "options": [
+                                "CAPO",
+                                "CODA"
+                        ],
+                        "correct": "CAPO"
+                },
+                {
+                        "options": [
+                                "CARDINALE",
+                                "ORDINALE"
+                        ],
+                        "correct": "CARDINALE"
+                },
+                {
+                        "options": [
+                                "CHIARO",
+                                "CIECO"
+                        ],
+                        "correct": "CIECO"
+                }
+        ],
+        "id": 102
+},
+    {
+        "solution": "ONDA",
+        "explanation": "Onde radio. Onde del mare. Onde cerebrali. Onde sonore. Onde di calore.",
+        "pairs": [
+                {
+                        "options": [
+                                "RADIO",
+                                "VIDEO"
+                        ],
+                        "correct": "RADIO"
+                },
+                {
+                        "options": [
+                                "TERRA",
+                                "MARE"
+                        ],
+                        "correct": "MARE"
+                },
+                {
+                        "options": [
+                                "CEREBRALI",
+                                "MUSCOLARI"
+                        ],
+                        "correct": "CEREBRALI"
+                },
+                {
+                        "options": [
+                                "LUMINOSE",
+                                "SONORE"
+                        ],
+                        "correct": "SONORE"
+                },
+                {
+                        "options": [
+                                "CALORE",
+                                "FREDDO"
+                        ],
+                        "correct": "CALORE"
+                }
+        ],
+        "id": 103
+},
+    {
+        "solution": "CUORE",
+        "explanation": "Avere a cuore. Cuore di pietra. Cuore pulsante. Cuore di tenebra. Cuore del problema.",
+        "pairs": [
+                {
+                        "options": [
+                                "TESTA",
+                                "CUORE"
+                        ],
+                        "correct": "CUORE"
+                },
+                {
+                        "options": [
+                                "PIETRA",
+                                "CARTA"
+                        ],
+                        "correct": "PIETRA"
+                },
+                {
+                        "options": [
+                                "PULSANTE",
+                                "STATICO"
+                        ],
+                        "correct": "PULSANTE"
+                },
+                {
+                        "options": [
+                                "LUCE",
+                                "TENEBRA"
+                        ],
+                        "correct": "TENEBRA"
+                },
+                {
+                        "options": [
+                                "SOLUZIONE",
+                                "PROBLEMA"
+                        ],
+                        "correct": "PROBLEMA"
+                }
+        ],
+        "id": 104
+},
+    {
+        "solution": "LUCE",
+        "explanation": "Luce naturale. Luce al neon. Luce del faro. Luce dei riflettori. Luce verde.",
+        "pairs": [
+                {
+                        "options": [
+                                "ARTIFICIALE",
+                                "NATURALE"
+                        ],
+                        "correct": "NATURALE"
+                },
+                {
+                        "options": [
+                                "ALOGENA",
+                                "NEON"
+                        ],
+                        "correct": "NEON"
+                },
+                {
+                        "options": [
+                                "DEL FARO",
+                                "DELLA LUNA"
+                        ],
+                        "correct": "DEL FARO"
+                },
+                {
+                        "options": [
+                                "RIFLETTORI",
+                                "FARI"
+                        ],
+                        "correct": "RIFLETTORI"
+                },
+                {
+                        "options": [
+                                "ROSSA",
+                                "VERDE"
+                        ],
+                        "correct": "VERDE"
+                }
+        ],
+        "id": 105
+},
+    {
+        "solution": "VOCE",
+        "explanation": "Voce del verbo. Voce narrante. Voce di corridoio. Voce fuori campo. Voce grossa.",
+        "pairs": [
+                {
+                        "options": [
+                                "DEL VERBO",
+                                "DEL NOME"
+                        ],
+                        "correct": "DEL VERBO"
+                },
+                {
+                        "options": [
+                                "NARRANTE",
+                                "INTERPRETANTE"
+                        ],
+                        "correct": "NARRANTE"
+                },
+                {
+                        "options": [
+                                "DELL'ALBERO",
+                                "DI CORRIDOIO"
+                        ],
+                        "correct": "DI CORRIDOIO"
+                },
+                {
+                        "options": [
+                                "FUORI CAMPO",
+                                "SUL CAMPO"
+                        ],
+                        "correct": "FUORI CAMPO"
+                },
+                {
+                        "options": [
+                                "PICCOLA",
+                                "GROSSA"
+                        ],
+                        "correct": "GROSSA"
+                }
+        ],
+        "id": 106
+},
 ];
