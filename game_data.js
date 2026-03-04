@@ -5718,4 +5718,215 @@ const GAMES_DB = [
         ],
         "id": 106
 },
+,
+    {
+        "solution": "TERRA",
+        "explanation": "Pianeta Terra. Terra bruciata. Terra di mezzo. Terra promessa. Terra in bocca.",
+        "pairs": [
+                {
+                        "options": [
+                                "PIANETA",
+                                "STELLA"
+                        ],
+                        "correct": "PIANETA"
+                },
+                {
+                        "options": [
+                                "BRUCIATA",
+                                "FREDDA"
+                        ],
+                        "correct": "BRUCIATA"
+                },
+                {
+                        "options": [
+                                "DI MEZZO",
+                                "DI LATO"
+                        ],
+                        "correct": "DI MEZZO"
+                },
+                {
+                        "options": [
+                                "PROMESSA",
+                                "DISPERATA"
+                        ],
+                        "correct": "PROMESSA"
+                },
+                {
+                        "options": [
+                                "IN BOCCA",
+                                "IN MANO"
+                        ],
+                        "correct": "IN BOCCA"
+                }
+        ],
+        "id": 102
+},
+    {
+        "solution": "CORDA",
+        "explanation": "Colpo di corda. Corda vocale. Corda tesa. Corda di violino. Corda doppia.",
+        "pairs": [
+                {
+                        "options": [
+                                "COLPO",
+                                "SENSO"
+                        ],
+                        "correct": "COLPO"
+                },
+                {
+                        "options": [
+                                "VOCALE",
+                                "SCRITTA"
+                        ],
+                        "correct": "VOCALE"
+                },
+                {
+                        "options": [
+                                "TESA",
+                                "LENTA"
+                        ],
+                        "correct": "TESA"
+                },
+                {
+                        "options": [
+                                "DI VIOLINO",
+                                "DI PIANO"
+                        ],
+                        "correct": "DI VIOLINO"
+                },
+                {
+                        "options": [
+                                "DOPPIA",
+                                "SINGOLA"
+                        ],
+                        "correct": "DOPPIA"
+                }
+        ],
+        "id": 103
+},
+    {
+        "solution": "LUCE",
+        "explanation": "Vedere la luce. Luce rossa. Luce diurna. Luce fioca. Luce verde.",
+        "pairs": [
+                {
+                        "options": [
+                                "VEDERE",
+                                "PERDERE"
+                        ],
+                        "correct": "VEDERE"
+                },
+                {
+                        "options": [
+                                "ROSSA",
+                                "BLU"
+                        ],
+                        "correct": "ROSSA"
+                },
+                {
+                        "options": [
+                                "DIURNA",
+                                "NOTTURNA"
+                        ],
+                        "correct": "DIURNA"
+                },
+                {
+                        "options": [
+                                "FIOCA",
+                                "FORTE"
+                        ],
+                        "correct": "FIOCA"
+                },
+                {
+                        "options": [
+                                "VERDE",
+                                "GIALLA"
+                        ],
+                        "correct": "VERDE"
+                }
+        ],
+        "id": 104
+},
+    {
+        "solution": "CIELO",
+        "explanation": "Cielo stellato. Cielo a pecorelle. Cielo terso. Cielo in una stanza. Cielo grigio.",
+        "pairs": [
+                {
+                        "options": [
+                                "STELLATO",
+                                "MUTO"
+                        ],
+                        "correct": "STELLATO"
+                },
+                {
+                        "options": [
+                                "A PECORELLE",
+                                "A SCACCHI"
+                        ],
+                        "correct": "A PECORELLE"
+                },
+                {
+                        "options": [
+                                "TERSO",
+                                "SCURO"
+                        ],
+                        "correct": "TERSO"
+                },
+                {
+                        "options": [
+                                "IN UNA STANZA",
+                                "IN UNA SCATOLA"
+                        ],
+                        "correct": "IN UNA STANZA"
+                },
+                {
+                        "options": [
+                                "GRIGIO",
+                                "VERDE"
+                        ],
+                        "correct": "GRIGIO"
+                }
+        ],
+        "id": 105
+},
+    {
+        "solution": "FOGLIA",
+        "explanation": "Foglia di fico. Foglia d'acero. Foglia morta. Foglia di tè. Foglia volante.",
+        "pairs": [
+                {
+                        "options": [
+                                "DI FICO",
+                                "DI VITE"
+                        ],
+                        "correct": "DI FICO"
+                },
+                {
+                        "options": [
+                                "D'ACERO",
+                                "D'ULIVO"
+                        ],
+                        "correct": "D'ACERO"
+                },
+                {
+                        "options": [
+                                "MORTA",
+                                "VIVA"
+                        ],
+                        "correct": "MORTA"
+                },
+                {
+                        "options": [
+                                "DI TÈ",
+                                "DI PANE"
+                        ],
+                        "correct": "DI TÈ"
+                },
+                {
+                        "options": [
+                                "VOLANTE",
+                                "FISSA"
+                        ],
+                        "correct": "VOLANTE"
+                }
+        ],
+        "id": 106
+},
 ];
