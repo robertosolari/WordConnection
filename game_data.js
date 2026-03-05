@@ -5929,4 +5929,215 @@ const GAMES_DB = [
         ],
         "id": 106
 },
+,
+    {
+        "solution": "CIELO",
+        "explanation": "CIELO stellato. CIELO a pecorelle. Fuori dal CIELO. In CIELO e in terra. Sotto un unico CIELO.",
+        "pairs": [
+                {
+                        "options": [
+                                "STELLATO",
+                                "BUIO"
+                        ],
+                        "correct": "STELLATO"
+                },
+                {
+                        "options": [
+                                "MARINO",
+                                "A PECORELLE"
+                        ],
+                        "correct": "A PECORELLE"
+                },
+                {
+                        "options": [
+                                "DENTRO",
+                                "FUORI"
+                        ],
+                        "correct": "FUORI"
+                },
+                {
+                        "options": [
+                                "TERRA",
+                                "MARE"
+                        ],
+                        "correct": "TERRA"
+                },
+                {
+                        "options": [
+                                "UNICO",
+                                "DIVERSO"
+                        ],
+                        "correct": "UNICO"
+                }
+        ],
+        "id": 102
+},
+    {
+        "solution": "PIANO",
+        "explanation": "PIANO inclinato. In primo PIANO. PIANO di studi. PIANO forte. PIANO di battaglia.",
+        "pairs": [
+                {
+                        "options": [
+                                "INCLINATO",
+                                "RIPIDO"
+                        ],
+                        "correct": "INCLINATO"
+                },
+                {
+                        "options": [
+                                "ULTIMO",
+                                "PRIMO"
+                        ],
+                        "correct": "PRIMO"
+                },
+                {
+                        "options": [
+                                "SCUOLA",
+                                "STUDI"
+                        ],
+                        "correct": "STUDI"
+                },
+                {
+                        "options": [
+                                "FORTE",
+                                "DEBOLE"
+                        ],
+                        "correct": "FORTE"
+                },
+                {
+                        "options": [
+                                "BATTAGLIA",
+                                "PACE"
+                        ],
+                        "correct": "BATTAGLIA"
+                }
+        ],
+        "id": 103
+},
+    {
+        "solution": "LUCE",
+        "explanation": "LUCE di luna. Luce e ombra. Luce interiore. Luce in fondo al tunnel. Luce verde.",
+        "pairs": [
+                {
+                        "options": [
+                                "SOLE",
+                                "LUNA"
+                        ],
+                        "correct": "LUNA"
+                },
+                {
+                        "options": [
+                                "OMBRE",
+                                "OMBRELLO"
+                        ],
+                        "correct": "OMBRE"
+                },
+                {
+                        "options": [
+                                "ESTERIORE",
+                                "INTERIORE"
+                        ],
+                        "correct": "INTERIORE"
+                },
+                {
+                        "options": [
+                                "INIZIO",
+                                "FONDO"
+                        ],
+                        "correct": "FONDO"
+                },
+                {
+                        "options": [
+                                "ROSSA",
+                                "VERDE"
+                        ],
+                        "correct": "VERDE"
+                }
+        ],
+        "id": 104
+},
+    {
+        "solution": "CORONA",
+        "explanation": "CORONA d'alloro. CORONA di spine. CORONA virale. CORONA reale. CORONA dentale.",
+        "pairs": [
+                {
+                        "options": [
+                                "FIORE",
+                                "ALLORO"
+                        ],
+                        "correct": "ALLORO"
+                },
+                {
+                        "options": [
+                                "SPINE",
+                                "PETALI"
+                        ],
+                        "correct": "SPINE"
+                },
+                {
+                        "options": [
+                                "VIRALE",
+                                "BACTERIA"
+                        ],
+                        "correct": "VIRALE"
+                },
+                {
+                        "options": [
+                                "REGALE",
+                                "REALE"
+                        ],
+                        "correct": "REALE"
+                },
+                {
+                        "options": [
+                                "DENTALE",
+                                "OSSEA"
+                        ],
+                        "correct": "DENTALE"
+                }
+        ],
+        "id": 105
+},
+    {
+        "solution": "ONDA",
+        "explanation": "ONDA sonora. ONDA d'urto. ONDA lunga. Fare ONDA. ONDA verde.",
+        "pairs": [
+                {
+                        "options": [
+                                "SONORA",
+                                "VISIVA"
+                        ],
+                        "correct": "SONORA"
+                },
+                {
+                        "options": [
+                                "URTO",
+                                "CALMA"
+                        ],
+                        "correct": "URTO"
+                },
+                {
+                        "options": [
+                                "CORTA",
+                                "LUNGA"
+                        ],
+                        "correct": "LUNGA"
+                },
+                {
+                        "options": [
+                                "FARE",
+                                "RICEVERE"
+                        ],
+                        "correct": "FARE"
+                },
+                {
+                        "options": [
+                                "ROSSA",
+                                "VERDE"
+                        ],
+                        "correct": "VERDE"
+                }
+        ],
+        "id": 106
+},
 ];
