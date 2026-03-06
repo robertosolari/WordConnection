@@ -6140,4 +6140,215 @@ const GAMES_DB = [
         ],
         "id": 106
 },
+,
+    {
+        "solution": "LUCE",
+        "explanation": "Alla LUCE. In LUCE. LUCE naturale. Spegnere la LUCE. LUCE verde.",
+        "pairs": [
+                {
+                        "options": [
+                                "OMBRA",
+                                "LUCE"
+                        ],
+                        "correct": "LUCE"
+                },
+                {
+                        "options": [
+                                "NATURALE",
+                                "ARTIFICIALE"
+                        ],
+                        "correct": "NATURALE"
+                },
+                {
+                        "options": [
+                                "ACCENDERE",
+                                "SPEGNERE"
+                        ],
+                        "correct": "SPEGNERE"
+                },
+                {
+                        "options": [
+                                "ROSSA",
+                                "VERDE"
+                        ],
+                        "correct": "VERDE"
+                },
+                {
+                        "options": [
+                                "IN",
+                                "FUORI"
+                        ],
+                        "correct": "IN"
+                }
+        ],
+        "id": 102
+},
+    {
+        "solution": "CHIAVE",
+        "explanation": "CHIAVE inglese. Nota CHIAVE. CHIAVE di volta. CHIAVE di sicurezza. CHIAVE segreta.",
+        "pairs": [
+                {
+                        "options": [
+                                "ITALIANA",
+                                "INGLESE"
+                        ],
+                        "correct": "INGLESE"
+                },
+                {
+                        "options": [
+                                "NOTA",
+                                "SUONO"
+                        ],
+                        "correct": "NOTA"
+                },
+                {
+                        "options": [
+                                "ARCO",
+                                "VOLTA"
+                        ],
+                        "correct": "VOLTA"
+                },
+                {
+                        "options": [
+                                "DI SICUREZZA",
+                                "DI STILE"
+                        ],
+                        "correct": "DI SICUREZZA"
+                },
+                {
+                        "options": [
+                                "SEGRETA",
+                                "APERTA"
+                        ],
+                        "correct": "SEGRETA"
+                }
+        ],
+        "id": 103
+},
+    {
+        "solution": "FOGLIO",
+        "explanation": "FOGLIO di carta. FOGLIO di lavoro. FOGLIO elettronico. FOGLIO di via. FOGLIO bianco.",
+        "pairs": [
+                {
+                        "options": [
+                                "TESSUTO",
+                                "CARTA"
+                        ],
+                        "correct": "CARTA"
+                },
+                {
+                        "options": [
+                                "DI LAVORO",
+                                "DI RIPOSO"
+                        ],
+                        "correct": "DI LAVORO"
+                },
+                {
+                        "options": [
+                                "DI VIA",
+                                "DELLA STRADA"
+                        ],
+                        "correct": "DI VIA"
+                },
+                {
+                        "options": [
+                                "ELETTRONICO",
+                                "MECCANICO"
+                        ],
+                        "correct": "ELETTRONICO"
+                },
+                {
+                        "options": [
+                                "BIANCO",
+                                "COLORATO"
+                        ],
+                        "correct": "BIANCO"
+                }
+        ],
+        "id": 104
+},
+    {
+        "solution": "PIANO",
+        "explanation": "PIANO terra. PIANO di lavoro. PIANO sequenza. Nota PIANO. PIANO strategico.",
+        "pairs": [
+                {
+                        "options": [
+                                "TERRA",
+                                "CIELO"
+                        ],
+                        "correct": "TERRA"
+                },
+                {
+                        "options": [
+                                "DI LAVORO",
+                                "DI GIOCO"
+                        ],
+                        "correct": "DI LAVORO"
+                },
+                {
+                        "options": [
+                                "SEQUENZA",
+                                "RIPOSO"
+                        ],
+                        "correct": "SEQUENZA"
+                },
+                {
+                        "options": [
+                                "NOTA",
+                                "SUONO"
+                        ],
+                        "correct": "NOTA"
+                },
+                {
+                        "options": [
+                                "STRATEGICO",
+                                "CAOTICO"
+                        ],
+                        "correct": "STRATEGICO"
+                }
+        ],
+        "id": 105
+},
+    {
+        "solution": "VETRO",
+        "explanation": "VETRO temperato. VETRO soffiato. VETRO colorato. VETRO di Murano. VETRO infrangibile.",
+        "pairs": [
+                {
+                        "options": [
+                                "TEMPERATO",
+                                "CALDO"
+                        ],
+                        "correct": "TEMPERATO"
+                },
+                {
+                        "options": [
+                                "SOFFIATO",
+                                "PRESSATO"
+                        ],
+                        "correct": "SOFFIATO"
+                },
+                {
+                        "options": [
+                                "COLORATO",
+                                "INCOLORE"
+                        ],
+                        "correct": "COLORATO"
+                },
+                {
+                        "options": [
+                                "DI MURANO",
+                                "DI VENEZIA"
+                        ],
+                        "correct": "DI MURANO"
+                },
+                {
+                        "options": [
+                                "INFRANGIBILE",
+                                "FRAGILE"
+                        ],
+                        "correct": "INFRANGIBILE"
+                }
+        ],
+        "id": 106
+},
 ];
