@@ -6351,4 +6351,215 @@ const GAMES_DB = [
         ],
         "id": 106
 },
+,
+    {
+        "solution": "CORDA",
+        "explanation": "Corda tesa. Nodo alla corda. Suonare la corda. Corda vocale. Tirare la corda.",
+        "pairs": [
+                {
+                        "options": [
+                                "MOLLA",
+                                "TESA"
+                        ],
+                        "correct": "TESA"
+                },
+                {
+                        "options": [
+                                "CATENA",
+                                "NODO"
+                        ],
+                        "correct": "NODO"
+                },
+                {
+                        "options": [
+                                "SUONARE",
+                                "BALLARE"
+                        ],
+                        "correct": "SUONARE"
+                },
+                {
+                        "options": [
+                                "CAVO",
+                                "VOCALE"
+                        ],
+                        "correct": "VOCALE"
+                },
+                {
+                        "options": [
+                                "TIRARE",
+                                "SPINGERE"
+                        ],
+                        "correct": "TIRARE"
+                }
+        ],
+        "id": 102
+},
+    {
+        "solution": "FIORE",
+        "explanation": "Fiore all'occhiello. Fiore di vetro. Fiore di carta. Fiore di campo. Fiore di maggio.",
+        "pairs": [
+                {
+                        "options": [
+                                "ALL'ORECCHIO",
+                                "ALL'OCCHIELLO"
+                        ],
+                        "correct": "ALL'OCCHIELLO"
+                },
+                {
+                        "options": [
+                                "DI VETRO",
+                                "DI FERRO"
+                        ],
+                        "correct": "DI VETRO"
+                },
+                {
+                        "options": [
+                                "DI PLASTICA",
+                                "DI CARTA"
+                        ],
+                        "correct": "DI CARTA"
+                },
+                {
+                        "options": [
+                                "DI GIARDINO",
+                                "DI CAMPO"
+                        ],
+                        "correct": "DI CAMPO"
+                },
+                {
+                        "options": [
+                                "DI LUGLIO",
+                                "DI MAGGIO"
+                        ],
+                        "correct": "DI MAGGIO"
+                }
+        ],
+        "id": 103
+},
+    {
+        "solution": "SCALA",
+        "explanation": "Scala musicale. Scala a pioli. Scala reale. Scala mobile. Scala gerarchica.",
+        "pairs": [
+                {
+                        "options": [
+                                "MUSICALE",
+                                "DANZANTE"
+                        ],
+                        "correct": "MUSICALE"
+                },
+                {
+                        "options": [
+                                "A PIOLI",
+                                "A GRADINI"
+                        ],
+                        "correct": "A PIOLI"
+                },
+                {
+                        "options": [
+                                "REGALE",
+                                "REALE"
+                        ],
+                        "correct": "REALE"
+                },
+                {
+                        "options": [
+                                "MOBILE",
+                                "FISSA"
+                        ],
+                        "correct": "MOBILE"
+                },
+                {
+                        "options": [
+                                "GERARCHICA",
+                                "DEMOGRAFICA"
+                        ],
+                        "correct": "GERARCHICA"
+                }
+        ],
+        "id": 104
+},
+    {
+        "solution": "LUCE",
+        "explanation": "Luce verde. Luce di stop. Luce del sole. Luce di candela. Luce fioca.",
+        "pairs": [
+                {
+                        "options": [
+                                "ROSSA",
+                                "VERDE"
+                        ],
+                        "correct": "VERDE"
+                },
+                {
+                        "options": [
+                                "DI STOP",
+                                "DI PARTENZA"
+                        ],
+                        "correct": "DI STOP"
+                },
+                {
+                        "options": [
+                                "DELLA LUNA",
+                                "DEL SOLE"
+                        ],
+                        "correct": "DEL SOLE"
+                },
+                {
+                        "options": [
+                                "DI LAMPADA",
+                                "DI CANDELA"
+                        ],
+                        "correct": "DI CANDELA"
+                },
+                {
+                        "options": [
+                                "FIAMMANTE",
+                                "FIOCA"
+                        ],
+                        "correct": "FIOCA"
+                }
+        ],
+        "id": 105
+},
+    {
+        "solution": "PIETRA",
+        "explanation": "Pietra miliare. Pietra angolare. Pietra filosofale. Pietra di paragone. Pietra dura.",
+        "pairs": [
+                {
+                        "options": [
+                                "MILIARE",
+                                "CENTRALE"
+                        ],
+                        "correct": "MILIARE"
+                },
+                {
+                        "options": [
+                                "ANGOLARE",
+                                "ROTONDA"
+                        ],
+                        "correct": "ANGOLARE"
+                },
+                {
+                        "options": [
+                                "FILOSOFALE",
+                                "SCIENTIFICA"
+                        ],
+                        "correct": "FILOSOFALE"
+                },
+                {
+                        "options": [
+                                "DI PARAGONE",
+                                "DI CONFRONTO"
+                        ],
+                        "correct": "DI PARAGONE"
+                },
+                {
+                        "options": [
+                                "TENERA",
+                                "DURA"
+                        ],
+                        "correct": "DURA"
+                }
+        ],
+        "id": 106
+},
 ];
