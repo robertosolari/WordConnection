@@ -6562,4 +6562,215 @@ const GAMES_DB = [
         ],
         "id": 106
 },
+,
+    {
+        "solution": "NOTA",
+        "explanation": "Nota musicale. Nota di merito. Nota dolente. Nota a margine. Nota spese.",
+        "pairs": [
+                {
+                        "options": [
+                                "MUSICALE",
+                                "TEATRALE"
+                        ],
+                        "correct": "MUSICALE"
+                },
+                {
+                        "options": [
+                                "DEMERITO",
+                                "MERITO"
+                        ],
+                        "correct": "MERITO"
+                },
+                {
+                        "options": [
+                                "DOLCE",
+                                "DOLENTE"
+                        ],
+                        "correct": "DOLENTE"
+                },
+                {
+                        "options": [
+                                "A MARGINE",
+                                "A PIEDI"
+                        ],
+                        "correct": "A MARGINE"
+                },
+                {
+                        "options": [
+                                "SPESE",
+                                "GUADAGNI"
+                        ],
+                        "correct": "SPESE"
+                }
+        ],
+        "id": 102
+},
+    {
+        "solution": "CUORE",
+        "explanation": "Cuore di pietra. Cuore di panna. Cuore aperto. Cuore infranto. Cuore pulsante.",
+        "pairs": [
+                {
+                        "options": [
+                                "DI PIETRA",
+                                "DI LEGNO"
+                        ],
+                        "correct": "DI PIETRA"
+                },
+                {
+                        "options": [
+                                "DI PANNA",
+                                "DI ZUCCHERO"
+                        ],
+                        "correct": "DI PANNA"
+                },
+                {
+                        "options": [
+                                "APERTO",
+                                "CHIUSO"
+                        ],
+                        "correct": "APERTO"
+                },
+                {
+                        "options": [
+                                "INFRANTO",
+                                "INTERO"
+                        ],
+                        "correct": "INFRANTO"
+                },
+                {
+                        "options": [
+                                "PULSANTE",
+                                "FERMO"
+                        ],
+                        "correct": "PULSANTE"
+                }
+        ],
+        "id": 103
+},
+    {
+        "solution": "LUCE",
+        "explanation": "Luce verde. Luce naturale. Luce di candele. Luce diurna. Luce guida.",
+        "pairs": [
+                {
+                        "options": [
+                                "ROSSA",
+                                "VERDE"
+                        ],
+                        "correct": "VERDE"
+                },
+                {
+                        "options": [
+                                "NATURALE",
+                                "ARTIFICIALE"
+                        ],
+                        "correct": "NATURALE"
+                },
+                {
+                        "options": [
+                                "DI CANDELE",
+                                "DI STELLE"
+                        ],
+                        "correct": "DI CANDELE"
+                },
+                {
+                        "options": [
+                                "DIURNA",
+                                "NOTTURNA"
+                        ],
+                        "correct": "DIURNA"
+                },
+                {
+                        "options": [
+                                "GUIDA",
+                                "COMUNE"
+                        ],
+                        "correct": "GUIDA"
+                }
+        ],
+        "id": 104
+},
+    {
+        "solution": "VOCE",
+        "explanation": "Voce narrante. Voce di popolo. Voce sottile. Voce grossa. Voce stonata.",
+        "pairs": [
+                {
+                        "options": [
+                                "NARRANTE",
+                                "CANTANTE"
+                        ],
+                        "correct": "NARRANTE"
+                },
+                {
+                        "options": [
+                                "DI POPOLO",
+                                "DI RE"
+                        ],
+                        "correct": "DI POPOLO"
+                },
+                {
+                        "options": [
+                                "SOTTILE",
+                                "SPESSA"
+                        ],
+                        "correct": "SOTTILE"
+                },
+                {
+                        "options": [
+                                "GROSSA",
+                                "FINE"
+                        ],
+                        "correct": "GROSSA"
+                },
+                {
+                        "options": [
+                                "STONATA",
+                                "INTONATA"
+                        ],
+                        "correct": "STONATA"
+                }
+        ],
+        "id": 105
+},
+    {
+        "solution": "TERRA",
+        "explanation": "Terra promessa. Terra di mezzo. Terra di nessuno. Terra ferma. Terra bruciata.",
+        "pairs": [
+                {
+                        "options": [
+                                "PROMESSA",
+                                "DIMENTICATA"
+                        ],
+                        "correct": "PROMESSA"
+                },
+                {
+                        "options": [
+                                "DI MEZZO",
+                                "DI TESTA"
+                        ],
+                        "correct": "DI MEZZO"
+                },
+                {
+                        "options": [
+                                "DI NESSUNO",
+                                "DI TUTTI"
+                        ],
+                        "correct": "DI NESSUNO"
+                },
+                {
+                        "options": [
+                                "FERMA",
+                                "MOBILE"
+                        ],
+                        "correct": "FERMA"
+                },
+                {
+                        "options": [
+                                "BRUCIATA",
+                                "VERDE"
+                        ],
+                        "correct": "BRUCIATA"
+                }
+        ],
+        "id": 106
+},
 ];
