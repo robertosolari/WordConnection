@@ -6773,4 +6773,215 @@ const GAMES_DB = [
         ],
         "id": 106
 },
+,
+    {
+        "solution": "RETE",
+        "explanation": "Rete sociale. Rete da pesca. Cadere nella rete. Rete internet. A rete.",
+        "pairs": [
+                {
+                        "options": [
+                                "SOCIALE",
+                                "ISOLATA"
+                        ],
+                        "correct": "SOCIALE"
+                },
+                {
+                        "options": [
+                                "LENZA",
+                                "PESCA"
+                        ],
+                        "correct": "PESCA"
+                },
+                {
+                        "options": [
+                                "CADERE",
+                                "SALIRE"
+                        ],
+                        "correct": "CADERE"
+                },
+                {
+                        "options": [
+                                "INTRANET",
+                                "INTERNET"
+                        ],
+                        "correct": "INTERNET"
+                },
+                {
+                        "options": [
+                                "A",
+                                "IN"
+                        ],
+                        "correct": "A"
+                }
+        ],
+        "id": 102
+},
+    {
+        "solution": "LUCE",
+        "explanation": "Vedere la luce. Luce naturale. Spiraglio di luce. Accendere la luce. In piena luce.",
+        "pairs": [
+                {
+                        "options": [
+                                "SENTIRE",
+                                "VEDERE"
+                        ],
+                        "correct": "VEDERE"
+                },
+                {
+                        "options": [
+                                "ARTIFICIALE",
+                                "NATURALE"
+                        ],
+                        "correct": "NATURALE"
+                },
+                {
+                        "options": [
+                                "SPIRAGLIO",
+                                "TENEBRA"
+                        ],
+                        "correct": "SPIRAGLIO"
+                },
+                {
+                        "options": [
+                                "ACCENDERE",
+                                "SPEGNERE"
+                        ],
+                        "correct": "ACCENDERE"
+                },
+                {
+                        "options": [
+                                "PIENA",
+                                "MEZZA"
+                        ],
+                        "correct": "PIENA"
+                }
+        ],
+        "id": 103
+},
+    {
+        "solution": "CORDA",
+        "explanation": "Corda vocale. Saltare la corda. Tirare la corda. Avere la corda al collo. Corda di sicurezza.",
+        "pairs": [
+                {
+                        "options": [
+                                "VOCALE",
+                                "SILENZIO"
+                        ],
+                        "correct": "VOCALE"
+                },
+                {
+                        "options": [
+                                "CORRERE",
+                                "SALTARE"
+                        ],
+                        "correct": "SALTARE"
+                },
+                {
+                        "options": [
+                                "TIRARE",
+                                "SPINGERE"
+                        ],
+                        "correct": "TIRARE"
+                },
+                {
+                        "options": [
+                                "COLLO",
+                                "SPALLA"
+                        ],
+                        "correct": "COLLO"
+                },
+                {
+                        "options": [
+                                "PERICOLO",
+                                "SICUREZZA"
+                        ],
+                        "correct": "SICUREZZA"
+                }
+        ],
+        "id": 104
+},
+    {
+        "solution": "PUNTO",
+        "explanation": "Punto di vista. Fare il punto. Punto e virgola. A punto. Punto critico.",
+        "pairs": [
+                {
+                        "options": [
+                                "VISTA",
+                                "TATTO"
+                        ],
+                        "correct": "VISTA"
+                },
+                {
+                        "options": [
+                                "FARE",
+                                "DISFARE"
+                        ],
+                        "correct": "FARE"
+                },
+                {
+                        "options": [
+                                "VIRGOLA",
+                                "PUNTO"
+                        ],
+                        "correct": "PUNTO"
+                },
+                {
+                        "options": [
+                                "A",
+                                "DA"
+                        ],
+                        "correct": "A"
+                },
+                {
+                        "options": [
+                                "CRITICO",
+                                "FACILE"
+                        ],
+                        "correct": "CRITICO"
+                }
+        ],
+        "id": 105
+},
+    {
+        "solution": "TESTA",
+        "explanation": "Testa dura. Colpo di testa. Perdere la testa. Testa di ponte. Avere la testa a posto.",
+        "pairs": [
+                {
+                        "options": [
+                                "DURA",
+                                "MORBIDA"
+                        ],
+                        "correct": "DURA"
+                },
+                {
+                        "options": [
+                                "COLPO",
+                                "CAREZZA"
+                        ],
+                        "correct": "COLPO"
+                },
+                {
+                        "options": [
+                                "PERDERE",
+                                "TROVARE"
+                        ],
+                        "correct": "PERDERE"
+                },
+                {
+                        "options": [
+                                "PONTE",
+                                "TUNNEL"
+                        ],
+                        "correct": "PONTE"
+                },
+                {
+                        "options": [
+                                "POSTO",
+                                "CAOS"
+                        ],
+                        "correct": "POSTO"
+                }
+        ],
+        "id": 106
+},
 ];
