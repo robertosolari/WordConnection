@@ -6984,4 +6984,215 @@ const GAMES_DB = [
         ],
         "id": 106
 },
+,
+    {
+        "solution": "CORDA",
+        "explanation": "Corda vocale. Nodo alla corda. Saltare la corda. Corda di violino. Corda per arrampicata.",
+        "pairs": [
+                {
+                        "options": [
+                                "VOCALE",
+                                "SONORA"
+                        ],
+                        "correct": "VOCALE"
+                },
+                {
+                        "options": [
+                                "NODO",
+                                "FILO"
+                        ],
+                        "correct": "NODO"
+                },
+                {
+                        "options": [
+                                "SALTARE",
+                                "CORRERE"
+                        ],
+                        "correct": "SALTARE"
+                },
+                {
+                        "options": [
+                                "PIANO",
+                                "VIOLINO"
+                        ],
+                        "correct": "VIOLINO"
+                },
+                {
+                        "options": [
+                                "NUOTO",
+                                "ARRAMPICATA"
+                        ],
+                        "correct": "ARRAMPICATA"
+                }
+        ],
+        "id": 102
+},
+    {
+        "solution": "PIEDE",
+        "explanation": "Avere il piede in due staffe. Mettere piede a terra. Piede di porco. Piede libero. Battuta di piede.",
+        "pairs": [
+                {
+                        "options": [
+                                "STAMPELLA",
+                                "STAFFA"
+                        ],
+                        "correct": "STAFFA"
+                },
+                {
+                        "options": [
+                                "MANO",
+                                "TERRA"
+                        ],
+                        "correct": "TERRA"
+                },
+                {
+                        "options": [
+                                "PORCO",
+                                "CAVALLO"
+                        ],
+                        "correct": "PORCO"
+                },
+                {
+                        "options": [
+                                "LIBERO",
+                                "CHIUSO"
+                        ],
+                        "correct": "LIBERO"
+                },
+                {
+                        "options": [
+                                "MANO",
+                                "BATTUTA"
+                        ],
+                        "correct": "BATTUTA"
+                }
+        ],
+        "id": 103
+},
+    {
+        "solution": "FOGLIA",
+        "explanation": "Foglia di fico. Foglia d'oro. Foglia di tè. Foglia di insalata. Foglia cadente.",
+        "pairs": [
+                {
+                        "options": [
+                                "FICO",
+                                "PESCA"
+                        ],
+                        "correct": "FICO"
+                },
+                {
+                        "options": [
+                                "ARGENTO",
+                                "ORO"
+                        ],
+                        "correct": "ORO"
+                },
+                {
+                        "options": [
+                                "TÈ",
+                                "CAFFÈ"
+                        ],
+                        "correct": "TÈ"
+                },
+                {
+                        "options": [
+                                "INSALATA",
+                                "ZUPPA"
+                        ],
+                        "correct": "INSALATA"
+                },
+                {
+                        "options": [
+                                "CADENTE",
+                                "RESISTENTE"
+                        ],
+                        "correct": "CADENTE"
+                }
+        ],
+        "id": 104
+},
+    {
+        "solution": "BANCO",
+        "explanation": "Banco di scuola. Banco di pesce. Banco di prova. Banco di lavoro. Banco di nebbia.",
+        "pairs": [
+                {
+                        "options": [
+                                "SCUOLA",
+                                "UFFICO"
+                        ],
+                        "correct": "SCUOLA"
+                },
+                {
+                        "options": [
+                                "PESCE",
+                                "CARNE"
+                        ],
+                        "correct": "PESCE"
+                },
+                {
+                        "options": [
+                                "ESAME",
+                                "PROVA"
+                        ],
+                        "correct": "PROVA"
+                },
+                {
+                        "options": [
+                                "LAVORO",
+                                "DIVERTIMENTO"
+                        ],
+                        "correct": "LAVORO"
+                },
+                {
+                        "options": [
+                                "SOFFIO",
+                                "NEBBIA"
+                        ],
+                        "correct": "NEBBIA"
+                }
+        ],
+        "id": 105
+},
+    {
+        "solution": "LUNA",
+        "explanation": "Luna piena. Luna di miele. Luna park. Luna crescente. Luna calante.",
+        "pairs": [
+                {
+                        "options": [
+                                "PIENA",
+                                "VUOTA"
+                        ],
+                        "correct": "PIENA"
+                },
+                {
+                        "options": [
+                                "DI MIELE",
+                                "DI SALE"
+                        ],
+                        "correct": "DI MIELE"
+                },
+                {
+                        "options": [
+                                "PARCO",
+                                "PARK"
+                        ],
+                        "correct": "PARK"
+                },
+                {
+                        "options": [
+                                "CALANTE",
+                                "CRESCENTE"
+                        ],
+                        "correct": "CRESCENTE"
+                },
+                {
+                        "options": [
+                                "SALENTE",
+                                "CALANTE"
+                        ],
+                        "correct": "CALANTE"
+                }
+        ],
+        "id": 106
+},
 ];
