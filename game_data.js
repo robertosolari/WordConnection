@@ -7195,4 +7195,215 @@ const GAMES_DB = [
         ],
         "id": 106
 },
+,
+    {
+        "solution": "OCCHIO",
+        "explanation": "Avere OCCHIO. Battito di OCCHIO. Colpo d'OCCHIO. OCCHIO di riguardo. OCCHIO di bue.",
+        "pairs": [
+                {
+                        "options": [
+                                "AVERE",
+                                "PERDERE"
+                        ],
+                        "correct": "AVERE"
+                },
+                {
+                        "options": [
+                                "BATTITO",
+                                "RITMO"
+                        ],
+                        "correct": "BATTITO"
+                },
+                {
+                        "options": [
+                                "COLPO",
+                                "GIOCO"
+                        ],
+                        "correct": "COLPO"
+                },
+                {
+                        "options": [
+                                "DISPREZZO",
+                                "RIGUARDO"
+                        ],
+                        "correct": "RIGUARDO"
+                },
+                {
+                        "options": [
+                                "OCCHIO",
+                                "BUCO"
+                        ],
+                        "correct": "OCCHIO"
+                }
+        ],
+        "id": 102
+},
+    {
+        "solution": "PIEDE",
+        "explanation": "Avere un PIEDE. Mettere il PIEDE. Stare in PIEDE. PIEDE di pagina. Cadere ai PIEDE.",
+        "pairs": [
+                {
+                        "options": [
+                                "VISO",
+                                "PIEDE"
+                        ],
+                        "correct": "PIEDE"
+                },
+                {
+                        "options": [
+                                "METTERE",
+                                "TOGLIERE"
+                        ],
+                        "correct": "METTERE"
+                },
+                {
+                        "options": [
+                                "STARE",
+                                "SEDERE"
+                        ],
+                        "correct": "STARE"
+                },
+                {
+                        "options": [
+                                "PIEDE",
+                                "FRONTE"
+                        ],
+                        "correct": "PIEDE"
+                },
+                {
+                        "options": [
+                                "TESTA",
+                                "PIEDI"
+                        ],
+                        "correct": "PIEDI"
+                }
+        ],
+        "id": 103
+},
+    {
+        "solution": "LUCE",
+        "explanation": "Portare alla LUCE. LUCE diurna. LUCE dei riflettori. LUCE in fondo. Poca LUCE.",
+        "pairs": [
+                {
+                        "options": [
+                                "PORTARE",
+                                "NASCONDERE"
+                        ],
+                        "correct": "PORTARE"
+                },
+                {
+                        "options": [
+                                "DIURNA",
+                                "NOTTURNA"
+                        ],
+                        "correct": "DIURNA"
+                },
+                {
+                        "options": [
+                                "RIFLETTORI",
+                                "SPECCHI"
+                        ],
+                        "correct": "RIFLETTORI"
+                },
+                {
+                        "options": [
+                                "LUCE",
+                                "OMBRA"
+                        ],
+                        "correct": "LUCE"
+                },
+                {
+                        "options": [
+                                "TANTA",
+                                "POCA"
+                        ],
+                        "correct": "POCA"
+                }
+        ],
+        "id": 104
+},
+    {
+        "solution": "CUORE",
+        "explanation": "Parlare col CUORE. Avere un CUORE. CUORE infranto. Nel CUORE della notte. CUORE di ghiaccio.",
+        "pairs": [
+                {
+                        "options": [
+                                "PARLARE",
+                                "TACERE"
+                        ],
+                        "correct": "PARLARE"
+                },
+                {
+                        "options": [
+                                "CUORE",
+                                "MENTE"
+                        ],
+                        "correct": "CUORE"
+                },
+                {
+                        "options": [
+                                "INTERO",
+                                "INFRANTO"
+                        ],
+                        "correct": "INFRANTO"
+                },
+                {
+                        "options": [
+                                "CUORE",
+                                "INIZIO"
+                        ],
+                        "correct": "CUORE"
+                },
+                {
+                        "options": [
+                                "FUOCO",
+                                "GHIACCIO"
+                        ],
+                        "correct": "GHIACCIO"
+                }
+        ],
+        "id": 105
+},
+    {
+        "solution": "VENTO",
+        "explanation": "Soffiare nel VENTO. VENTO in poppa. Cambiare VENTO. Al VENTO. VENTO di novità.",
+        "pairs": [
+                {
+                        "options": [
+                                "SOFFIARE",
+                                "ASPIRARE"
+                        ],
+                        "correct": "SOFFIARE"
+                },
+                {
+                        "options": [
+                                "POZZA",
+                                "POPPA"
+                        ],
+                        "correct": "POPPA"
+                },
+                {
+                        "options": [
+                                "CAMBIARE",
+                                "STAGNARE"
+                        ],
+                        "correct": "CAMBIARE"
+                },
+                {
+                        "options": [
+                                "AL",
+                                "NEL"
+                        ],
+                        "correct": "AL"
+                },
+                {
+                        "options": [
+                                "NOVITÀ",
+                                "VECCHIEZZA"
+                        ],
+                        "correct": "NOVITÀ"
+                }
+        ],
+        "id": 106
+},
 ];
