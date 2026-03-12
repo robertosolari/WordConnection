@@ -7406,4 +7406,215 @@ const GAMES_DB = [
         ],
         "id": 106
 },
+,
+    {
+        "solution": "CHIAVE",
+        "explanation": "Chiave di lettura. Chiave di volta. Chiave inglese. Nota chiave. Chiave di accesso.",
+        "pairs": [
+                {
+                        "options": [
+                                "LETTURA",
+                                "SCRITTURA"
+                        ],
+                        "correct": "LETTURA"
+                },
+                {
+                        "options": [
+                                "VOLTA",
+                                "ORA"
+                        ],
+                        "correct": "VOLTA"
+                },
+                {
+                        "options": [
+                                "INGLESE",
+                                "FRANCESE"
+                        ],
+                        "correct": "INGLESE"
+                },
+                {
+                        "options": [
+                                "NOTA",
+                                "SUONO"
+                        ],
+                        "correct": "NOTA"
+                },
+                {
+                        "options": [
+                                "ACCESSO",
+                                "USCITA"
+                        ],
+                        "correct": "ACCESSO"
+                }
+        ],
+        "id": 102
+},
+    {
+        "solution": "LUCE",
+        "explanation": "Luogo in luce. Velocità della luce. Luce del sole. Luce di candele. Luce verde.",
+        "pairs": [
+                {
+                        "options": [
+                                "LUOGO",
+                                "TEMPO"
+                        ],
+                        "correct": "LUOGO"
+                },
+                {
+                        "options": [
+                                "SUONO",
+                                "VELOCITÀ"
+                        ],
+                        "correct": "VELOCITÀ"
+                },
+                {
+                        "options": [
+                                "SOLE",
+                                "LUNA"
+                        ],
+                        "correct": "SOLE"
+                },
+                {
+                        "options": [
+                                "CANDELE",
+                                "LANTERNE"
+                        ],
+                        "correct": "CANDELE"
+                },
+                {
+                        "options": [
+                                "ROSSO",
+                                "VERDE"
+                        ],
+                        "correct": "VERDE"
+                }
+        ],
+        "id": 103
+},
+    {
+        "solution": "TEMPO",
+        "explanation": "Battere il tempo. Tempo libero. Tempo atmosferico. Tempo di attesa. Tempo di reazione.",
+        "pairs": [
+                {
+                        "options": [
+                                "BATTERE",
+                                "SPEGNERE"
+                        ],
+                        "correct": "BATTERE"
+                },
+                {
+                        "options": [
+                                "LIBERO",
+                                "OCCUPATO"
+                        ],
+                        "correct": "LIBERO"
+                },
+                {
+                        "options": [
+                                "ATMOSFERICO",
+                                "TERRENO"
+                        ],
+                        "correct": "ATMOSFERICO"
+                },
+                {
+                        "options": [
+                                "ATTESE",
+                                "ATTESA"
+                        ],
+                        "correct": "ATTESA"
+                },
+                {
+                        "options": [
+                                "RISPOSTA",
+                                "REAZIONE"
+                        ],
+                        "correct": "REAZIONE"
+                }
+        ],
+        "id": 104
+},
+    {
+        "solution": "PUNTO",
+        "explanation": "Punto di vista. Punto e virgola. Punto fermo. Punto di incontro. Punto cieco.",
+        "pairs": [
+                {
+                        "options": [
+                                "VISTA",
+                                "UDITO"
+                        ],
+                        "correct": "VISTA"
+                },
+                {
+                        "options": [
+                                "VIRGOLA",
+                                "PUNTO"
+                        ],
+                        "correct": "VIRGOLA"
+                },
+                {
+                        "options": [
+                                "FERMO",
+                                "MOSSO"
+                        ],
+                        "correct": "FERMO"
+                },
+                {
+                        "options": [
+                                "INCONTRO",
+                                "SCONTRO"
+                        ],
+                        "correct": "INCONTRO"
+                },
+                {
+                        "options": [
+                                "CIECO",
+                                "VEDENTE"
+                        ],
+                        "correct": "CIECO"
+                }
+        ],
+        "id": 105
+},
+    {
+        "solution": "CORDA",
+        "explanation": "Corda vocale. Corda tesa. Corda dell'orologio. Sciogliere la corda. Corda di sicurezza.",
+        "pairs": [
+                {
+                        "options": [
+                                "VOCALE",
+                                "VISIVA"
+                        ],
+                        "correct": "VOCALE"
+                },
+                {
+                        "options": [
+                                "TESA",
+                                "LENTA"
+                        ],
+                        "correct": "TESA"
+                },
+                {
+                        "options": [
+                                "OROLOGIO",
+                                "BUSSOLA"
+                        ],
+                        "correct": "OROLOGIO"
+                },
+                {
+                        "options": [
+                                "SCIOGLIERE",
+                                "ANNODARE"
+                        ],
+                        "correct": "SCIOGLIERE"
+                },
+                {
+                        "options": [
+                                "SICUREZZA",
+                                "PERICOLO"
+                        ],
+                        "correct": "SICUREZZA"
+                }
+        ],
+        "id": 106
+},
 ];
