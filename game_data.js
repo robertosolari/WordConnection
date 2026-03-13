@@ -7617,4 +7617,215 @@ const GAMES_DB = [
         ],
         "id": 106
 },
+,
+    {
+        "solution": "ACQUA",
+        "explanation": "Acqua POTABILE. In ACQUA. Acqua FREDDA. Acqua ALTA. Acqua DI FUOCO.",
+        "pairs": [
+                {
+                        "options": [
+                                "POTABILE",
+                                "COMMESTIBILE"
+                        ],
+                        "correct": "POTABILE"
+                },
+                {
+                        "options": [
+                                "IN",
+                                "SU"
+                        ],
+                        "correct": "IN"
+                },
+                {
+                        "options": [
+                                "CALDA",
+                                "FREDDA"
+                        ],
+                        "correct": "FREDDA"
+                },
+                {
+                        "options": [
+                                "ALTA",
+                                "BASSA"
+                        ],
+                        "correct": "ALTA"
+                },
+                {
+                        "options": [
+                                "DI FUOCO",
+                                "DI TERRA"
+                        ],
+                        "correct": "DI FUOCO"
+                }
+        ],
+        "id": 102
+},
+    {
+        "solution": "ANELLO",
+        "explanation": "Anello DI FIDANZAMENTO. Anello DEBOLE. Anello DI CATENA. Anello DI SATURNO. Anello DI FUMO.",
+        "pairs": [
+                {
+                        "options": [
+                                "DI MATRIMONIO",
+                                "DI FIDANZAMENTO"
+                        ],
+                        "correct": "DI FIDANZAMENTO"
+                },
+                {
+                        "options": [
+                                "FORTE",
+                                "DEBOLE"
+                        ],
+                        "correct": "DEBOLE"
+                },
+                {
+                        "options": [
+                                "DI CATENA",
+                                "DI MONTAGNA"
+                        ],
+                        "correct": "DI CATENA"
+                },
+                {
+                        "options": [
+                                "DI MARTE",
+                                "DI SATURNO"
+                        ],
+                        "correct": "DI SATURNO"
+                },
+                {
+                        "options": [
+                                "DI VAPORE",
+                                "DI FUMO"
+                        ],
+                        "correct": "DI FUMO"
+                }
+        ],
+        "id": 103
+},
+    {
+        "solution": "LUCE",
+        "explanation": "Luce DEL SOLE. Luce DIURNA. Luce DELLA RIBALTA. Luce VERDE. Luce IN FONDO.",
+        "pairs": [
+                {
+                        "options": [
+                                "DEL MARE",
+                                "DEL SOLE"
+                        ],
+                        "correct": "DEL SOLE"
+                },
+                {
+                        "options": [
+                                "DIURNA",
+                                "NOTTURNA"
+                        ],
+                        "correct": "DIURNA"
+                },
+                {
+                        "options": [
+                                "DEL TEATRO",
+                                "DELLA RIBALTA"
+                        ],
+                        "correct": "DELLA RIBALTA"
+                },
+                {
+                        "options": [
+                                "ROSSA",
+                                "VERDE"
+                        ],
+                        "correct": "VERDE"
+                },
+                {
+                        "options": [
+                                "INIZIO",
+                                "IN FONDO"
+                        ],
+                        "correct": "IN FONDO"
+                }
+        ],
+        "id": 104
+},
+    {
+        "solution": "NOTA",
+        "explanation": "Nota MUSICALE. Nota DOLENTE. Nota INFORMATIVA. Nota IN CALCE. Nota A PIE' DI PAGINA.",
+        "pairs": [
+                {
+                        "options": [
+                                "MUSICALE",
+                                "LETTERARIA"
+                        ],
+                        "correct": "MUSICALE"
+                },
+                {
+                        "options": [
+                                "GIOIOSA",
+                                "DOLENTE"
+                        ],
+                        "correct": "DOLENTE"
+                },
+                {
+                        "options": [
+                                "INFORMATIVA",
+                                "CONFIDENZIALE"
+                        ],
+                        "correct": "INFORMATIVA"
+                },
+                {
+                        "options": [
+                                "IN TESTA",
+                                "IN CALCE"
+                        ],
+                        "correct": "IN CALCE"
+                },
+                {
+                        "options": [
+                                "A PIE' DI PAGINA",
+                                "A MARGINE"
+                        ],
+                        "correct": "A PIE' DI PAGINA"
+                }
+        ],
+        "id": 105
+},
+    {
+        "solution": "CAMPO",
+        "explanation": "Campo SPORTIVO. Campo DA GIOCO. Campo MAGNETICO. Campo DI CONCENTRAZIONE. Campo VISIVO.",
+        "pairs": [
+                {
+                        "options": [
+                                "SPORTIVO",
+                                "ALBERGHIERO"
+                        ],
+                        "correct": "SPORTIVO"
+                },
+                {
+                        "options": [
+                                "DA GIOCO",
+                                "DA LAVORO"
+                        ],
+                        "correct": "DA GIOCO"
+                },
+                {
+                        "options": [
+                                "ELETTRICO",
+                                "MAGNETICO"
+                        ],
+                        "correct": "MAGNETICO"
+                },
+                {
+                        "options": [
+                                "DI CONCENTRAZIONE",
+                                "DI RIFUGIO"
+                        ],
+                        "correct": "DI CONCENTRAZIONE"
+                },
+                {
+                        "options": [
+                                "VISIVO",
+                                "SONORO"
+                        ],
+                        "correct": "VISIVO"
+                }
+        ],
+        "id": 106
+},
 ];
