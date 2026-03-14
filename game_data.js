@@ -7828,4 +7828,215 @@ const GAMES_DB = [
         ],
         "id": 106
 },
+,
+    {
+        "solution": "CORDA",
+        "explanation": "Salto alla CORDA. CORDA vocale. CORDA tesa. CORDA di sicurezza. CORDA di violino.",
+        "pairs": [
+                {
+                        "options": [
+                                "CORDA",
+                                "SALTO"
+                        ],
+                        "correct": "SALTO"
+                },
+                {
+                        "options": [
+                                "SUONO",
+                                "VOCALE"
+                        ],
+                        "correct": "VOCALE"
+                },
+                {
+                        "options": [
+                                "TIRATA",
+                                "TESA"
+                        ],
+                        "correct": "TESA"
+                },
+                {
+                        "options": [
+                                "FUNE",
+                                "SICUREZZA"
+                        ],
+                        "correct": "SICUREZZA"
+                },
+                {
+                        "options": [
+                                "ARCO",
+                                "VIOLINO"
+                        ],
+                        "correct": "VIOLINO"
+                }
+        ],
+        "id": 102
+},
+    {
+        "solution": "PIEDE",
+        "explanation": "Mettere il PIEDE. PIEDE cubico. Scampolo di PIEDE. PIEDE marino. PIEDE di guerra.",
+        "pairs": [
+                {
+                        "options": [
+                                "MANO",
+                                "METTERE"
+                        ],
+                        "correct": "METTERE"
+                },
+                {
+                        "options": [
+                                "QUADRATO",
+                                "CUBICO"
+                        ],
+                        "correct": "CUBICO"
+                },
+                {
+                        "options": [
+                                "SCAMPOLO",
+                                "PEZZO"
+                        ],
+                        "correct": "SCAMPOLO"
+                },
+                {
+                        "options": [
+                                "MARINO",
+                                "SALATO"
+                        ],
+                        "correct": "MARINO"
+                },
+                {
+                        "options": [
+                                "PACE",
+                                "GUERRA"
+                        ],
+                        "correct": "GUERRA"
+                }
+        ],
+        "id": 103
+},
+    {
+        "solution": "LUCE",
+        "explanation": "Vedere la LUCE. LUCE naturale. LUCE di candela. LUCE verde. LUCE fioca.",
+        "pairs": [
+                {
+                        "options": [
+                                "VEDERE",
+                                "GUARDARE"
+                        ],
+                        "correct": "VEDERE"
+                },
+                {
+                        "options": [
+                                "NATURALE",
+                                "ARTIFICIALE"
+                        ],
+                        "correct": "NATURALE"
+                },
+                {
+                        "options": [
+                                "CERA",
+                                "CANDELA"
+                        ],
+                        "correct": "CANDELA"
+                },
+                {
+                        "options": [
+                                "ROSSA",
+                                "VERDE"
+                        ],
+                        "correct": "VERDE"
+                },
+                {
+                        "options": [
+                                "FIOCA",
+                                "FORTE"
+                        ],
+                        "correct": "FIOCA"
+                }
+        ],
+        "id": 104
+},
+    {
+        "solution": "CHIAVE",
+        "explanation": "CHIAVE inglese. CHIAVE di violino. Segreto in CHIAVE. CHIAVE USB. Nota CHIAVE.",
+        "pairs": [
+                {
+                        "options": [
+                                "FRANCESE",
+                                "INGLESE"
+                        ],
+                        "correct": "INGLESE"
+                },
+                {
+                        "options": [
+                                "PIANO",
+                                "VIOLINO"
+                        ],
+                        "correct": "VIOLINO"
+                },
+                {
+                        "options": [
+                                "CODICE",
+                                "SEGRETO"
+                        ],
+                        "correct": "SEGRETO"
+                },
+                {
+                        "options": [
+                                "PORTA",
+                                "USB"
+                        ],
+                        "correct": "USB"
+                },
+                {
+                        "options": [
+                                "NOTA",
+                                "MELODIA"
+                        ],
+                        "correct": "NOTA"
+                }
+        ],
+        "id": 105
+},
+    {
+        "solution": "SCALA",
+        "explanation": "SCALA di grigi. SCALA musicale. SCALA mobile. SCALA Richter. Giocare a SCALA.",
+        "pairs": [
+                {
+                        "options": [
+                                "COLORE",
+                                "GRIGI"
+                        ],
+                        "correct": "GRIGI"
+                },
+                {
+                        "options": [
+                                "MUSICALE",
+                                "SONORA"
+                        ],
+                        "correct": "MUSICALE"
+                },
+                {
+                        "options": [
+                                "ASCENSORE",
+                                "MOBILE"
+                        ],
+                        "correct": "MOBILE"
+                },
+                {
+                        "options": [
+                                "MERCALLI",
+                                "RICHTER"
+                        ],
+                        "correct": "RICHTER"
+                },
+                {
+                        "options": [
+                                "GIOCARE",
+                                "CORRERE"
+                        ],
+                        "correct": "GIOCARE"
+                }
+        ],
+        "id": 106
+},
 ];
