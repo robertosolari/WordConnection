@@ -8039,4 +8039,215 @@ const GAMES_DB = [
         ],
         "id": 106
 },
+,
+    {
+        "solution": "VENTO",
+        "explanation": "Presa dal VENTO. Rosa dei VENTI. Turbina a VENTO. VENTO di cambiamento. VENTO forte.",
+        "pairs": [
+                {
+                        "options": [
+                                "ACQUA",
+                                "VENTO"
+                        ],
+                        "correct": "VENTO"
+                },
+                {
+                        "options": [
+                                "ROSA",
+                                "FIORE"
+                        ],
+                        "correct": "ROSA"
+                },
+                {
+                        "options": [
+                                "TURBINA",
+                                "PALA"
+                        ],
+                        "correct": "TURBINA"
+                },
+                {
+                        "options": [
+                                "CARICA",
+                                "CAMBIAMENTO"
+                        ],
+                        "correct": "CAMBIAMENTO"
+                },
+                {
+                        "options": [
+                                "FORTE",
+                                "LEGGERO"
+                        ],
+                        "correct": "FORTE"
+                }
+        ],
+        "id": 102
+},
+    {
+        "solution": "LUCE",
+        "explanation": "Interruttore della LUCE. Alla LUCE del sole. LUCE verde. LUCE guida. LUCE intermittente.",
+        "pairs": [
+                {
+                        "options": [
+                                "INTERRUTTORE",
+                                "PULSANTE"
+                        ],
+                        "correct": "INTERRUTTORE"
+                },
+                {
+                        "options": [
+                                "SOLE",
+                                "LUNA"
+                        ],
+                        "correct": "SOLE"
+                },
+                {
+                        "options": [
+                                "ROSSA",
+                                "VERDE"
+                        ],
+                        "correct": "VERDE"
+                },
+                {
+                        "options": [
+                                "GUIDA",
+                                "VIAGGIO"
+                        ],
+                        "correct": "GUIDA"
+                },
+                {
+                        "options": [
+                                "CONTINUA",
+                                "INTERMITTENTE"
+                        ],
+                        "correct": "INTERMITTENTE"
+                }
+        ],
+        "id": 103
+},
+    {
+        "solution": "TEMPO",
+        "explanation": "Macchina del TEMPO. TEMPO atmosferico. TEMPO di reazione. TEMPO massimo. TEMPO al TEMPO.",
+        "pairs": [
+                {
+                        "options": [
+                                "MACCHINA",
+                                "VEICOLO"
+                        ],
+                        "correct": "MACCHINA"
+                },
+                {
+                        "options": [
+                                "ATMOSFERICO",
+                                "TERRESTRE"
+                        ],
+                        "correct": "ATMOSFERICO"
+                },
+                {
+                        "options": [
+                                "RIFLESSO",
+                                "REAZIONE"
+                        ],
+                        "correct": "REAZIONE"
+                },
+                {
+                        "options": [
+                                "MINIMO",
+                                "MASSIMO"
+                        ],
+                        "correct": "MASSIMO"
+                },
+                {
+                        "options": [
+                                "AL",
+                                "NEL"
+                        ],
+                        "correct": "AL"
+                }
+        ],
+        "id": 104
+},
+    {
+        "solution": "SASSO",
+        "explanation": "SASSO in bocca. Lanciare un SASSO. SASSO che rotola. SASSO sul cuore. SASSO nello stagno.",
+        "pairs": [
+                {
+                        "options": [
+                                "PIETRA",
+                                "SASSO"
+                        ],
+                        "correct": "SASSO"
+                },
+                {
+                        "options": [
+                                "LANCIATO",
+                                "LASCIATO"
+                        ],
+                        "correct": "LANCIATO"
+                },
+                {
+                        "options": [
+                                "ROTONDO",
+                                "ROTOLANTE"
+                        ],
+                        "correct": "ROTOLANTE"
+                },
+                {
+                        "options": [
+                                "CUORE",
+                                "TESTA"
+                        ],
+                        "correct": "CUORE"
+                },
+                {
+                        "options": [
+                                "FIUME",
+                                "STAGNO"
+                        ],
+                        "correct": "STAGNO"
+                }
+        ],
+        "id": 105
+},
+    {
+        "solution": "FILO",
+        "explanation": "FILO del discorso. FILO di lana. FILO spinato. FILO conduttore. FILO di Arianna.",
+        "pairs": [
+                {
+                        "options": [
+                                "DISPERSO",
+                                "DISCORSO"
+                        ],
+                        "correct": "DISCORSO"
+                },
+                {
+                        "options": [
+                                "COTONE",
+                                "LANA"
+                        ],
+                        "correct": "LANA"
+                },
+                {
+                        "options": [
+                                "SPINATO",
+                                "LISCIO"
+                        ],
+                        "correct": "SPINATO"
+                },
+                {
+                        "options": [
+                                "INTERROTTO",
+                                "CONDUTTORE"
+                        ],
+                        "correct": "CONDUTTORE"
+                },
+                {
+                        "options": [
+                                "ARIANNA",
+                                "MINOSSE"
+                        ],
+                        "correct": "ARIANNA"
+                }
+        ],
+        "id": 106
+},
 ];
