@@ -8250,4 +8250,215 @@ const GAMES_DB = [
         ],
         "id": 106
 },
+,
+    {
+        "solution": "LUCE",
+        "explanation": "Dare alla LUCE. LUCE verde. LUCE riflessa. In piena LUCE. LUCE di candele.",
+        "pairs": [
+                {
+                        "options": [
+                                "OSCURITÀ",
+                                "LUCE"
+                        ],
+                        "correct": "LUCE"
+                },
+                {
+                        "options": [
+                                "ROSSA",
+                                "VERDE"
+                        ],
+                        "correct": "VERDE"
+                },
+                {
+                        "options": [
+                                "ASSORBITA",
+                                "RIFLESSA"
+                        ],
+                        "correct": "RIFLESSA"
+                },
+                {
+                        "options": [
+                                "OMBRA",
+                                "PIENA"
+                        ],
+                        "correct": "PIENA"
+                },
+                {
+                        "options": [
+                                "NEON",
+                                "CANDELE"
+                        ],
+                        "correct": "CANDELE"
+                }
+        ],
+        "id": 102
+},
+    {
+        "solution": "CORDA",
+        "explanation": "Saltare la CORDA. CORDA vocale. CORDA di canapa. CORDA per arrampicarsi. CORDA di violino.",
+        "pairs": [
+                {
+                        "options": [
+                                "CORDA",
+                                "SALIRE"
+                        ],
+                        "correct": "CORDA"
+                },
+                {
+                        "options": [
+                                "STRUMENTALE",
+                                "VOCALE"
+                        ],
+                        "correct": "VOCALE"
+                },
+                {
+                        "options": [
+                                "NYLON",
+                                "CANAPA"
+                        ],
+                        "correct": "CANAPA"
+                },
+                {
+                        "options": [
+                                "SCALETTA",
+                                "ARRAMPICARSI"
+                        ],
+                        "correct": "ARRAMPICARSI"
+                },
+                {
+                        "options": [
+                                "FISARMONICA",
+                                "VIOLINO"
+                        ],
+                        "correct": "VIOLINO"
+                }
+        ],
+        "id": 103
+},
+    {
+        "solution": "PIEDE",
+        "explanation": "Avere il PIÈDE a terra. PIÈDE del letto. PIÈDE di pagina. PIÈDE di montagna. Alzare il PIÈDE.",
+        "pairs": [
+                {
+                        "options": [
+                                "AEREO",
+                                "TERRA"
+                        ],
+                        "correct": "TERRA"
+                },
+                {
+                        "options": [
+                                "CIMA",
+                                "LETTO"
+                        ],
+                        "correct": "LETTO"
+                },
+                {
+                        "options": [
+                                "TESTA",
+                                "PAGINA"
+                        ],
+                        "correct": "PAGINA"
+                },
+                {
+                        "options": [
+                                "VETTA",
+                                "MONTAGNA"
+                        ],
+                        "correct": "MONTAGNA"
+                },
+                {
+                        "options": [
+                                "ABBASSARE",
+                                "ALZARE"
+                        ],
+                        "correct": "ALZARE"
+                }
+        ],
+        "id": 104
+},
+    {
+        "solution": "STELLA",
+        "explanation": "STELLA cadente. STELLA marina. STELLA polare. STELLA del cinema. Stella alpina.",
+        "pairs": [
+                {
+                        "options": [
+                                "LUCENTE",
+                                "CADENTE"
+                        ],
+                        "correct": "CADENTE"
+                },
+                {
+                        "options": [
+                                "DI TERRA",
+                                "MARINA"
+                        ],
+                        "correct": "MARINA"
+                },
+                {
+                        "options": [
+                                "TROPICALE",
+                                "POLARE"
+                        ],
+                        "correct": "POLARE"
+                },
+                {
+                        "options": [
+                                "MUSICA",
+                                "CINEMA"
+                        ],
+                        "correct": "CINEMA"
+                },
+                {
+                        "options": [
+                                "ALPINA",
+                                "DESERTICA"
+                        ],
+                        "correct": "ALPINA"
+                }
+        ],
+        "id": 105
+},
+    {
+        "solution": "CHIAVE",
+        "explanation": "Nota CHIAVE. CHIAVE di lettura. CHIAVE inglese. CHIAVE musicale. CHIAVE di volta.",
+        "pairs": [
+                {
+                        "options": [
+                                "NOTA",
+                                "PAGINA"
+                        ],
+                        "correct": "NOTA"
+                },
+                {
+                        "options": [
+                                "SERRATURA",
+                                "LETTURA"
+                        ],
+                        "correct": "LETTURA"
+                },
+                {
+                        "options": [
+                                "AMERICANA",
+                                "INGLESE"
+                        ],
+                        "correct": "INGLESE"
+                },
+                {
+                        "options": [
+                                "SONORA",
+                                "MUSICALE"
+                        ],
+                        "correct": "MUSICALE"
+                },
+                {
+                        "options": [
+                                "CHIUSURA",
+                                "VOLTA"
+                        ],
+                        "correct": "VOLTA"
+                }
+        ],
+        "id": 106
+},
 ];
