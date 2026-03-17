@@ -8461,4 +8461,215 @@ const GAMES_DB = [
         ],
         "id": 106
 },
+,
+    {
+        "solution": "LUCE",
+        "explanation": "Raggio di LUCE. Luce di candela. Vedere la LUCE. Luci del nord. Luce verde.",
+        "pairs": [
+                {
+                        "options": [
+                                "OMBRA",
+                                "RAGGIO"
+                        ],
+                        "correct": "RAGGIO"
+                },
+                {
+                        "options": [
+                                "LUCE",
+                                "CANDELA"
+                        ],
+                        "correct": "CANDELA"
+                },
+                {
+                        "options": [
+                                "SENTIRE",
+                                "VEDERE"
+                        ],
+                        "correct": "VEDERE"
+                },
+                {
+                        "options": [
+                                "SUDAFRICA",
+                                "NORD"
+                        ],
+                        "correct": "NORD"
+                },
+                {
+                        "options": [
+                                "ROSSA",
+                                "VERDE"
+                        ],
+                        "correct": "VERDE"
+                }
+        ],
+        "id": 102
+},
+    {
+        "solution": "CUORE",
+        "explanation": "Avere a CUORE. Colpo al CUORE. Cuore di pietra. Cuore pulsante. Parole dal CUORE.",
+        "pairs": [
+                {
+                        "options": [
+                                "ANIMA",
+                                "CUORE"
+                        ],
+                        "correct": "ANIMA"
+                },
+                {
+                        "options": [
+                                "COLPO",
+                                "VENTO"
+                        ],
+                        "correct": "COLPO"
+                },
+                {
+                        "options": [
+                                "PIETRA",
+                                "METALLO"
+                        ],
+                        "correct": "PIETRA"
+                },
+                {
+                        "options": [
+                                "PULSANTE",
+                                "FERMO"
+                        ],
+                        "correct": "PULSANTE"
+                },
+                {
+                        "options": [
+                                "PAROLE",
+                                "SILENZIO"
+                        ],
+                        "correct": "PAROLE"
+                }
+        ],
+        "id": 103
+},
+    {
+        "solution": "STRADA",
+        "explanation": "Strada maestra. Strada ferrata. Prendere la STRADA. Strada in salita. Strada chiusa.",
+        "pairs": [
+                {
+                        "options": [
+                                "MAESTRA",
+                                "ALUNNO"
+                        ],
+                        "correct": "MAESTRA"
+                },
+                {
+                        "options": [
+                                "FERRATA",
+                                "DIAMANTE"
+                        ],
+                        "correct": "FERRATA"
+                },
+                {
+                        "options": [
+                                "LASCIARE",
+                                "PRENDERE"
+                        ],
+                        "correct": "PRENDERE"
+                },
+                {
+                        "options": [
+                                "SALITA",
+                                "DISCESA"
+                        ],
+                        "correct": "SALITA"
+                },
+                {
+                        "options": [
+                                "APERTA",
+                                "CHIUSA"
+                        ],
+                        "correct": "CHIUSA"
+                }
+        ],
+        "id": 104
+},
+    {
+        "solution": "ACQUA",
+        "explanation": "Acqua e sapone. Acqua alta. Navigare in ACQUA. Cadere in ACQUA. Acqua minerale.",
+        "pairs": [
+                {
+                        "options": [
+                                "SAPONE",
+                                "PROFUMO"
+                        ],
+                        "correct": "SAPONE"
+                },
+                {
+                        "options": [
+                                "ALTA",
+                                "BASSA"
+                        ],
+                        "correct": "ALTA"
+                },
+                {
+                        "options": [
+                                "VOLARE",
+                                "NAVIGARE"
+                        ],
+                        "correct": "NAVIGARE"
+                },
+                {
+                        "options": [
+                                "VOLARE",
+                                "CADERE"
+                        ],
+                        "correct": "CADERE"
+                },
+                {
+                        "options": [
+                                "MINERALE",
+                                "DISTILLATA"
+                        ],
+                        "correct": "MINERALE"
+                }
+        ],
+        "id": 105
+},
+    {
+        "solution": "VENTO",
+        "explanation": "Colpo di VENTO. Vento di mare. Vento in poppa. Vento forte. Vento del nord.",
+        "pairs": [
+                {
+                        "options": [
+                                "COLPO",
+                                "BISBIGLIO"
+                        ],
+                        "correct": "COLPO"
+                },
+                {
+                        "options": [
+                                "TERRA",
+                                "MARE"
+                        ],
+                        "correct": "MARE"
+                },
+                {
+                        "options": [
+                                "IN POPPA",
+                                "IN PRUA"
+                        ],
+                        "correct": "IN POPPA"
+                },
+                {
+                        "options": [
+                                "DEBOLE",
+                                "FORTE"
+                        ],
+                        "correct": "FORTE"
+                },
+                {
+                        "options": [
+                                "SUD",
+                                "NORD"
+                        ],
+                        "correct": "NORD"
+                }
+        ],
+        "id": 106
+},
 ];
