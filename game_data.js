@@ -8672,4 +8672,215 @@ const GAMES_DB = [
         ],
         "id": 106
 },
+,
+    {
+        "solution": "CIELO",
+        "explanation": "CIELO a pecorelle. Sotto il CIELO. Costa del CIELO. Colonna del CIELO. CIELO stellato.",
+        "pairs": [
+                {
+                        "options": [
+                                "MARE",
+                                "CIELO"
+                        ],
+                        "correct": "CIELO"
+                },
+                {
+                        "options": [
+                                "SOPRA",
+                                "SOTTO"
+                        ],
+                        "correct": "SOTTO"
+                },
+                {
+                        "options": [
+                                "COSTA",
+                                "COSTUME"
+                        ],
+                        "correct": "COSTA"
+                },
+                {
+                        "options": [
+                                "COLONNA",
+                                "CORVETTA"
+                        ],
+                        "correct": "COLONNA"
+                },
+                {
+                        "options": [
+                                "NUVOLE",
+                                "STELLE"
+                        ],
+                        "correct": "STELLE"
+                }
+        ],
+        "id": 102
+},
+    {
+        "solution": "CUORE",
+        "explanation": "CUORE di pietra. A CUORE aperto. Cuore in mano. Cuore di leone. Cuore d'oro.",
+        "pairs": [
+                {
+                        "options": [
+                                "PIETRA",
+                                "LEGNO"
+                        ],
+                        "correct": "PIETRA"
+                },
+                {
+                        "options": [
+                                "CHIUSO",
+                                "APERTO"
+                        ],
+                        "correct": "APERTO"
+                },
+                {
+                        "options": [
+                                "MANO",
+                                "TERRA"
+                        ],
+                        "correct": "MANO"
+                },
+                {
+                        "options": [
+                                "LEONE",
+                                "GATTO"
+                        ],
+                        "correct": "LEONE"
+                },
+                {
+                        "options": [
+                                "BRONZO",
+                                "ORO"
+                        ],
+                        "correct": "ORO"
+                }
+        ],
+        "id": 103
+},
+    {
+        "solution": "LUCE",
+        "explanation": "Colpo di LUCE. LUCE di candele. Alla LUCE del sole. LUCE fioca. LUCE divina.",
+        "pairs": [
+                {
+                        "options": [
+                                "COLPO",
+                                "SPLENDORE"
+                        ],
+                        "correct": "COLPO"
+                },
+                {
+                        "options": [
+                                "LANTERNE",
+                                "CANDELE"
+                        ],
+                        "correct": "CANDELE"
+                },
+                {
+                        "options": [
+                                "OMBRE",
+                                "SOLE"
+                        ],
+                        "correct": "SOLE"
+                },
+                {
+                        "options": [
+                                "FORTE",
+                                "FIOCA"
+                        ],
+                        "correct": "FIOCA"
+                },
+                {
+                        "options": [
+                                "SCURA",
+                                "DIVINA"
+                        ],
+                        "correct": "DIVINA"
+                }
+        ],
+        "id": 104
+},
+    {
+        "solution": "ACQUA",
+        "explanation": "ACQUA alta. Segno d'ACQUA. ACQUA di rose. ACQUA santa. ACQUA in bocca.",
+        "pairs": [
+                {
+                        "options": [
+                                "BASSA",
+                                "ALTA"
+                        ],
+                        "correct": "ALTA"
+                },
+                {
+                        "options": [
+                                "FUOCO",
+                                "ACQUA"
+                        ],
+                        "correct": "ACQUA"
+                },
+                {
+                        "options": [
+                                "FANGO",
+                                "ROSE"
+                        ],
+                        "correct": "ROSE"
+                },
+                {
+                        "options": [
+                                "SANTA",
+                                "MALVAGIA"
+                        ],
+                        "correct": "SANTA"
+                },
+                {
+                        "options": [
+                                "SILENZIO",
+                                "PAROLA"
+                        ],
+                        "correct": "SILENZIO"
+                }
+        ],
+        "id": 105
+},
+    {
+        "solution": "TEMPO",
+        "explanation": "TEMPO di guerra. TEMPO musicale. TEMPO di cottura. TEMPO atmosferico. TEMPO scaduto.",
+        "pairs": [
+                {
+                        "options": [
+                                "PACE",
+                                "GUERRA"
+                        ],
+                        "correct": "GUERRA"
+                },
+                {
+                        "options": [
+                                "MUSICALE",
+                                "LETTERARIO"
+                        ],
+                        "correct": "MUSICALE"
+                },
+                {
+                        "options": [
+                                "COTTURA",
+                                "SCADENZA"
+                        ],
+                        "correct": "COTTURA"
+                },
+                {
+                        "options": [
+                                "ATMOSFERICO",
+                                "GEOLOGICO"
+                        ],
+                        "correct": "ATMOSFERICO"
+                },
+                {
+                        "options": [
+                                "INIZIATO",
+                                "SCADUTO"
+                        ],
+                        "correct": "SCADUTO"
+                }
+        ],
+        "id": 106
+},
 ];
