@@ -8883,4 +8883,215 @@ const GAMES_DB = [
         ],
         "id": 106
 },
+,
+    {
+        "solution": "CIELO",
+        "explanation": "Stelle nel CIELO. Azzurro CIELO. In alto nel CIELO. CIELO aperto. CIELO stellato.",
+        "pairs": [
+                {
+                        "options": [
+                                "STELLE",
+                                "PIANETI"
+                        ],
+                        "correct": "STELLE"
+                },
+                {
+                        "options": [
+                                "ROSSO",
+                                "AZZURRO"
+                        ],
+                        "correct": "AZZURRO"
+                },
+                {
+                        "options": [
+                                "IN BASSO",
+                                "IN ALTO"
+                        ],
+                        "correct": "IN ALTO"
+                },
+                {
+                        "options": [
+                                "APERTO",
+                                "CHIUSO"
+                        ],
+                        "correct": "APERTO"
+                },
+                {
+                        "options": [
+                                "NUVOLOSO",
+                                "STELLATO"
+                        ],
+                        "correct": "STELLATO"
+                }
+        ],
+        "id": 102
+},
+    {
+        "solution": "PIEDE",
+        "explanation": "Avere il PIEDE freddo. PIEDE di porco. Andare a PIEDE. PIEDE d'argilla. PIEDE piatto.",
+        "pairs": [
+                {
+                        "options": [
+                                "CALDO",
+                                "FREDDO"
+                        ],
+                        "correct": "FREDDO"
+                },
+                {
+                        "options": [
+                                "DI LEGNO",
+                                "DI PORCO"
+                        ],
+                        "correct": "DI PORCO"
+                },
+                {
+                        "options": [
+                                "A CAVALLO",
+                                "A PIEDE"
+                        ],
+                        "correct": "A PIEDE"
+                },
+                {
+                        "options": [
+                                "D'ORO",
+                                "D'ARGILLA"
+                        ],
+                        "correct": "D'ARGILLA"
+                },
+                {
+                        "options": [
+                                "PIATTO",
+                                "SPORGENTE"
+                        ],
+                        "correct": "PIATTO"
+                }
+        ],
+        "id": 103
+},
+    {
+        "solution": "TERRA",
+        "explanation": "Frutti della TERRA. TERRA madre. Sopra la TERRA. TERRA promessa. TERRA di nessuno.",
+        "pairs": [
+                {
+                        "options": [
+                                "SUOLO",
+                                "FRUTTI"
+                        ],
+                        "correct": "FRUTTI"
+                },
+                {
+                        "options": [
+                                "MADRE",
+                                "FIGLIA"
+                        ],
+                        "correct": "MADRE"
+                },
+                {
+                        "options": [
+                                "SOTTO",
+                                "SOPRA"
+                        ],
+                        "correct": "SOPRA"
+                },
+                {
+                        "options": [
+                                "PROMESSA",
+                                "PERDUTA"
+                        ],
+                        "correct": "PROMESSA"
+                },
+                {
+                        "options": [
+                                "DI QUALCUNO",
+                                "DI NESSUNO"
+                        ],
+                        "correct": "DI NESSUNO"
+                }
+        ],
+        "id": 104
+},
+    {
+        "solution": "LUCE",
+        "explanation": "Raggio di LUCE. LUCE accesa. LUCE del giorno. LUCE verde. LUCE al neon.",
+        "pairs": [
+                {
+                        "options": [
+                                "OMBRA",
+                                "RAGGIO"
+                        ],
+                        "correct": "RAGGIO"
+                },
+                {
+                        "options": [
+                                "SPENTA",
+                                "ACCESA"
+                        ],
+                        "correct": "ACCESA"
+                },
+                {
+                        "options": [
+                                "DELLA NOTTE",
+                                "DEL GIORNO"
+                        ],
+                        "correct": "DEL GIORNO"
+                },
+                {
+                        "options": [
+                                "ROSSA",
+                                "VERDE"
+                        ],
+                        "correct": "VERDE"
+                },
+                {
+                        "options": [
+                                "AL NEON",
+                                "AD INCANDESCENZA"
+                        ],
+                        "correct": "AL NEON"
+                }
+        ],
+        "id": 105
+},
+    {
+        "solution": "VITA",
+        "explanation": "Stile di VITA. Dare la VITA. VITA nuova. VITA eterna. VITA di strada.",
+        "pairs": [
+                {
+                        "options": [
+                                "STILE",
+                                "MODA"
+                        ],
+                        "correct": "STILE"
+                },
+                {
+                        "options": [
+                                "PRENDERE",
+                                "DARE"
+                        ],
+                        "correct": "DARE"
+                },
+                {
+                        "options": [
+                                "VECCHIA",
+                                "NUOVA"
+                        ],
+                        "correct": "NUOVA"
+                },
+                {
+                        "options": [
+                                "ETERNA",
+                                "TEMPORANEA"
+                        ],
+                        "correct": "ETERNA"
+                },
+                {
+                        "options": [
+                                "DI CASA",
+                                "DI STRADA"
+                        ],
+                        "correct": "DI STRADA"
+                }
+        ],
+        "id": 106
+},
 ];
