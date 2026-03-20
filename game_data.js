@@ -9094,4 +9094,215 @@ const GAMES_DB = [
         ],
         "id": 106
 },
+,
+    {
+        "solution": "CORDA",
+        "explanation": "Tirare la CORDA. Salto con la CORDA. Nodo di CORDA. CORDA vocale. CORDA tesa.",
+        "pairs": [
+                {
+                        "options": [
+                                "TIRARE",
+                                "SPINGERE"
+                        ],
+                        "correct": "TIRARE"
+                },
+                {
+                        "options": [
+                                "SALTO",
+                                "CORSA"
+                        ],
+                        "correct": "SALTO"
+                },
+                {
+                        "options": [
+                                "NODO",
+                                "LACCIO"
+                        ],
+                        "correct": "NODO"
+                },
+                {
+                        "options": [
+                                "VOCALE",
+                                "CANORA"
+                        ],
+                        "correct": "VOCALE"
+                },
+                {
+                        "options": [
+                                "TESA",
+                                "LENTA"
+                        ],
+                        "correct": "TESA"
+                }
+        ],
+        "id": 102
+},
+    {
+        "solution": "LUCE",
+        "explanation": "Punto LUCE. Vedere la LUCE. LUCE naturale. LUCE rossa. LUCE d'emergenza.",
+        "pairs": [
+                {
+                        "options": [
+                                "PUNTO",
+                                "LINEA"
+                        ],
+                        "correct": "PUNTO"
+                },
+                {
+                        "options": [
+                                "SENTIRE",
+                                "VEDERE"
+                        ],
+                        "correct": "VEDERE"
+                },
+                {
+                        "options": [
+                                "NATURALE",
+                                "SINTETICA"
+                        ],
+                        "correct": "NATURALE"
+                },
+                {
+                        "options": [
+                                "ROSSA",
+                                "BLU"
+                        ],
+                        "correct": "ROSSA"
+                },
+                {
+                        "options": [
+                                "D'EMERGENZA",
+                                "DI RICARICA"
+                        ],
+                        "correct": "D'EMERGENZA"
+                }
+        ],
+        "id": 103
+},
+    {
+        "solution": "TEMPO",
+        "explanation": "TEMPO libero. TEMPO atmosferico. Andare a TEMPO. TEMPO di cottura. TEMPO massimo.",
+        "pairs": [
+                {
+                        "options": [
+                                "LIBERO",
+                                "OCCUPATO"
+                        ],
+                        "correct": "LIBERO"
+                },
+                {
+                        "options": [
+                                "ATMOSFERICO",
+                                "TERRESTRE"
+                        ],
+                        "correct": "ATMOSFERICO"
+                },
+                {
+                        "options": [
+                                "ANDARE",
+                                "FERMARE"
+                        ],
+                        "correct": "ANDARE"
+                },
+                {
+                        "options": [
+                                "DI COTTURA",
+                                "DI LAVORO"
+                        ],
+                        "correct": "DI COTTURA"
+                },
+                {
+                        "options": [
+                                "MASSIMO",
+                                "MINIMO"
+                        ],
+                        "correct": "MASSIMO"
+                }
+        ],
+        "id": 104
+},
+    {
+        "solution": "FUOCO",
+        "explanation": "Mettere a FUOCO. Giocare col FUOCO. FUOCO amico. FUOCO d'artificio. FUOCO vivo.",
+        "pairs": [
+                {
+                        "options": [
+                                "METTERE",
+                                "TOGLIERE"
+                        ],
+                        "correct": "METTERE"
+                },
+                {
+                        "options": [
+                                "GIOCARE",
+                                "LAVORARE"
+                        ],
+                        "correct": "GIOCARE"
+                },
+                {
+                        "options": [
+                                "AMICO",
+                                "NEMICO"
+                        ],
+                        "correct": "AMICO"
+                },
+                {
+                        "options": [
+                                "D'ARTIFICIO",
+                                "DI STELLE"
+                        ],
+                        "correct": "D'ARTIFICIO"
+                },
+                {
+                        "options": [
+                                "VIVO",
+                                "MORTO"
+                        ],
+                        "correct": "VIVO"
+                }
+        ],
+        "id": 105
+},
+    {
+        "solution": "PIANO",
+        "explanation": "PIANO inclinato. PIANO di lavoro. Andare PIANO. PIANO terra. Suonare il PIANO.",
+        "pairs": [
+                {
+                        "options": [
+                                "INCLINATO",
+                                "PIATTO"
+                        ],
+                        "correct": "INCLINATO"
+                },
+                {
+                        "options": [
+                                "DI LAVORO",
+                                "DI GIOCO"
+                        ],
+                        "correct": "DI LAVORO"
+                },
+                {
+                        "options": [
+                                "ANDARE",
+                                "STARE"
+                        ],
+                        "correct": "ANDARE"
+                },
+                {
+                        "options": [
+                                "TERRA",
+                                "ALTO"
+                        ],
+                        "correct": "TERRA"
+                },
+                {
+                        "options": [
+                                "SUONARE",
+                                "GIOCARE"
+                        ],
+                        "correct": "SUONARE"
+                }
+        ],
+        "id": 106
+},
 ];
