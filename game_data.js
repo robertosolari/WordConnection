@@ -9305,4 +9305,215 @@ const GAMES_DB = [
         ],
         "id": 106
 },
+,
+    {
+        "solution": "LUCE",
+        "explanation": "Luce guida. Luce diurna. Luce rossa. Luce fredda. Avere luce.",
+        "pairs": [
+                {
+                        "options": [
+                                "GUIDA",
+                                "SCORTA"
+                        ],
+                        "correct": "GUIDA"
+                },
+                {
+                        "options": [
+                                "NOTTURNA",
+                                "DIURNA"
+                        ],
+                        "correct": "DIURNA"
+                },
+                {
+                        "options": [
+                                "ROSSA",
+                                "VERDE"
+                        ],
+                        "correct": "ROSSA"
+                },
+                {
+                        "options": [
+                                "CALDA",
+                                "FREDDA"
+                        ],
+                        "correct": "FREDDA"
+                },
+                {
+                        "options": [
+                                "AVERE",
+                                "LASCIARE"
+                        ],
+                        "correct": "AVERE"
+                }
+        ],
+        "id": 102
+},
+    {
+        "solution": "CORSA",
+        "explanation": "Corsa campestre. Corsa contro il tempo. Corsa podistica. Corsa ai rifornimenti. Corsa in taxi.",
+        "pairs": [
+                {
+                        "options": [
+                                "CAMPANA",
+                                "CAMPESTRE"
+                        ],
+                        "correct": "CAMPESTRE"
+                },
+                {
+                        "options": [
+                                "CONTRA",
+                                "CONTRO"
+                        ],
+                        "correct": "CONTRO"
+                },
+                {
+                        "options": [
+                                "PODISTICA",
+                                "CICLISTICA"
+                        ],
+                        "correct": "PODISTICA"
+                },
+                {
+                        "options": [
+                                "AI",
+                                "SU"
+                        ],
+                        "correct": "AI"
+                },
+                {
+                        "options": [
+                                "IN",
+                                "SU"
+                        ],
+                        "correct": "IN"
+                }
+        ],
+        "id": 103
+},
+    {
+        "solution": "STELLA",
+        "explanation": "Stella del cinema. Stella marina. Stella polare. Stella nascente. Stella di Natale.",
+        "pairs": [
+                {
+                        "options": [
+                                "CINEMA",
+                                "TEATRO"
+                        ],
+                        "correct": "CINEMA"
+                },
+                {
+                        "options": [
+                                "MARINA",
+                                "TERRAFERMA"
+                        ],
+                        "correct": "MARINA"
+                },
+                {
+                        "options": [
+                                "POLARE",
+                                "EQUATORIALE"
+                        ],
+                        "correct": "POLARE"
+                },
+                {
+                        "options": [
+                                "CALANTE",
+                                "NASCENTE"
+                        ],
+                        "correct": "NASCENTE"
+                },
+                {
+                        "options": [
+                                "DI NATALE",
+                                "DI PASQUA"
+                        ],
+                        "correct": "DI NATALE"
+                }
+        ],
+        "id": 104
+},
+    {
+        "solution": "CARTA",
+        "explanation": "Carta d'identità. Carta straccia. Carta dei vini. Carta geografica. Carta bianca.",
+        "pairs": [
+                {
+                        "options": [
+                                "D'IDENTITÀ",
+                                "DI CREDITO"
+                        ],
+                        "correct": "D'IDENTITÀ"
+                },
+                {
+                        "options": [
+                                "VECCHIA",
+                                "STRACCIA"
+                        ],
+                        "correct": "STRACCIA"
+                },
+                {
+                        "options": [
+                                "DEI VINI",
+                                "DEI CIBI"
+                        ],
+                        "correct": "DEI VINI"
+                },
+                {
+                        "options": [
+                                "GEOGRAFICA",
+                                "ASTRONOMICA"
+                        ],
+                        "correct": "GEOGRAFICA"
+                },
+                {
+                        "options": [
+                                "BIANCA",
+                                "VERDE"
+                        ],
+                        "correct": "BIANCA"
+                }
+        ],
+        "id": 105
+},
+    {
+        "solution": "FUOCO",
+        "explanation": "Fuoco sacro. Prova di fuoco. Fuoco amico. Fuoco e fiamme. Fuoco di Sant'Antonio.",
+        "pairs": [
+                {
+                        "options": [
+                                "SANTO",
+                                "SACRO"
+                        ],
+                        "correct": "SACRO"
+                },
+                {
+                        "options": [
+                                "PROVA",
+                                "ESAME"
+                        ],
+                        "correct": "PROVA"
+                },
+                {
+                        "options": [
+                                "AMICO",
+                                "NEMICO"
+                        ],
+                        "correct": "AMICO"
+                },
+                {
+                        "options": [
+                                "FIAMME",
+                                "CENERI"
+                        ],
+                        "correct": "FIAMME"
+                },
+                {
+                        "options": [
+                                "DI SANT'ANTONIO",
+                                "DI SAN FRANCESCO"
+                        ],
+                        "correct": "DI SANT'ANTONIO"
+                }
+        ],
+        "id": 106
+},
 ];
