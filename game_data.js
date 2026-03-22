@@ -9516,4 +9516,215 @@ const GAMES_DB = [
         ],
         "id": 106
 },
+,
+    {
+        "solution": "LUCE",
+        "explanation": "Vedere la LUCE. Essere in LUCE. Bagno di LUCE. LUCE verde. LUCE del sole.",
+        "pairs": [
+                {
+                        "options": [
+                                "PERDERE",
+                                "VEDERE"
+                        ],
+                        "correct": "VEDERE"
+                },
+                {
+                        "options": [
+                                "OMBRA",
+                                "LUCE"
+                        ],
+                        "correct": "LUCE"
+                },
+                {
+                        "options": [
+                                "BAGNO",
+                                "VASCA"
+                        ],
+                        "correct": "BAGNO"
+                },
+                {
+                        "options": [
+                                "ROSSO",
+                                "VERDE"
+                        ],
+                        "correct": "VERDE"
+                },
+                {
+                        "options": [
+                                "LUCE",
+                                "TENEBRA"
+                        ],
+                        "correct": "LUCE"
+                }
+        ],
+        "id": 102
+},
+    {
+        "solution": "NOTA",
+        "explanation": "Prendere NOTA. NOTA musicale. NOTA dolente. NOTA a margine. NOTA bene.",
+        "pairs": [
+                {
+                        "options": [
+                                "DIMENTICARE",
+                                "PRENDERE"
+                        ],
+                        "correct": "PRENDERE"
+                },
+                {
+                        "options": [
+                                "MUSICALE",
+                                "SPORTIVA"
+                        ],
+                        "correct": "MUSICALE"
+                },
+                {
+                        "options": [
+                                "PIACEVOLE",
+                                "DOLENTE"
+                        ],
+                        "correct": "DOLENTE"
+                },
+                {
+                        "options": [
+                                "A MARGINE",
+                                "A CAPO"
+                        ],
+                        "correct": "A MARGINE"
+                },
+                {
+                        "options": [
+                                "MALE",
+                                "BENE"
+                        ],
+                        "correct": "BENE"
+                }
+        ],
+        "id": 103
+},
+    {
+        "solution": "PUNTO",
+        "explanation": "PUNTO d'incontro. PUNTO e virgola. PUNTO di vista. A PUNTO. PUNTO debole.",
+        "pairs": [
+                {
+                        "options": [
+                                "INCONTRO",
+                                "SCONTRO"
+                        ],
+                        "correct": "INCONTRO"
+                },
+                {
+                        "options": [
+                                "E VIRGOLA",
+                                "E PUNTO"
+                        ],
+                        "correct": "E VIRGOLA"
+                },
+                {
+                        "options": [
+                                "DI VISTA",
+                                "DI CUORE"
+                        ],
+                        "correct": "DI VISTA"
+                },
+                {
+                        "options": [
+                                "A PUNTO",
+                                "FUORI PUNTO"
+                        ],
+                        "correct": "A PUNTO"
+                },
+                {
+                        "options": [
+                                "FORTE",
+                                "DEBOLE"
+                        ],
+                        "correct": "DEBOLE"
+                }
+        ],
+        "id": 104
+},
+    {
+        "solution": "COLPO",
+        "explanation": "COLPO di fulmine. COLPO di scena. COLPO di mano. COLPO grosso. COLPO secco.",
+        "pairs": [
+                {
+                        "options": [
+                                "DI FULMINE",
+                                "DI TUONO"
+                        ],
+                        "correct": "DI FULMINE"
+                },
+                {
+                        "options": [
+                                "DI SCENA",
+                                "DI STRADA"
+                        ],
+                        "correct": "DI SCENA"
+                },
+                {
+                        "options": [
+                                "DI MANO",
+                                "DI TESTA"
+                        ],
+                        "correct": "DI MANO"
+                },
+                {
+                        "options": [
+                                "PICCOLO",
+                                "GROSSO"
+                        ],
+                        "correct": "GROSSO"
+                },
+                {
+                        "options": [
+                                "MORBIDO",
+                                "SECCO"
+                        ],
+                        "correct": "SECCO"
+                }
+        ],
+        "id": 105
+},
+    {
+        "solution": "CHIAVE",
+        "explanation": "CHIAVE di casa. CHIAVE inglese. CHIAVE di lettura. CHIAVE del successo. CHIAVE musicale.",
+        "pairs": [
+                {
+                        "options": [
+                                "DI CASA",
+                                "DI PORTA"
+                        ],
+                        "correct": "DI CASA"
+                },
+                {
+                        "options": [
+                                "ITALIANA",
+                                "INGLESE"
+                        ],
+                        "correct": "INGLESE"
+                },
+                {
+                        "options": [
+                                "DI LETTURA",
+                                "DI SCRITTURA"
+                        ],
+                        "correct": "DI LETTURA"
+                },
+                {
+                        "options": [
+                                "DEL SUCCESSO",
+                                "DEL FALLIMENTO"
+                        ],
+                        "correct": "DEL SUCCESSO"
+                },
+                {
+                        "options": [
+                                "MUSICALE",
+                                "VISIVA"
+                        ],
+                        "correct": "MUSICALE"
+                }
+        ],
+        "id": 106
+},
 ];
