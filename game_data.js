@@ -9727,4 +9727,215 @@ const GAMES_DB = [
         ],
         "id": 106
 },
+,
+    {
+        "solution": "PIANO",
+        "explanation": "Fare un PIANO. PIANO terra. Musica PIANA. PIANA inclinata. Parlando PIANO.",
+        "pairs": [
+                {
+                        "options": [
+                                "SUONARE",
+                                "FARE"
+                        ],
+                        "correct": "FARE"
+                },
+                {
+                        "options": [
+                                "BASSO",
+                                "TERRA"
+                        ],
+                        "correct": "TERRA"
+                },
+                {
+                        "options": [
+                                "ALTA",
+                                "PIANA"
+                        ],
+                        "correct": "PIANA"
+                },
+                {
+                        "options": [
+                                "INCLINATA",
+                                "RIPIDA"
+                        ],
+                        "correct": "INCLINATA"
+                },
+                {
+                        "options": [
+                                "FORTE",
+                                "PIANO"
+                        ],
+                        "correct": "PIANO"
+                }
+        ],
+        "id": 102
+},
+    {
+        "solution": "LUCE",
+        "explanation": "LUCE del sole. Accendere la LUCE. LUCE verde. LUCE fioca. In LUCE.",
+        "pairs": [
+                {
+                        "options": [
+                                "SOLE",
+                                "VENTO"
+                        ],
+                        "correct": "SOLE"
+                },
+                {
+                        "options": [
+                                "ACCENDERE",
+                                "SPEGNERE"
+                        ],
+                        "correct": "ACCENDERE"
+                },
+                {
+                        "options": [
+                                "ROSSO",
+                                "VERDE"
+                        ],
+                        "correct": "VERDE"
+                },
+                {
+                        "options": [
+                                "FORTE",
+                                "FIOCA"
+                        ],
+                        "correct": "FIOCA"
+                },
+                {
+                        "options": [
+                                "OMBRA",
+                                "LUCE"
+                        ],
+                        "correct": "LUCE"
+                }
+        ],
+        "id": 103
+},
+    {
+        "solution": "RETE",
+        "explanation": "RETE da pesca. RETE informatica. RETE televisiva. RETE fognaria. Essere in RETE.",
+        "pairs": [
+                {
+                        "options": [
+                                "PESCA",
+                                "CACCIA"
+                        ],
+                        "correct": "PESCA"
+                },
+                {
+                        "options": [
+                                "INFORMATICA",
+                                "CARTACEA"
+                        ],
+                        "correct": "INFORMATICA"
+                },
+                {
+                        "options": [
+                                "RADIO",
+                                "TELEVISIVA"
+                        ],
+                        "correct": "TELEVISIVA"
+                },
+                {
+                        "options": [
+                                "FOSSA",
+                                "FOGNARIA"
+                        ],
+                        "correct": "FOGNARIA"
+                },
+                {
+                        "options": [
+                                "ISOLATI",
+                                "IN RETE"
+                        ],
+                        "correct": "IN RETE"
+                }
+        ],
+        "id": 104
+},
+    {
+        "solution": "CORSA",
+        "explanation": "CORSA campestre. CORSA al tesoro. CORSA in taxi. CORSA contro il tempo. Fune da CORSA.",
+        "pairs": [
+                {
+                        "options": [
+                                "CAMPAGNA",
+                                "CAMPESTRE"
+                        ],
+                        "correct": "CAMPESTRE"
+                },
+                {
+                        "options": [
+                                "PARADISO",
+                                "TESORO"
+                        ],
+                        "correct": "TESORO"
+                },
+                {
+                        "options": [
+                                "IN TRENO",
+                                "IN TAXI"
+                        ],
+                        "correct": "IN TAXI"
+                },
+                {
+                        "options": [
+                                "FAVORE",
+                                "CONTRO"
+                        ],
+                        "correct": "CONTRO"
+                },
+                {
+                        "options": [
+                                "FUNE",
+                                "SALTO"
+                        ],
+                        "correct": "FUNE"
+                }
+        ],
+        "id": 105
+},
+    {
+        "solution": "CORONA",
+        "explanation": "CORONA reale. CORONA di fiori. CORONA dentale. CORONA solare. CORONA d'alloro.",
+        "pairs": [
+                {
+                        "options": [
+                                "REGINA",
+                                "REALE"
+                        ],
+                        "correct": "REALE"
+                },
+                {
+                        "options": [
+                                "FRUTTI",
+                                "FIORI"
+                        ],
+                        "correct": "FIORI"
+                },
+                {
+                        "options": [
+                                "DENTALE",
+                                "MUSICALE"
+                        ],
+                        "correct": "DENTALE"
+                },
+                {
+                        "options": [
+                                "LUNARE",
+                                "SOLARE"
+                        ],
+                        "correct": "SOLARE"
+                },
+                {
+                        "options": [
+                                "D'OLIVO",
+                                "D'ALLORO"
+                        ],
+                        "correct": "D'ALLORO"
+                }
+        ],
+        "id": 106
+},
 ];
