@@ -9938,4 +9938,215 @@ const GAMES_DB = [
         ],
         "id": 106
 },
+,
+    {
+        "solution": "LUCE",
+        "explanation": "Luce del sole. Luce rossa. Luce verde. Uscire alla luce. Essere in luce.",
+        "pairs": [
+                {
+                        "options": [
+                                "SOLE",
+                                "LUNA"
+                        ],
+                        "correct": "SOLE"
+                },
+                {
+                        "options": [
+                                "ROSSA",
+                                "GIALLA"
+                        ],
+                        "correct": "ROSSA"
+                },
+                {
+                        "options": [
+                                "VERDE",
+                                "BLU"
+                        ],
+                        "correct": "VERDE"
+                },
+                {
+                        "options": [
+                                "ENTRARE",
+                                "USCIRE"
+                        ],
+                        "correct": "USCIRE"
+                },
+                {
+                        "options": [
+                                "OMBRA",
+                                "LUCE"
+                        ],
+                        "correct": "LUCE"
+                }
+        ],
+        "id": 102
+},
+    {
+        "solution": "TESTA",
+        "explanation": "Testa dura. Testa di serie. Testare un gioco. Colpo di testa. Testa spalla.",
+        "pairs": [
+                {
+                        "options": [
+                                "DURA",
+                                "MOLLE"
+                        ],
+                        "correct": "DURA"
+                },
+                {
+                        "options": [
+                                "CODA",
+                                "SERIE"
+                        ],
+                        "correct": "SERIE"
+                },
+                {
+                        "options": [
+                                "PROVARE",
+                                "TESTARE"
+                        ],
+                        "correct": "TESTARE"
+                },
+                {
+                        "options": [
+                                "PIEDE",
+                                "TESTA"
+                        ],
+                        "correct": "TESTA"
+                },
+                {
+                        "options": [
+                                "SPALLA",
+                                "GOMITO"
+                        ],
+                        "correct": "SPALLA"
+                }
+        ],
+        "id": 103
+},
+    {
+        "solution": "CAMPO",
+        "explanation": "Campo di battaglia. Campo magnetico. Campo sportivo. Campo da gioco. Campo aperto.",
+        "pairs": [
+                {
+                        "options": [
+                                "BATTAGLIA",
+                                "PACE"
+                        ],
+                        "correct": "BATTAGLIA"
+                },
+                {
+                        "options": [
+                                "MAGNETICO",
+                                "ELETTRICO"
+                        ],
+                        "correct": "MAGNETICO"
+                },
+                {
+                        "options": [
+                                "SPORTIVO",
+                                "CULTURALE"
+                        ],
+                        "correct": "SPORTIVO"
+                },
+                {
+                        "options": [
+                                "GIOCO",
+                                "RIPOSO"
+                        ],
+                        "correct": "GIOCO"
+                },
+                {
+                        "options": [
+                                "APERTO",
+                                "CHIUSO"
+                        ],
+                        "correct": "APERTO"
+                }
+        ],
+        "id": 104
+},
+    {
+        "solution": "FUOCO",
+        "explanation": "Fuoco d'artificio. Fuoco lento. Fuoco sacro. Punto di fuoco. Fuoco amico.",
+        "pairs": [
+                {
+                        "options": [
+                                "ARTIFICIO",
+                                "NATURALE"
+                        ],
+                        "correct": "ARTIFICIO"
+                },
+                {
+                        "options": [
+                                "VELOCE",
+                                "LENTO"
+                        ],
+                        "correct": "LENTO"
+                },
+                {
+                        "options": [
+                                "SACRO",
+                                "PROFANO"
+                        ],
+                        "correct": "SACRO"
+                },
+                {
+                        "options": [
+                                "PUNTO",
+                                "LINEA"
+                        ],
+                        "correct": "PUNTO"
+                },
+                {
+                        "options": [
+                                "NEMICO",
+                                "AMICO"
+                        ],
+                        "correct": "AMICO"
+                }
+        ],
+        "id": 105
+},
+    {
+        "solution": "PUNTO",
+        "explanation": "Punto di vista. Punto interrogativo. Punto e virgola. Punto di partenza. Punto fermo.",
+        "pairs": [
+                {
+                        "options": [
+                                "VISTA",
+                                "ASCOLTO"
+                        ],
+                        "correct": "VISTA"
+                },
+                {
+                        "options": [
+                                "INTERROGATIVO",
+                                "ESCLAMATIVO"
+                        ],
+                        "correct": "INTERROGATIVO"
+                },
+                {
+                        "options": [
+                                "E",
+                                "O"
+                        ],
+                        "correct": "E"
+                },
+                {
+                        "options": [
+                                "PARTENZA",
+                                "ARRIVO"
+                        ],
+                        "correct": "PARTENZA"
+                },
+                {
+                        "options": [
+                                "FERMO",
+                                "MOBILE"
+                        ],
+                        "correct": "FERMO"
+                }
+        ],
+        "id": 106
+},
 ];
