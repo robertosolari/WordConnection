@@ -10149,4 +10149,215 @@ const GAMES_DB = [
         ],
         "id": 106
 },
+,
+    {
+        "solution": "LUCE",
+        "explanation": "Macchia di LUCE. Vedere la LUCE. Diamo LUCE. LUCE guida. LUCE verde.",
+        "pairs": [
+                {
+                        "options": [
+                                "OMBRA",
+                                "MACCHIA"
+                        ],
+                        "correct": "MACCHIA"
+                },
+                {
+                        "options": [
+                                "VEDERE",
+                                "PERDERE"
+                        ],
+                        "correct": "VEDERE"
+                },
+                {
+                        "options": [
+                                "TOGLIAMO",
+                                "DIAMO"
+                        ],
+                        "correct": "DIAMO"
+                },
+                {
+                        "options": [
+                                "BUSSOLA",
+                                "GUIDA"
+                        ],
+                        "correct": "GUIDA"
+                },
+                {
+                        "options": [
+                                "ROSSO",
+                                "VERDE"
+                        ],
+                        "correct": "VERDE"
+                }
+        ],
+        "id": 102
+},
+    {
+        "solution": "CUORE",
+        "explanation": "Battito di CUORE. Fare di CUORE. Spirito di CUORE. Animo di CUORE. Il CUORE della casa.",
+        "pairs": [
+                {
+                        "options": [
+                                "BATTITO",
+                                "SUSSURRO"
+                        ],
+                        "correct": "BATTITO"
+                },
+                {
+                        "options": [
+                                "FARE",
+                                "RICEVERE"
+                        ],
+                        "correct": "FARE"
+                },
+                {
+                        "options": [
+                                "SPIRITO",
+                                "FRECCIA"
+                        ],
+                        "correct": "SPIRITO"
+                },
+                {
+                        "options": [
+                                "ANIMO",
+                                "SOGNO"
+                        ],
+                        "correct": "ANIMO"
+                },
+                {
+                        "options": [
+                                "CERVELLO",
+                                "CASA"
+                        ],
+                        "correct": "CASA"
+                }
+        ],
+        "id": 103
+},
+    {
+        "solution": "FILO",
+        "explanation": "Camminare sul FILO. Perdere il FILO. FILO spinato. FILO conduttore. FILO di lana.",
+        "pairs": [
+                {
+                        "options": [
+                                "CAMMINARE",
+                                "FERMARSI"
+                        ],
+                        "correct": "CAMMINARE"
+                },
+                {
+                        "options": [
+                                "TROVARE",
+                                "PERDERE"
+                        ],
+                        "correct": "PERDERE"
+                },
+                {
+                        "options": [
+                                "SPINATO",
+                                "METALLICO"
+                        ],
+                        "correct": "SPINATO"
+                },
+                {
+                        "options": [
+                                "INTERRUTTORE",
+                                "CONDUTTORE"
+                        ],
+                        "correct": "CONDUTTORE"
+                },
+                {
+                        "options": [
+                                "DI LANA",
+                                "DI SETA"
+                        ],
+                        "correct": "DI LANA"
+                }
+        ],
+        "id": 104
+},
+    {
+        "solution": "PIETRA",
+        "explanation": "Lanciare la PIETRA. Cuore di PIETRA. PIETRA miliare. PIETRA angolare. PIETRA filosofale.",
+        "pairs": [
+                {
+                        "options": [
+                                "LANCIARE",
+                                "RICEVERE"
+                        ],
+                        "correct": "LANCIARE"
+                },
+                {
+                        "options": [
+                                "CUORE",
+                                "MENTE"
+                        ],
+                        "correct": "CUORE"
+                },
+                {
+                        "options": [
+                                "MILIARDARIO",
+                                "MILIARIO"
+                        ],
+                        "correct": "MILIARIO"
+                },
+                {
+                        "options": [
+                                "ANGOLARE",
+                                "CILINDRICA"
+                        ],
+                        "correct": "ANGOLARE"
+                },
+                {
+                        "options": [
+                                "FILOSOFALE",
+                                "SCIENTIFICA"
+                        ],
+                        "correct": "FILOSOFALE"
+                }
+        ],
+        "id": 105
+},
+    {
+        "solution": "SOGNO",
+        "explanation": "SOGNO ad occhi aperti. Un SOGNO nel cassetto. Inseguire un SOGNO. SOGNO di una notte. Realizzare un SOGNO.",
+        "pairs": [
+                {
+                        "options": [
+                                "AD OCCHI APERTI",
+                                "A TESTA CHINA"
+                        ],
+                        "correct": "AD OCCHI APERTI"
+                },
+                {
+                        "options": [
+                                "NEL CASSETTO",
+                                "NEL CUORE"
+                        ],
+                        "correct": "NEL CASSETTO"
+                },
+                {
+                        "options": [
+                                "INSEGUIRE",
+                                "ABBANDONARE"
+                        ],
+                        "correct": "INSEGUIRE"
+                },
+                {
+                        "options": [
+                                "DI UNA NOTTE",
+                                "DI UN GIORNO"
+                        ],
+                        "correct": "DI UNA NOTTE"
+                },
+                {
+                        "options": [
+                                "REALIZZARE",
+                                "DISTRUGGERE"
+                        ],
+                        "correct": "REALIZZARE"
+                }
+        ],
+        "id": 106
+},
 ];
