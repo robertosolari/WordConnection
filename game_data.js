@@ -10360,4 +10360,215 @@ const GAMES_DB = [
         ],
         "id": 106
 },
+,
+    {
+        "solution": "CORNO",
+        "explanation": "Suonare il CORNO. CORNO d'oro. CORNO di rinoceronte. CORNO alpino. CORNO d'Africa.",
+        "pairs": [
+                {
+                        "options": [
+                                "TROMBA",
+                                "CORNO"
+                        ],
+                        "correct": "CORNO"
+                },
+                {
+                        "options": [
+                                "FERRO",
+                                "ORO"
+                        ],
+                        "correct": "ORO"
+                },
+                {
+                        "options": [
+                                "ELEFANTE",
+                                "RINOCERONTE"
+                        ],
+                        "correct": "RINOCERONTE"
+                },
+                {
+                        "options": [
+                                "ALPINO",
+                                "TIROLESE"
+                        ],
+                        "correct": "ALPINO"
+                },
+                {
+                        "options": [
+                                "ASIA",
+                                "AFRICA"
+                        ],
+                        "correct": "AFRICA"
+                }
+        ],
+        "id": 102
+},
+    {
+        "solution": "LUCE",
+        "explanation": "LUCE del sole. LUCE verde. LUCE di candele. LUCE notturna. LUCE riflessa.",
+        "pairs": [
+                {
+                        "options": [
+                                "SOLE",
+                                "LUNA"
+                        ],
+                        "correct": "SOLE"
+                },
+                {
+                        "options": [
+                                "ROSSA",
+                                "VERDE"
+                        ],
+                        "correct": "VERDE"
+                },
+                {
+                        "options": [
+                                "LAMPADINE",
+                                "CANDELE"
+                        ],
+                        "correct": "CANDELE"
+                },
+                {
+                        "options": [
+                                "DIURNA",
+                                "NOTTURNA"
+                        ],
+                        "correct": "NOTTURNA"
+                },
+                {
+                        "options": [
+                                "RIFLESSA",
+                                "ASSORBITA"
+                        ],
+                        "correct": "RIFLESSA"
+                }
+        ],
+        "id": 103
+},
+    {
+        "solution": "PUNTO",
+        "explanation": "PUNTO di riferimento. PUNTO interrogativo. PUNTO di arrivo. PUNTO e virgola. PUNTO cieco.",
+        "pairs": [
+                {
+                        "options": [
+                                "RIFERIMENTO",
+                                "SORPASSO"
+                        ],
+                        "correct": "RIFERIMENTO"
+                },
+                {
+                        "options": [
+                                "ESCLAMATIVO",
+                                "INTERROGATIVO"
+                        ],
+                        "correct": "INTERROGATIVO"
+                },
+                {
+                        "options": [
+                                "PARTENZA",
+                                "ARRIVO"
+                        ],
+                        "correct": "ARRIVO"
+                },
+                {
+                        "options": [
+                                "E",
+                                "O"
+                        ],
+                        "correct": "E"
+                },
+                {
+                        "options": [
+                                "CIECO",
+                                "APERTO"
+                        ],
+                        "correct": "CIECO"
+                }
+        ],
+        "id": 104
+},
+    {
+        "solution": "CHIAVE",
+        "explanation": "CHIAVE di sol. CHIAVE inglese. CHIAVE di violino. CHIAVE di volta. CHIAVE segreta.",
+        "pairs": [
+                {
+                        "options": [
+                                "SOL",
+                                "FA"
+                        ],
+                        "correct": "SOL"
+                },
+                {
+                        "options": [
+                                "FRANCESE",
+                                "INGLESE"
+                        ],
+                        "correct": "INGLESE"
+                },
+                {
+                        "options": [
+                                "VIOLINO",
+                                "PIANOFORTE"
+                        ],
+                        "correct": "VIOLINO"
+                },
+                {
+                        "options": [
+                                "VOLTA",
+                                "CERCHIO"
+                        ],
+                        "correct": "VOLTA"
+                },
+                {
+                        "options": [
+                                "SEGRETA",
+                                "SICURA"
+                        ],
+                        "correct": "SEGRETA"
+                }
+        ],
+        "id": 105
+},
+    {
+        "solution": "PIEDE",
+        "explanation": "Piede di pagina. Piede di porco. Piede di guerra. Piede di montagna. Piede d'atleta.",
+        "pairs": [
+                {
+                        "options": [
+                                "TESTA",
+                                "PIEDE"
+                        ],
+                        "correct": "PIEDE"
+                },
+                {
+                        "options": [
+                                "PORCO",
+                                "CAVALLO"
+                        ],
+                        "correct": "PORCO"
+                },
+                {
+                        "options": [
+                                "PACE",
+                                "GUERRA"
+                        ],
+                        "correct": "GUERRA"
+                },
+                {
+                        "options": [
+                                "FOCE",
+                                "MONTAGNA"
+                        ],
+                        "correct": "MONTAGNA"
+                },
+                {
+                        "options": [
+                                "ATLETA",
+                                "ARTISTA"
+                        ],
+                        "correct": "ATLETA"
+                }
+        ],
+        "id": 106
+},
 ];
