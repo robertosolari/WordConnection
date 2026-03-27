@@ -10571,4 +10571,215 @@ const GAMES_DB = [
         ],
         "id": 106
 },
+,
+    {
+        "solution": "LUCE",
+        "explanation": "Luce del sole. Luce guida. Luce rossa. Effetto luce. Luce verde.",
+        "pairs": [
+                {
+                        "options": [
+                                "SOLE",
+                                "NEVE"
+                        ],
+                        "correct": "SOLE"
+                },
+                {
+                        "options": [
+                                "GUIDA",
+                                "DIETRO"
+                        ],
+                        "correct": "GUIDA"
+                },
+                {
+                        "options": [
+                                "ROSSA",
+                                "BLU"
+                        ],
+                        "correct": "ROSSA"
+                },
+                {
+                        "options": [
+                                "EFFETTO",
+                                "CONTRASTO"
+                        ],
+                        "correct": "EFFETTO"
+                },
+                {
+                        "options": [
+                                "VERDE",
+                                "NERO"
+                        ],
+                        "correct": "VERDE"
+                }
+        ],
+        "id": 102
+},
+    {
+        "solution": "TERRA",
+        "explanation": "Madre Terra. Terra promessa. Terra di nessuno. Terra battuta. Terra rossa.",
+        "pairs": [
+                {
+                        "options": [
+                                "MADRE",
+                                "PADRE"
+                        ],
+                        "correct": "MADRE"
+                },
+                {
+                        "options": [
+                                "PROMESSA",
+                                "RIFIUTATA"
+                        ],
+                        "correct": "PROMESSA"
+                },
+                {
+                        "options": [
+                                "NESSUNO",
+                                "QUALCUNO"
+                        ],
+                        "correct": "NESSUNO"
+                },
+                {
+                        "options": [
+                                "BATTUTA",
+                                "LISCIA"
+                        ],
+                        "correct": "BATTUTA"
+                },
+                {
+                        "options": [
+                                "ROSSA",
+                                "GIALLA"
+                        ],
+                        "correct": "ROSSA"
+                }
+        ],
+        "id": 103
+},
+    {
+        "solution": "CUORE",
+        "explanation": "Avere cuore. Cuore spezzato. Cuore d'oro. Cuore pulsante. Al centro del cuore.",
+        "pairs": [
+                {
+                        "options": [
+                                "AVERE",
+                                "PERDERE"
+                        ],
+                        "correct": "AVERE"
+                },
+                {
+                        "options": [
+                                "SPEZZATO",
+                                "INTERO"
+                        ],
+                        "correct": "SPEZZATO"
+                },
+                {
+                        "options": [
+                                "D'ORO",
+                                "DI FERRO"
+                        ],
+                        "correct": "D'ORO"
+                },
+                {
+                        "options": [
+                                "PULSANTE",
+                                "FERMO"
+                        ],
+                        "correct": "PULSANTE"
+                },
+                {
+                        "options": [
+                                "AL CENTRO",
+                                "AI BORDI"
+                        ],
+                        "correct": "AL CENTRO"
+                }
+        ],
+        "id": 104
+},
+    {
+        "solution": "STRADA",
+        "explanation": "Strada asfaltata. Strada maestra. Strada facendo. Strada ferrata. Strada larga.",
+        "pairs": [
+                {
+                        "options": [
+                                "ASFALTATA",
+                                "SABBIA"
+                        ],
+                        "correct": "ASFALTATA"
+                },
+                {
+                        "options": [
+                                "MAESTRA",
+                                "DISCESA"
+                        ],
+                        "correct": "MAESTRA"
+                },
+                {
+                        "options": [
+                                "FACENDO",
+                                "DORMENDO"
+                        ],
+                        "correct": "FACENDO"
+                },
+                {
+                        "options": [
+                                "FERRATA",
+                                "LIBERA"
+                        ],
+                        "correct": "FERRATA"
+                },
+                {
+                        "options": [
+                                "LARGA",
+                                "STRETTA"
+                        ],
+                        "correct": "LARGA"
+                }
+        ],
+        "id": 105
+},
+    {
+        "solution": "TEMPO",
+        "explanation": "Tempo atmosferico. Fuori tempo. Tempo di gioco. Tempo perso. Tempo reale.",
+        "pairs": [
+                {
+                        "options": [
+                                "ATMOSFERICO",
+                                "SOTTOZERO"
+                        ],
+                        "correct": "ATMOSFERICO"
+                },
+                {
+                        "options": [
+                                "FUORI",
+                                "DENTRO"
+                        ],
+                        "correct": "FUORI"
+                },
+                {
+                        "options": [
+                                "DI GIOCO",
+                                "DI LAVORO"
+                        ],
+                        "correct": "DI GIOCO"
+                },
+                {
+                        "options": [
+                                "PERSO",
+                                "GUADAGNATO"
+                        ],
+                        "correct": "PERSO"
+                },
+                {
+                        "options": [
+                                "REALE",
+                                "IMMAGINARIO"
+                        ],
+                        "correct": "REALE"
+                }
+        ],
+        "id": 106
+},
 ];
