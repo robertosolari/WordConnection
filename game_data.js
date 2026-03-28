@@ -10782,4 +10782,215 @@ const GAMES_DB = [
         ],
         "id": 106
 },
+,
+    {
+        "solution": "CIELO",
+        "explanation": "Cielo stellato. Azzurro come il cielo. Gabbiano vola nel cielo. Occhi al cielo. Cielo di gloria.",
+        "pairs": [
+                {
+                        "options": [
+                                "TERRA",
+                                "STELLATO"
+                        ],
+                        "correct": "STELLATO"
+                },
+                {
+                        "options": [
+                                "AZZURRO",
+                                "VERDE"
+                        ],
+                        "correct": "AZZURRO"
+                },
+                {
+                        "options": [
+                                "GABBIANO",
+                                "SQUALO"
+                        ],
+                        "correct": "GABBIANO"
+                },
+                {
+                        "options": [
+                                "OCCHI",
+                                "ORECCHIE"
+                        ],
+                        "correct": "OCCHI"
+                },
+                {
+                        "options": [
+                                "ONORE",
+                                "GLORIA"
+                        ],
+                        "correct": "GLORIA"
+                }
+        ],
+        "id": 102
+},
+    {
+        "solution": "LUCE",
+        "explanation": "Raggio di luce. Al di là della luce. Luce e ombra. Accendere una luce. Velocità della luce.",
+        "pairs": [
+                {
+                        "options": [
+                                "RAGGIO",
+                                "ONDA"
+                        ],
+                        "correct": "RAGGIO"
+                },
+                {
+                        "options": [
+                                "DIETRO",
+                                "AL DI LÀ"
+                        ],
+                        "correct": "AL DI LÀ"
+                },
+                {
+                        "options": [
+                                "OMBRA",
+                                "SOLE"
+                        ],
+                        "correct": "OMBRA"
+                },
+                {
+                        "options": [
+                                "SPEGNERE",
+                                "ACCENDERE"
+                        ],
+                        "correct": "ACCENDERE"
+                },
+                {
+                        "options": [
+                                "VELOCITÀ",
+                                "LENTEZZA"
+                        ],
+                        "correct": "VELOCITÀ"
+                }
+        ],
+        "id": 103
+},
+    {
+        "solution": "CUORE",
+        "explanation": "Cuore di pietra. Parole dal cuore. Cuore di mamma. Avere cuore. Colpo al cuore.",
+        "pairs": [
+                {
+                        "options": [
+                                "PIETRA",
+                                "LEGNO"
+                        ],
+                        "correct": "PIETRA"
+                },
+                {
+                        "options": [
+                                "PAROLE",
+                                "GOMITO"
+                        ],
+                        "correct": "PAROLE"
+                },
+                {
+                        "options": [
+                                "MAMMA",
+                                "PAPA"
+                        ],
+                        "correct": "MAMMA"
+                },
+                {
+                        "options": [
+                                "AVERE",
+                                "DORMIRE"
+                        ],
+                        "correct": "AVERE"
+                },
+                {
+                        "options": [
+                                "COLPO",
+                                "PASSO"
+                        ],
+                        "correct": "COLPO"
+                }
+        ],
+        "id": 104
+},
+    {
+        "solution": "TEMPO",
+        "explanation": "Questione di tempo. Tempo di cottura. In tempo reale. Passare il tempo. Tempo meteorologico.",
+        "pairs": [
+                {
+                        "options": [
+                                "LUOGO",
+                                "QUESTIONE"
+                        ],
+                        "correct": "QUESTIONE"
+                },
+                {
+                        "options": [
+                                "TEMPERATURA",
+                                "COTTURA"
+                        ],
+                        "correct": "COTTURA"
+                },
+                {
+                        "options": [
+                                "VELOCITÀ",
+                                "REALE"
+                        ],
+                        "correct": "REALE"
+                },
+                {
+                        "options": [
+                                "PASSARE",
+                                "SFUGGIRE"
+                        ],
+                        "correct": "PASSARE"
+                },
+                {
+                        "options": [
+                                "METEOROLOGICO",
+                                "SPAZIALE"
+                        ],
+                        "correct": "METEOROLOGICO"
+                }
+        ],
+        "id": 105
+},
+    {
+        "solution": "ONDA",
+        "explanation": "Onda sonora. Cavalcare l'onda. Onda d'urto. Onda radio. Onda lunga.",
+        "pairs": [
+                {
+                        "options": [
+                                "SONORA",
+                                "VISIVA"
+                        ],
+                        "correct": "SONORA"
+                },
+                {
+                        "options": [
+                                "CALPESTARE",
+                                "CAVALCARE"
+                        ],
+                        "correct": "CAVALCARE"
+                },
+                {
+                        "options": [
+                                "D'URTO",
+                                "DI CALMA"
+                        ],
+                        "correct": "D'URTO"
+                },
+                {
+                        "options": [
+                                "RADIO",
+                                "VIDEO"
+                        ],
+                        "correct": "RADIO"
+                },
+                {
+                        "options": [
+                                "CORTA",
+                                "LUNGA"
+                        ],
+                        "correct": "LUNGA"
+                }
+        ],
+        "id": 106
+},
 ];
