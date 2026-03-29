@@ -10993,4 +10993,215 @@ const GAMES_DB = [
         ],
         "id": 106
 },
+,
+    {
+        "solution": "LUCE",
+        "explanation": "Colpo di LUCE. Coda di LUCE. Spettro di LUCE. Luce di CORTESIA. Luce di POSIZIONE.",
+        "pairs": [
+                {
+                        "options": [
+                                "COLPO",
+                                "TENTATIVO"
+                        ],
+                        "correct": "COLPO"
+                },
+                {
+                        "options": [
+                                "CODA",
+                                "TESTA"
+                        ],
+                        "correct": "CODA"
+                },
+                {
+                        "options": [
+                                "SPETTRO",
+                                "FANTASMA"
+                        ],
+                        "correct": "SPETTRO"
+                },
+                {
+                        "options": [
+                                "CORTESIA",
+                                "ARROGANZA"
+                        ],
+                        "correct": "CORTESIA"
+                },
+                {
+                        "options": [
+                                "POSIZIONE",
+                                "MOVIMENTO"
+                        ],
+                        "correct": "POSIZIONE"
+                }
+        ],
+        "id": 102
+},
+    {
+        "solution": "ONDA",
+        "explanation": "Onda di CALORE. Frequenza di ONDA. Onda d'URTO. Onda SONORA. Onda LUNGA.",
+        "pairs": [
+                {
+                        "options": [
+                                "CALORE",
+                                "FREDDO"
+                        ],
+                        "correct": "CALORE"
+                },
+                {
+                        "options": [
+                                "FREQUENZA",
+                                "AMPLITUDINE"
+                        ],
+                        "correct": "FREQUENZA"
+                },
+                {
+                        "options": [
+                                "URTO",
+                                "CALMA"
+                        ],
+                        "correct": "URTO"
+                },
+                {
+                        "options": [
+                                "SONORA",
+                                "VISIVA"
+                        ],
+                        "correct": "SONORA"
+                },
+                {
+                        "options": [
+                                "LUNGA",
+                                "CORTA"
+                        ],
+                        "correct": "LUNGA"
+                }
+        ],
+        "id": 103
+},
+    {
+        "solution": "VOCE",
+        "explanation": "Voce del VERBO. Voce BIANCA. Voce di BILANCIO. Voce FUORI CAMPO. Voce di CORRIDOIO.",
+        "pairs": [
+                {
+                        "options": [
+                                "VERBO",
+                                "NOME"
+                        ],
+                        "correct": "VERBO"
+                },
+                {
+                        "options": [
+                                "BIANCA",
+                                "NERA"
+                        ],
+                        "correct": "BIANCA"
+                },
+                {
+                        "options": [
+                                "BILANCIO",
+                                "CONTO"
+                        ],
+                        "correct": "BILANCIO"
+                },
+                {
+                        "options": [
+                                "FUORI CAMPO",
+                                "IN CAMPO"
+                        ],
+                        "correct": "FUORI CAMPO"
+                },
+                {
+                        "options": [
+                                "CORRIDOIO",
+                                "SALA"
+                        ],
+                        "correct": "CORRIDOIO"
+                }
+        ],
+        "id": 104
+},
+    {
+        "solution": "FERRO",
+        "explanation": "Cavallo di FERRO. Filo di FERRO. Anima di FERRO. Ferro BATTUTO. Ferro VECCHIO.",
+        "pairs": [
+                {
+                        "options": [
+                                "CAVALLO",
+                                "TORO"
+                        ],
+                        "correct": "CAVALLO"
+                },
+                {
+                        "options": [
+                                "FILO",
+                                "CORDA"
+                        ],
+                        "correct": "FILO"
+                },
+                {
+                        "options": [
+                                "ANIMA",
+                                "CORPO"
+                        ],
+                        "correct": "ANIMA"
+                },
+                {
+                        "options": [
+                                "BATTUTO",
+                                "LISCIO"
+                        ],
+                        "correct": "BATTUTO"
+                },
+                {
+                        "options": [
+                                "NUOVO",
+                                "VECCHIO"
+                        ],
+                        "correct": "VECCHIO"
+                }
+        ],
+        "id": 105
+},
+    {
+        "solution": "PIATTO",
+        "explanation": "Colpo PIATTO. Piatto FORTE. Piatto DOCLE. Piatto ROTTO. Piatto DOCLE.",
+        "pairs": [
+                {
+                        "options": [
+                                "COLPO",
+                                "TIRO"
+                        ],
+                        "correct": "COLPO"
+                },
+                {
+                        "options": [
+                                "FORTE",
+                                "DEBOLE"
+                        ],
+                        "correct": "FORTE"
+                },
+                {
+                        "options": [
+                                "DOCLE",
+                                "SALATO"
+                        ],
+                        "correct": "DOCLE"
+                },
+                {
+                        "options": [
+                                "INTERO",
+                                "ROTTO"
+                        ],
+                        "correct": "ROTTO"
+                },
+                {
+                        "options": [
+                                "LISCIO",
+                                "RUVIDO"
+                        ],
+                        "correct": "LISCIO"
+                }
+        ],
+        "id": 106
+},
 ];
