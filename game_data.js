@@ -11204,4 +11204,215 @@ const GAMES_DB = [
         ],
         "id": 106
 },
+,
+    {
+        "solution": "CORONA",
+        "explanation": "CORONA dentale. CORONA d'alloro. CORONA solare. CORONA di spine. Testa coronata.",
+        "pairs": [
+                {
+                        "options": [
+                                "DENTALE",
+                                "RADICE"
+                        ],
+                        "correct": "DENTALE"
+                },
+                {
+                        "options": [
+                                "GIGLIO",
+                                "ALLORO"
+                        ],
+                        "correct": "ALLORO"
+                },
+                {
+                        "options": [
+                                "LUNARE",
+                                "SOLARE"
+                        ],
+                        "correct": "SOLARE"
+                },
+                {
+                        "options": [
+                                "SPINE",
+                                "PETALI"
+                        ],
+                        "correct": "SPINE"
+                },
+                {
+                        "options": [
+                                "TESTA",
+                                "PIEDE"
+                        ],
+                        "correct": "TESTA"
+                }
+        ],
+        "id": 102
+},
+    {
+        "solution": "TEMPO",
+        "explanation": "TEMPO libero. TEMPO di attesa. TEMPO atmosferico. Tempo di cottura. TEMPO supplementare.",
+        "pairs": [
+                {
+                        "options": [
+                                "LIBERO",
+                                "OCCUPATO"
+                        ],
+                        "correct": "LIBERO"
+                },
+                {
+                        "options": [
+                                "ATTESA",
+                                "FUGA"
+                        ],
+                        "correct": "ATTESA"
+                },
+                {
+                        "options": [
+                                "ATMOSFERICO",
+                                "SPAZIALE"
+                        ],
+                        "correct": "ATMOSFERICO"
+                },
+                {
+                        "options": [
+                                "RICETTA",
+                                "COTTURA"
+                        ],
+                        "correct": "COTTURA"
+                },
+                {
+                        "options": [
+                                "SUPPLEMENTARE",
+                                "RIDOTTO"
+                        ],
+                        "correct": "SUPPLEMENTARE"
+                }
+        ],
+        "id": 103
+},
+    {
+        "solution": "LUCE",
+        "explanation": "FUORI LUCE. LUCE solare. LUCE di candela. Interruttore della LUCE. LUCE verde.",
+        "pairs": [
+                {
+                        "options": [
+                                "FUORI",
+                                "SOFFITTO"
+                        ],
+                        "correct": "FUORI"
+                },
+                {
+                        "options": [
+                                "SOLARE",
+                                "LUNARE"
+                        ],
+                        "correct": "SOLARE"
+                },
+                {
+                        "options": [
+                                "CANDELA",
+                                "LAMPADA"
+                        ],
+                        "correct": "CANDELA"
+                },
+                {
+                        "options": [
+                                "INTERRUTTORE",
+                                "RIPIANO"
+                        ],
+                        "correct": "INTERRUTTORE"
+                },
+                {
+                        "options": [
+                                "ROSSA",
+                                "VERDE"
+                        ],
+                        "correct": "VERDE"
+                }
+        ],
+        "id": 104
+},
+    {
+        "solution": "PUNTO",
+        "explanation": "PUNTO di vista. Fare il PUNTO. PUNTO e a capo. PUNTO debole. PUNTO interrogativo.",
+        "pairs": [
+                {
+                        "options": [
+                                "PROSPETTIVA",
+                                "VISTA"
+                        ],
+                        "correct": "VISTA"
+                },
+                {
+                        "options": [
+                                "FARE",
+                                "RAGGIUNGERE"
+                        ],
+                        "correct": "FARE"
+                },
+                {
+                        "options": [
+                                "CAPO",
+                                "CODA"
+                        ],
+                        "correct": "CAPO"
+                },
+                {
+                        "options": [
+                                "FORTE",
+                                "DEBOLE"
+                        ],
+                        "correct": "DEBOLE"
+                },
+                {
+                        "options": [
+                                "INTERROGATIVO",
+                                "ESCLAMATIVO"
+                        ],
+                        "correct": "INTERROGATIVO"
+                }
+        ],
+        "id": 105
+},
+    {
+        "solution": "CHIAVE",
+        "explanation": "CHIAVE di lettura. CHIAVE inglese. Nota CHIAVE. CHIAVE di accesso. CHIAVE segreta.",
+        "pairs": [
+                {
+                        "options": [
+                                "LETTURA",
+                                "SCRITTURA"
+                        ],
+                        "correct": "LETTURA"
+                },
+                {
+                        "options": [
+                                "INGLESE",
+                                "FRANCESE"
+                        ],
+                        "correct": "INGLESE"
+                },
+                {
+                        "options": [
+                                "NOTA",
+                                "SUONO"
+                        ],
+                        "correct": "NOTA"
+                },
+                {
+                        "options": [
+                                "ACCESSO",
+                                "USCITA"
+                        ],
+                        "correct": "ACCESSO"
+                },
+                {
+                        "options": [
+                                "SEGRETA",
+                                "PUBBLICA"
+                        ],
+                        "correct": "SEGRETA"
+                }
+        ],
+        "id": 106
+},
 ];
