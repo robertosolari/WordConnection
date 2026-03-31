@@ -11415,4 +11415,215 @@ const GAMES_DB = [
         ],
         "id": 106
 },
+,
+    {
+        "solution": "CIELO",
+        "explanation": "Sotto un CIELO stellato. Alzo gli occhi al CIELO. Blu come il CIELO. Un CIELO terso. Caduto dal CIELO.",
+        "pairs": [
+                {
+                        "options": [
+                                "SOTTO",
+                                "SOPRA"
+                        ],
+                        "correct": "SOTTO"
+                },
+                {
+                        "options": [
+                                "TERRA",
+                                "CIELO"
+                        ],
+                        "correct": "CIELO"
+                },
+                {
+                        "options": [
+                                "ROSSO",
+                                "BLU"
+                        ],
+                        "correct": "BLU"
+                },
+                {
+                        "options": [
+                                "TERSO",
+                                "NUVOLOSO"
+                        ],
+                        "correct": "TERSO"
+                },
+                {
+                        "options": [
+                                "CADUTO",
+                                "SALITO"
+                        ],
+                        "correct": "CADUTO"
+                }
+        ],
+        "id": 102
+},
+    {
+        "solution": "CORSA",
+        "explanation": "Una CORSA contro il tempo. CORSA campestre. CORSA di cavalli. CORSA in taxi. CORSA in salita.",
+        "pairs": [
+                {
+                        "options": [
+                                "TEMPO",
+                                "DENARO"
+                        ],
+                        "correct": "TEMPO"
+                },
+                {
+                        "options": [
+                                "CITTA'",
+                                "CAMPESTRE"
+                        ],
+                        "correct": "CAMPESTRE"
+                },
+                {
+                        "options": [
+                                "BICICLETTE",
+                                "CAVALLI"
+                        ],
+                        "correct": "CAVALLI"
+                },
+                {
+                        "options": [
+                                "TAXI",
+                                "AUTOBUS"
+                        ],
+                        "correct": "TAXI"
+                },
+                {
+                        "options": [
+                                "SALITA",
+                                "DISCESA"
+                        ],
+                        "correct": "SALITA"
+                }
+        ],
+        "id": 103
+},
+    {
+        "solution": "LUCE",
+        "explanation": "Accendere la LUCE. LUCE al neon. LUCE di speranza. LUCE abbagliante. Luce in fondo al tunnel.",
+        "pairs": [
+                {
+                        "options": [
+                                "ACCENDERE",
+                                "SPEGNERE"
+                        ],
+                        "correct": "ACCENDERE"
+                },
+                {
+                        "options": [
+                                "NEON",
+                                "LED"
+                        ],
+                        "correct": "NEON"
+                },
+                {
+                        "options": [
+                                "DISPERAZIONE",
+                                "SPERANZA"
+                        ],
+                        "correct": "SPERANZA"
+                },
+                {
+                        "options": [
+                                "FIAMMA",
+                                "ABBAGLIANTE"
+                        ],
+                        "correct": "ABBAGLIANTE"
+                },
+                {
+                        "options": [
+                                "TUNNEL",
+                                "CAVERNA"
+                        ],
+                        "correct": "TUNNEL"
+                }
+        ],
+        "id": 104
+},
+    {
+        "solution": "MUSICA",
+        "explanation": "Nota di MUSICA. MUSICA classica. Maestro di MUSICA. MUSICA leggera. MUSICA di sottofondo.",
+        "pairs": [
+                {
+                        "options": [
+                                "PAROLA",
+                                "NOTA"
+                        ],
+                        "correct": "NOTA"
+                },
+                {
+                        "options": [
+                                "POP",
+                                "CLASSICA"
+                        ],
+                        "correct": "CLASSICA"
+                },
+                {
+                        "options": [
+                                "MAESTRO",
+                                "ALUNNO"
+                        ],
+                        "correct": "MAESTRO"
+                },
+                {
+                        "options": [
+                                "LEGGERA",
+                                "PESANTE"
+                        ],
+                        "correct": "LEGGERA"
+                },
+                {
+                        "options": [
+                                "SOTTOFONDO",
+                                "PRIMO PIANO"
+                        ],
+                        "correct": "SOTTOFONDO"
+                }
+        ],
+        "id": 105
+},
+    {
+        "solution": "PIETRA",
+        "explanation": "Lanciare una PIETRA. PIETRA preziosa. Cuore di PIETRA. PIETRA miliare. Muro di PIETRA.",
+        "pairs": [
+                {
+                        "options": [
+                                "RACCOGLIERE",
+                                "LANCIARE"
+                        ],
+                        "correct": "LANCIARE"
+                },
+                {
+                        "options": [
+                                "PREZIOSA",
+                                "COMUNE"
+                        ],
+                        "correct": "PREZIOSA"
+                },
+                {
+                        "options": [
+                                "CUORE",
+                                "ANIMA"
+                        ],
+                        "correct": "CUORE"
+                },
+                {
+                        "options": [
+                                "PIETRA",
+                                "LEGNO"
+                        ],
+                        "correct": "PIETRA"
+                },
+                {
+                        "options": [
+                                "MILIARE",
+                                "SECONDA"
+                        ],
+                        "correct": "MILIARE"
+                }
+        ],
+        "id": 106
+},
 ];
